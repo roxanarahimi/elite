@@ -68,7 +68,7 @@
 
 
      </div>
-     <div class="bottomNav pt-4 " >
+     <div class="bottomNav px-3 pt-4 px-lg-5" >
        <div class="bottomNavInner d-flex justify-content-around rounded-pill pt-3 px-3 w-100 mx-auto">
          <!--        :to="{ path: '/products', params: {cat}, query: { cat:  1}} "-->
          <router-link  to="/products#noodelite">
