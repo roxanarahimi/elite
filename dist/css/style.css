@@ -1,0 +1,648 @@
+@font-face {
+    font-family: 'IranSans';
+    src: url('../fonts/IRANSans.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/IRANSans.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans.woff2') format('woff2'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */}
+
+@font-face {
+    font-family: 'IranSansBold';
+    src: url('../fonts/IRANSansBold.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/IRANSansBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSansBold.woff2') format('woff2'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSansBold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */}
+
+
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan.eot?#') format('eot'),  /* IE6–8 */
+    url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    direction: rtl;
+    background-color: #222222;
+}
+
+* {
+    /*text-align: right;*/
+}
+
+body {
+    background-color: white;
+    min-height: 100vh;
+    overflow-x: hidden !important;
+    font-family: 'IranSans' !important;
+}
+
+.bg-main {
+    background-color: #ff0000;
+}
+
+.parallax1 {
+    height: calc(100vh - 180px);
+    background: url("/img/bg.png") no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: cover;
+}
+
+.nav {
+    padding-top: 100px;
+
+}
+
+
+.menu-main-menu-container{
+    width: 100% !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+#menu-main-menu{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-top:5px !important;
+
+}
+ul{
+    padding-right: 0 !important;
+}
+
+nav div ul li {
+    list-style: none;
+}
+
+nav div ul li a:hover {
+    color: whitesmoke;
+}
+
+nav div ul li a {
+    text-decoration: none;
+    display: block;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+}
+a, a:hover{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.bottomNav {
+    background-color: #B9B9B9;
+    border-color: #707070;
+    height: 180px;
+    margin-top: 0 !important;
+}
+
+.bottomNavInner {
+    background-color: #ff0000;
+    text-align: center;
+    width:75%;
+
+}
+
+.bottomNavInner p {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bg-gray2{
+    background-color: #EEEEEF;
+}
+
+.parallax2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: url("/img/bg2.png") no-repeat;
+    min-height: 50vh;
+    background-size: 100%;
+    overflow-x: hidden !important;
+}
+
+
+.bg-gray {
+    background-color: #B9B9B9;
+}
+.bg-gray2 {
+    background-color: #DBDBDB;
+}
+
+.food1 {
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-right: -50px
+}
+
+.food2 {
+    width: 800px;
+    height: 800px;
+    margin-top: 20px
+}
+
+.food3 {
+    width: 500px;
+    height: 475px;
+    margin-top: 370px;
+    margin-left: -50px
+}
+.contct-outer{
+    text-align: justify;
+    height: calc(100vh - 525px)
+}
+.contact{
+    font-family: 'BYekan' ;
+    font-size: 22px;
+    padding-left:150px;
+    padding-right:150px;
+    line-height:10px;
+}
+.contact-fa{
+    border-left: 6px solid red;
+}
+.contact-en{
+    font-size: 21px;
+    font-family: 'arial';
+    direction: ltr;
+    /*border-right: 3px solid red;*/
+
+}
+
+
+.s-1{
+    padding-right: 25px !important;
+    font-size: 95px !important;
+    color: white !important;
+    margin-bottom: 0 !important;
+    margin-top:-10px !important;
+    font-weight: bold !important;
+}
+.s-2{
+    padding-right: 25px !important;
+    font-size: 80px  !important;
+    color: #FBC901 !important;
+    margin-bottom: 0 !important;
+    margin-top:-15px !important;
+    font-weight: bold !important;
+}
+.s-3{
+    padding-right: 25px !important;
+    font-size: 93px !important;
+    color: white !important;
+    margin-bottom: 0 !important;
+    margin-top:-15px !important;
+    font-weight: bold !important;
+}
+
+.img1{
+    width:70px;
+}
+.img2{
+    width:75px;
+}
+.img3{
+    width:70px;
+}
+.img4{
+    width:60px;
+}
+.img5{
+    width:90px;
+}
+
+
+
+.fly1{
+    position: absolute;
+    right:600px;
+    top: 1000px;
+    width:100px;
+}
+.fly2{
+    position: absolute;
+    left:300px;
+    top: 1500px;
+    width:100px;
+
+}
+.fly3{
+    position: absolute;
+    left:200px;
+    top: 2210px;
+    width:100px;
+
+}
+.fly4{
+    position: absolute;
+    right:150px;
+    top: 2310px;
+    width:100px;
+
+}
+@media (min-width: 1400px) {
+
+
+    .foodp {
+        font-size: 20px
+
+    }
+
+    .foodtxt {
+        /*font-weight: bold;*/
+        width: 450px;
+        text-align: justify;
+        margin-top: 250px;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 1399px) {
+
+    .fly1{
+        position: absolute;
+        right:600px;
+        top: 900px;
+        width:100px;
+    }
+    .fly2{
+        position: absolute;
+        left:300px;
+        top: 1400px;
+        width:100px;
+
+    }
+    .fly3{
+        position: absolute;
+        left:200px;
+        top: 2100px;
+        width:100px;
+
+    }
+    .fly4{
+        position: absolute;
+        right:150px;
+        top: 2200px;
+        width:100px;
+
+    }
+
+    .foodtxt {
+        width: 40%;
+        text-align: justify;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .food1 {
+        width: 35vw;
+        height: 35vw;
+        margin-top: 70px;
+        margin-right: -20px
+    }
+
+    .food2 {
+        width: 57vw;
+        height: 57vw;
+        margin-top: 0px
+
+    }
+
+    .food3 {
+        width: 35vw;
+        height: 33vw;
+        margin-top: 200px;
+        margin-left: -20px
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+
+
+    .fly1{
+        position: absolute;
+        right:400px;
+        top: 700px;
+        width:100px;
+    }
+    .fly2{
+        position: absolute;
+        left:300px;
+        top: 1000px;
+        width:100px;
+
+    }
+    .fly3{
+        position: absolute;
+        left:200px;
+        top: 1650px;
+        width:100px;
+
+    }
+    .fly4{
+        position: absolute;
+        right:150px;
+        top: 1750px;
+        width:100px;
+
+    }
+}
+@media (max-width: 991px) {
+    .fly1{
+        position: absolute;
+        right:350px;
+        top: 900px;
+        width:70px;
+    }
+    .fly2{
+        position: absolute;
+        left:200px;
+        top: 1200px;
+        width:70px;
+
+    }
+    .fly3{
+        position: absolute;
+        left:100px;
+        top: 1700px;
+        width:70px;
+
+    }
+    .fly4{
+        position: absolute;
+        right:70px;
+        top: 1800px;
+        width:70px;
+
+    }
+
+    .food1 {
+        margin-top: 70px;
+        margin-right: -20px
+    }
+
+    .food2 {
+        margin-top: -50px
+
+    }
+
+    .food3 {
+        margin-top: 100px;
+        margin-left: -20px
+    }
+    .contaact-outer{
+        text-align: justify;
+        /*height: 100vh !important;*/
+    }
+    .contact{
+        font-size:14px !important;
+        padding-left:35px !important;
+        padding-right:45px !important;
+        line-height:6px !important;
+    }
+    .contact-fa{
+        border-bottom: 6px solid red;
+        border-left: none;
+        margin-bottom:20px !important;
+
+    }
+    .contact-en{
+        font-size: 13px !important;
+        font-family: 'arial' !important;
+        direction: ltr !important;
+
+    }
+}
+
+@media (max-width: 800px) {
+    .food1 {
+        margin-top: 70px;
+        margin-right: -20px
+    }
+
+    .food2 {
+        margin-top: -100px
+
+    }
+
+    .food3 {
+        margin-top: 20px;
+        margin-left: -20px
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .fly1{
+        position: absolute;
+        right:200px;
+        top: 550px;
+        width:50px;
+    }
+    .fly2{
+        position: absolute;
+        left:150px;
+        top: 750px;
+        width:50px;
+
+    }
+    .fly3{
+        position: absolute;
+        left:100px;
+        top: 950px;
+        width:50px;
+
+    }
+    .fly4{
+        position: absolute;
+        right:50px;
+        top: 1100px;
+        width:50px;
+
+    }
+
+
+
+    .about{
+        font-size: 16px !important;
+    }
+
+    .bottomNavInner{
+        width:90% !important;
+    }
+    .bottomNavInner p{
+        font-size: 9px !important;
+    }
+    .menu-main-menu-container{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+
+    }
+    nav{
+        height: 45px !important;
+    }
+    .img1{
+        width:35px;
+    }
+    .img2{
+        width:40px;
+    }
+    .img3{
+        width:35px;
+    }
+    .img4{
+        width:30px;
+    }
+    .img5{
+        width:45px;
+    }
+
+
+    .nav {
+        padding-top: 20px !important;
+
+    }
+
+    .parallax1 {
+        height: calc(55vh - 120px);
+        background: url("/img/bg.png") no-repeat;
+        background-position-x: left;
+        background-position-y: top;
+        background-size: cover;
+    }
+
+
+    .s-1{
+        padding-right: 25px;
+        font-size: 50px !important;
+        padding-bottom:20px;
+    }
+    .s-2{
+        padding-right: 25px;
+        font-size: 45px  !important;
+        padding-bottom:20px;
+
+    }
+    .s-3{
+        padding-right: 25px;
+        font-size: 51px !important;
+
+    }
+    .logo {
+        width: 15% !important;
+        margin-top: 17px !important;
+    }
+    nav{
+        width:79% !important;
+    }
+    nav div ul li a{
+        font-size:8px !important;
+        padding:3px
+
+    }
+    .foodtxt{
+        margin-top:10px !important;
+    }
+
+    .foodtxt h1{
+        margin-top:0px !important;
+        font-size: 18px;
+    }
+    .foodp{
+        font-size: 12px;
+    }
+    .precepy{
+
+
+        font-size:12px;
+        padding-left:5px;
+        padding-right:5px;
+    }
+    .food1 {
+        margin-top: 0;
+        margin-right: -20px
+    }
+
+    .food2 {
+        margin-top: -20px
+
+    }
+
+    .food3 {
+        margin-top: 18px;
+        margin-left: -20px
+    }
+
+    .txtxx{
+        font-size: 14px !important;
+    }
+    .bottomNav {
+        height: 145px;
+    }
+}
+
+@media (max-width: 500px) {
+    .fly1{
+        position: absolute;
+        right:120px;
+        top: 600px;
+        width:50px;
+    }
+    .fly2{
+        position: absolute;
+        left:120px;
+        top: 800px;
+        width:50px;
+
+    }
+    .fly3{
+        position: absolute;
+        left:100px;
+        top: 900px;
+        width:50px;
+
+    }
+    .fly4{
+        position: absolute;
+        right:10px;
+        top: 1000px;
+        width:50px;
+
+    }
+
+    .food1 {
+        margin-top: 0;
+        margin-right: -20px
+    }
+
+    .food2 {
+        margin-top: -100px
+
+    }
+
+    .food3 {
+        margin-top: -20px;
+        margin-left: -20px
+    }
+}
+
+.cube{
+    position: relative;
+    top: 300px;
+    right: calc(100% - 10px);
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+}
+
