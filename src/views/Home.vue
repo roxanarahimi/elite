@@ -12,51 +12,10 @@
          </svg>
        </a>
      </div>
-     <div class="parallax1" style="overflow-x: hidden !important;">
-
-       <div class="nav d-flex justify-content-center">
-         <router-link class="logo d-block" to="/"><img src="/img/Layer%2023.png" class="me-3 me-lg-5 img-fluid"
-                                                       width="150" alt=""></router-link>
-
-         <nav class="bg-main rounded rounded-pill navbar mt-3" style="height: 50px; width: 75%">
-           <div class="menu-main-menu-container">
-             <ul id="menu-main-menu" class="menu">
-               <li id="menu-item-61"
-                   class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-61">
-                 <a href="/" aria-current="page">خانه</a>
-               </li>
-               <li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136">
-                 <router-link to="/products">محصولات</router-link>
-               </li>
-               <li id="menu-item-105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105">
-                 <router-link to="/categories">دستور پخت</router-link>
-               </li>
-               <li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103">
-                 <router-link to="/about">درباره الیت</router-link>
-               </li>
-               <li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104">
-                 <router-link to="/contact">تماس با ما</router-link>
-               </li>
+     <div class="parallax1" >
 
 
-               <li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
-                 <a href="https://digikala.com/search/?brands%5B0%5D=7630&q=Elite" target="_blank">خرید اینترنتی</a>
-               </li>
-               <li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139">
-                 <router-link to="/search">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-search" viewBox="0 0 16 16">
-                     <path
-                         d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                   </svg>
-                 </router-link>
-               </li>
-             </ul>
-           </div>
-         </nav>
-
-       </div>
-
+       <the-menu />
 
        <div class="row p-0 m-0 " style="overflow: hidden !important;">
          <div class="col-12" style="font-weight: bold">
@@ -138,61 +97,63 @@
      </p>
 
 
-     <div class="px-lg-5 m-0 w-100">
-       <div class="d-flex justify-content-center px-3 px-lg-5" style="">
+<!--     <div class="px-lg-5 m-0 w-100">-->
+<!--       <div class="d-flex justify-content-center px-3 px-lg-5" style="">-->
 
-         <a href="/recipe/5" style="width: 20%" class="">
-           <img src="img/11.png" width="100%" alt="">
-         </a>
-         <a href="/recipe/4" style="display:grid; width: 20%" class="element bg-gray2">
-           <p class="precepy" style="align-self: center">سوپ جوجه چینی</p>
-           <div class="hoverElement w-100 h-100 bg-white d-grid">
-             <img class="img-fluid mx-auto" src="/img/0010.png" style="max-height: 60%; align-self: center" alt="">
-           </div>
+<!--         <a href="/recipe/5" style="width: 20%" class="">-->
+<!--           <img src="img/11.png" width="100%" alt="">-->
+<!--         </a>-->
+<!--         <a href="/recipe/4" style="display:grid; width: 20%" class="element bg-gray2">-->
+<!--           <p class="precepy" style="align-self: center">سوپ جوجه چینی</p>-->
+<!--           <div class="hoverElement w-100 h-100 bg-white d-grid">-->
+<!--             <img class="img-fluid mx-auto" src="/img/0010.png" style="max-height: 60%; align-self: center" alt="">-->
+<!--           </div>-->
 
-         </a>
-         <a href="/recipe/3" style=" width: 20%" class="">
-           <img src="img/13.png" width="100%" alt="">
-         </a>
-         <a href="/recipe/2" style="display:grid; width: 20%" class="element bg-gray2">
-           <p class="precepy" style=" align-self: center;">سوپ قارچ</p>
-           <div class="hoverElement w-100 h-100 bg-white d-grid" >
-             <img class="img-fluid mx-auto" src="/img/sop02.png" style="max-height: 60%; align-self: center" alt="">
-           </div>
-         </a>
-         <a href="/recipe/1" style="width: 20%" class="">
-           <img src="img/15.png" width="100%" alt="">
-         </a>
-       </div>
-       <div class="d-flex justify-content-center  px-3 px-lg-5">
-         <a href="/recipe/5" style="display:grid; width: 20%" class="element bg-gray2">
-           <p class="precepy" style=" align-self: center;">مرغ طالشی</p>
-           <div class="hoverElement w-100 h-100 bg-white d-grid">
-             <img class="img-fluid mx-auto" src="/img/osareh10.png" style="max-height: 80%;  align-self: center" alt="">
-           </div>
-         </a>
-         <a href="/recipe/4" style="width: 20%" class="">
-           <img src="img/12.png" width="100%" alt="">
-         </a>
-         <a href="/recipe/3" style="display:grid; width: 20%" class="element bg-gray2">
-           <p class="precepy" style=" align-self: center;">خوراک میگو با سس</p>
-           <div class="hoverElement w-100 h-100 bg-white d-grid">
-             <img class="img-fluid mx-auto" src="/img/osareh03.png" style="max-height: 80%; align-self: center" alt="">
-           </div>
-         </a>
-         <a href="/recipe/2" style="width: 20%" class="">
-           <img src="img/14.png" width="100%" alt="">
-         </a>
-         <a href="/recipe/1" style="display:grid; width: 20%" class="element bg-gray2">
-           <p class="precepy" style=" align-self: center;">ماهی شوریده شکم پر</p>
-           <div class="hoverElement w-100 h-100 bg-white d-grid ">
-             <img class="img-fluid mx-auto" src="/img/osareh10.png" style="max-height: 80%; align-self: center" alt="">
-           </div>
+<!--         </a>-->
+<!--         <a href="/recipe/3" style=" width: 20%" class="">-->
+<!--           <img src="img/13.png" width="100%" alt="">-->
+<!--         </a>-->
+<!--         <a href="/recipe/2" style="display:grid; width: 20%" class="element bg-gray2">-->
+<!--           <p class="precepy" style=" align-self: center;">سوپ قارچ</p>-->
+<!--           <div class="hoverElement w-100 h-100 bg-white d-grid" >-->
+<!--             <img class="img-fluid mx-auto" src="/img/sop02.png" style="max-height: 60%; align-self: center" alt="">-->
+<!--           </div>-->
+<!--         </a>-->
+<!--         <a href="/recipe/1" style="width: 20%" class="">-->
+<!--           <img src="img/15.png" width="100%" alt="">-->
+<!--         </a>-->
+<!--       </div>-->
+<!--       <div class="d-flex justify-content-center  px-3 px-lg-5">-->
+<!--         <a href="/recipe/5" style="display:grid; width: 20%" class="element bg-gray2">-->
+<!--           <p class="precepy" style=" align-self: center;">مرغ طالشی</p>-->
+<!--           <div class="hoverElement w-100 h-100 bg-white d-grid">-->
+<!--             <img class="img-fluid mx-auto" src="/img/osareh10.png" style="max-height: 80%;  align-self: center" alt="">-->
+<!--           </div>-->
+<!--         </a>-->
+<!--         <a href="/recipe/4" style="width: 20%" class="">-->
+<!--           <img src="img/12.png" width="100%" alt="">-->
+<!--         </a>-->
+<!--         <a href="/recipe/3" style="display:grid; width: 20%" class="element bg-gray2">-->
+<!--           <p class="precepy" style=" align-self: center;">خوراک میگو با سس</p>-->
+<!--           <div class="hoverElement w-100 h-100 bg-white d-grid">-->
+<!--             <img class="img-fluid mx-auto" src="/img/osareh03.png" style="max-height: 80%; align-self: center" alt="">-->
+<!--           </div>-->
+<!--         </a>-->
+<!--         <a href="/recipe/2" style="width: 20%" class="">-->
+<!--           <img src="img/14.png" width="100%" alt="">-->
+<!--         </a>-->
+<!--         <a href="/recipe/1" style="display:grid; width: 20%" class="element bg-gray2">-->
+<!--           <p class="precepy" style=" align-self: center;">ماهی شوریده شکم پر</p>-->
+<!--           <div class="hoverElement w-100 h-100 bg-white d-grid ">-->
+<!--             <img class="img-fluid mx-auto" src="/img/osareh10.png" style="max-height: 80%; align-self: center" alt="">-->
+<!--           </div>-->
 
-         </a>
-       </div>
+<!--         </a>-->
+<!--       </div>-->
 
-     </div>
+<!--     </div>-->
+
+     <food-slider />
    </div>
 
    <div class="py-5 text-center fw-bold w-100">
@@ -214,10 +175,11 @@
 <script>
 import homeSlider from "@/components/homeSlider";
 import theFooter from "@/components/Footer";
-
+import foodSlider from "@/components/foodsSlider";
+import theMenu from "@/components/Menu";
 export default {
   name: 'Home',
-  components: {homeSlider, theFooter}
+  components: {homeSlider, theFooter, theMenu, foodSlider}
 
 }
 </script>
