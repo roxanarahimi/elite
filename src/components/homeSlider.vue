@@ -1,7 +1,7 @@
 <template>
   <div class="homeSlider">
     <div class="d-none d-lg-block">
-      <Carousel :itemsToShow="1.9" :wrapAround="true" :autoplay="3000" :transition="500">
+      <Carousel :itemsToShow="1.9" :wrapAround="true" :transition="500">
         <slide v-for="slide in images" :key="slide">
           <router-link :to="slide.link">
             <img :src="slide.image" style="max-width: 970px">
@@ -44,9 +44,9 @@ export default {
   data() {
     return {
       images: [
-        {"image": "/img/01.webp", "link": "/products#soup"},
-        {"image": "/img/02.webp", "link": "/products#bouillon"},
-        {"image": "/img/03.webp", "link": "/products#noodelite"},
+        {"image": "/img/1.jpg", "link": "/products#soup"},
+        {"image": "/img/2.jpg", "link": "/products#bouillon"},
+        {"image": "/img/3.jpg", "link": "/products#noodelite"},
 
       ]
     }
@@ -82,11 +82,11 @@ export default {
 }
 
 :deep(.carousel__viewport) {
-  height: 600px !important;
+  height: 500px !important;
 }
 
 :deep(.carousel__slide) {
-  height: 550px !important;
+  height: 350px !important;
   transition: 0.5s ease;
 
 }
@@ -101,7 +101,7 @@ export default {
 :deep(.carousel__slide--next::before),
 :deep(.carousel__slide--prev::after),
 :deep(.carousel__slide--next::after) {
-  height: 200px !important;
+  height: 100px !important;
   transition: 0.5s ease;
   transform: scale(0.67, 0.59) !important;
   margin-top: 180px !important;

@@ -46,7 +46,7 @@ body {
 
 .parallax1 {
     height: calc(100vh - 180px);
-    background: url("/img/0001.webp") no-repeat;
+    background: url("/img/a.jpg") no-repeat;
     background-position-x: right;
     background-position-y: top;
     background-size: cover;
@@ -515,7 +515,7 @@ a, a:hover{
 
     .parallax1 {
         height: calc(55vh - 120px);
-        background: url("/img/0001.webp") no-repeat;
+        background: url("/img/a.jpg") no-repeat;
         background-position-x: left;
         background-position-y: top;
         background-size: cover;

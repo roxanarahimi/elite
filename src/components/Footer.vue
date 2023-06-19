@@ -21,7 +21,9 @@
                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
               </svg>
             </span>
-                  <small><a target="_blank" href="https://www.google.com/maps/place/AmadehLaziz/@35.7302329,51.3807302,19z/data=!4m6!3m5!1s0x3f8e07d020c7ca45:0x43bf4c9a730015f3!8m2!3d35.7301399!4d51.3807224!16s%2Fg%2F11c1r04p2q">دفتر مرکزی: تهران، خیابان گیشا، خیابان هشتم، پلاک 58</a></small>
+                  <small><a target="_blank"
+                            href="https://www.google.com/maps/place/AmadehLaziz/@35.7302329,51.3807302,19z/data=!4m6!3m5!1s0x3f8e07d020c7ca45:0x43bf4c9a730015f3!8m2!3d35.7301399!4d51.3807224!16s%2Fg%2F11c1r04p2q">دفتر
+                    مرکزی: تهران، خیابان گیشا، خیابان هشتم، پلاک 58</a></small>
                 </li>
                 <li class="d-flex">
             <span class="me-2">
@@ -39,14 +41,22 @@
                 </li>
                 <li class="d-flex mb-3">
             <span class="me-2">
-             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-postcard" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2ZM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4Zm7.5.5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7ZM2 5.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5ZM10.5 5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3ZM13 8h-2V6h2v2Z"/>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-postcard"
+                  viewBox="0 0 16 16">
+  <path fill-rule="evenodd"
+        d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2ZM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4Zm7.5.5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7ZM2 5.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1H2.5a.5.5 0 0 1-.5-.5ZM10.5 5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3ZM13 8h-2V6h2v2Z"/>
 </svg>
            </span>
 
-                  <small dir="ltr">
-                    کد پستی: 1446863914
+                  <small dir="ltr" style="cursor: pointer;position: relative" @click="coppyCode">
+                    کد پستی:
 
+                    <span id="postalcode">
+                      1446863914
+                    </span>
+                    <span id="coppyAlert">
+                      کپی شد!
+                    </span>
                   </small>
                 </li>
 
@@ -59,7 +69,9 @@
                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
               </svg>
             </span>
-                  <small><a target="_blank" href="https://www.google.com/maps/place/Elite+company/@35.7533913,51.0211096,15.89z/data=!4m14!1m7!3m6!1s0x3f8deb414a374c79:0x43e1c8e22a05902e!2sElite+company!8m2!3d35.752755!4d51.02824!16s%2Fg%2F11csc8jgy6!3m5!1s0x3f8deb414a374c79:0x43e1c8e22a05902e!8m2!3d35.752755!4d51.02824!16s%2Fg%2F11csc8jgy6">کارخانه1:کرج، سیمین دشت، نبش کوچه هشتم شرقی</a></small>
+                  <small><a target="_blank"
+                            href="https://www.google.com/maps/place/Elite+company/@35.7533913,51.0211096,15.89z/data=!4m14!1m7!3m6!1s0x3f8deb414a374c79:0x43e1c8e22a05902e!2sElite+company!8m2!3d35.752755!4d51.02824!16s%2Fg%2F11csc8jgy6!3m5!1s0x3f8deb414a374c79:0x43e1c8e22a05902e!8m2!3d35.752755!4d51.02824!16s%2Fg%2F11csc8jgy6">کارخانه1:کرج،
+                    سیمین دشت، نبش کوچه هشتم شرقی</a></small>
                 </li>
                 <li class="d-flex mb-3">
             <span class="me-2">
@@ -84,7 +96,9 @@
                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
               </svg>
             </span>
-                  <small><a target="_blank" href="https://www.google.com/maps/place/Amadeh+Laziz+Factory/@35.8900418,50.8912728,18.22z/data=!4m14!1m7!3m6!1s0x3f8dbb279b510219:0xa67fc687f7452e7f!2sAmadeh+Laziz+Factory!8m2!3d35.8901593!4d50.8927433!16s%2Fg%2F11j7yy56ks!3m5!1s0x3f8dbb279b510219:0xa67fc687f7452e7f!8m2!3d35.8901593!4d50.8927433!16s%2Fg%2F11j7yy56ks">کارخانه2: کرج، شهرک صنعتی بهارستان، گلستان 3</a></small>
+                  <small><a target="_blank"
+                            href="https://www.google.com/maps/place/Amadeh+Laziz+Factory/@35.8900418,50.8912728,18.22z/data=!4m14!1m7!3m6!1s0x3f8dbb279b510219:0xa67fc687f7452e7f!2sAmadeh+Laziz+Factory!8m2!3d35.8901593!4d50.8927433!16s%2Fg%2F11j7yy56ks!3m5!1s0x3f8dbb279b510219:0xa67fc687f7452e7f!8m2!3d35.8901593!4d50.8927433!16s%2Fg%2F11j7yy56ks">کارخانه2:
+                    کرج، شهرک صنعتی بهارستان، گلستان 3</a></small>
                 </li>
                 <li class="d-flex mb-3">
             <span class="me-2">
@@ -114,18 +128,18 @@
           <div class="col-xl-6">
             <div class="col-12 px-3">
               <div class="row" style="padding-top: 100px">
-                <div class="col-6 col-md-3">
+                <router-link to="/recipe/3" class="col-6 col-md-3">
                   <img class="img-fluid footer_img" src="/img/f1.png" alt="">
-                </div>
-                <div class="col-6 col-md-3">
+                </router-link>
+                <router-link to="/recipe/5" class="col-6 col-md-3">
                   <img class="img-fluid footer_img" src="/img/f2.png" alt="">
-                </div>
-                <div class="col-6 col-md-3">
+                </router-link>
+                <router-link to="/recipe/2" class="col-6 col-md-3">
                   <img class="img-fluid footer_img" src="/img/f3.png" alt="">
-                </div>
-                <div class="col-6 col-md-3">
+                </router-link>
+                <router-link to="/recipe/4" class="col-6 col-md-3">
                   <img class="img-fluid footer_img" src="/img/f4.png" alt="">
-                </div>
+                </router-link>
               </div>
             </div>
           </div>
@@ -155,12 +169,37 @@
 
 <script>
 export default {
-  name: "Footer"
+  name: "Footer",
+  methods: {
+    coppyCode() {
+      var copyText = document.getElementById("postalcode").innerText;
+      navigator.clipboard.writeText(copyText).then(() => {
+
+        document.getElementById("coppyAlert").style.opacity= "1";
+        setTimeout(() => {
+          document.getElementById("coppyAlert").style.opacity= "0";
+        },2000)
+      });
+    }
+  }
 }
+
 </script>
 
 <style scoped>
 
+#coppyAlert{
+  position: absolute;
+  opacity: 0;
+  transition: 1s ease;
+  top:0;
+  right:0;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  direction: rtl;
+  padding:2px;
+
+}
 footer {
   background: url("../../public/img/footer.png") no-repeat;
 
@@ -206,6 +245,7 @@ li {
     margin-top: 180px
   }
 }
+
 @media (max-width: 900px) {
   .containerr {
     margin-top: 200px
