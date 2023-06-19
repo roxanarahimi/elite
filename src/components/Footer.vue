@@ -191,7 +191,7 @@ export default {
 #coppyAlert{
   position: absolute;
   opacity: 0;
-  transition: 1s ease;
+  transition: 0.5s ease;
   top:0;
   right:0;
   background-color: whitesmoke;
