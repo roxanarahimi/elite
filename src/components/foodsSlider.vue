@@ -1,8 +1,84 @@
 <template>
   <div class="px-5 mx-auto" >
     <div class="d-none d-lg-block productSlider mb-5">
-      <Carousel class="" :itemsToShow="3.0" :itemsToScroll="1" :wrapAround="true"  :snapAlign="'start'"
-                :transition="500">
+      <Carousel class="" :itemsToShow="3.0" :itemsToScroll="1" :wrapAround="true"  :snapAlign="'start'" :transition="500">
+        <slide v-for="(item,index) in data" :key="index">
+
+          <router-link :to="'/recipe/'+item.article_id">
+            <div class="w-100 h-100" style="margin: 1px">
+              <div class="w-100 h-100">
+                <a class="shadow-sm rounded" style="overflow: hidden;">
+                  <div class="slideContainer" style="position: relative">
+                    <div class="w-100 d-grid h-100">
+                      <img style="align-self:center !important;"
+                           :src="'https://panel.elit.webagent.ir/'+item.image" class="mx-auto  rounded img-fluid w-100" alt="">
+                    </div>
+                    <div class="w-100 h-100 slideProductImg" >
+                      <img style="align-self:center !important; height: 80% "
+                           :src="'https://panel.elit.webagent.ir/'+item.article.product.image" class="img-fluid mx-auto  rounded img-fluid" alt="">
+
+                    </div>
+                    <div class="slideTitle text-center text-light">
+                      <h4 >
+                        {{ item.article?.title }}
+                        <br>
+                        با  {{ item.article?.product?.title }} الیت
+                      </h4>
+
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </router-link>
+        </slide>
+        <template #addons>
+          <navigation/>
+          <!--          <pagination />-->
+        </template>
+      </carousel>
+    </div>  <div class="d-none d-md-block d-lg-none productSlider mb-5">
+      <Carousel class="" :itemsToShow="2.0" :itemsToScroll="1" :wrapAround="true"  :snapAlign="'start'" :transition="500">
+        <slide v-for="(item,index) in data" :key="index">
+
+          <router-link :to="'/recipe/'+item.article_id">
+            <div class="w-100 h-100" style="margin: 1px">
+              <div class="w-100 h-100">
+                <a class="shadow-sm rounded" style="overflow: hidden;">
+                  <div class="slideContainer" style="position: relative">
+                    <div class="w-100 d-grid h-100">
+                      <img style="align-self:center !important;"
+                           :src="'https://panel.elit.webagent.ir/'+item.image" class="mx-auto  rounded img-fluid w-100" alt="">
+                    </div>
+                    <div class="w-100 h-100 slideProductImg" >
+                      <img style="align-self:center !important; height: 80% "
+                           :src="'https://panel.elit.webagent.ir/'+item.article.product.image" class="img-fluid mx-auto  rounded img-fluid" alt="">
+
+                    </div>
+                    <div class="slideTitle text-center text-light">
+                      <h4 >
+                        {{ item.article?.title }}
+                        <br>
+                        با  {{ item.article?.product?.title }} الیت
+                      </h4>
+
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </router-link>
+        </slide>
+        <template #addons>
+          <navigation/>
+          <!--          <pagination />-->
+        </template>
+      </carousel>
+    </div>
+    <div class=" d-md-none productSlider mb-5">
+      <Carousel class="" :itemsToShow="1.0" :itemsToScroll="1" :wrapAround="true"  :snapAlign="'start'" :transition="500">
         <slide v-for="(item,index) in data" :key="index">
 
           <router-link :to="'/recipe/'+item.article_id">
