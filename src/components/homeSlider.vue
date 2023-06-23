@@ -45,8 +45,8 @@ export default {
     return {
       images: [
         {"image": "/img/1.jpg", "link": "/products#noodelite"},
-        {"image": "/img/2.jpg", "link": "/products#bouillon"},
-        {"image": "/img/3.jpg", "link": "/products#soup"},
+        {"image": "/img/03.webp", "link": "/products#bouillon"},
+        {"image": "/img/02.webp", "link": "/products#soup"},
 
       ]
     }
