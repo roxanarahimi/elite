@@ -44,9 +44,9 @@ export default {
   data() {
     return {
       images: [
-        {"image": "/img/1.jpg", "link": "/products#noodelite"},
-        {"image": "/img/03.webp", "link": "/products#bouillon"},
-        {"image": "/img/02.webp", "link": "/products#soup"},
+        {"image": "/img/R3.png", "link": "/products#noodelite"},
+        {"image": "/img/R2.png", "link": "/products#bouillon"},
+        {"image": "/img/R1.png", "link": "/products#soup"},
 
       ]
     }
