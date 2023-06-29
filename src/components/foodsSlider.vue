@@ -1,7 +1,8 @@
 <template>
-  <div class="px-5 mx-auto" >
+  <div class="px-5 mx-auto">
     <div class="d-none d-lg-block productSlider mb-5">
-      <Carousel class="" :itemsToShow="3.0" :itemsToScroll="1" :wrapAround="true"  :snapAlign="'start'" :transition="500">
+      <Carousel class="" :itemsToShow="3.0" :itemsToScroll="1" :wrapAround="true" :snapAlign="'start'"
+                :transition="500">
         <slide v-for="(item,index) in data" :key="index">
 
           <router-link :to="'/recipe/'+item.article_id">
@@ -11,18 +12,20 @@
                   <div class="slideContainer" style="position: relative">
                     <div class="w-100 d-grid h-100">
                       <img style="align-self:center !important;"
-                           :src="'https://panel.elit.webagent.ir/'+item.image" class="mx-auto  rounded img-fluid w-100" alt="">
+                           :src="'https://panel.elit.webagent.ir/'+item.image" class="mx-auto  rounded img-fluid w-100"
+                           alt="">
                     </div>
-                    <div class="w-100 h-100 slideProductImg" >
+                    <div class="w-100 h-100 slideProductImg">
                       <img style="align-self:center !important; height: 80% "
-                           :src="'https://panel.elit.webagent.ir/'+item.article.product.image" class="img-fluid mx-auto  rounded img-fluid" alt="">
+                           :src="'https://panel.elit.webagent.ir/'+item.article.product.image"
+                           class="img-fluid mx-auto  rounded img-fluid" alt="">
 
                     </div>
                     <div class="slideTitle text-center text-light">
-                      <h4 >
+                      <h4>
                         {{ item.article?.title }}
                         <br>
-                        با  {{ item.article?.product?.title }} الیت
+                        با {{ item.article?.product?.title }} الیت
                       </h4>
 
                     </div>
@@ -38,8 +41,10 @@
           <!--          <pagination />-->
         </template>
       </carousel>
-    </div>  <div class="d-none d-md-block d-lg-none productSlider mb-5">
-      <Carousel class="" :itemsToShow="2.0" :itemsToScroll="1" :wrapAround="true"  :snapAlign="'start'" :transition="500">
+    </div>
+    <div class="d-none d-md-block d-lg-none productSlider mb-5">
+      <Carousel class="" :itemsToShow="2.0" :itemsToScroll="1" :wrapAround="true" :snapAlign="'start'"
+                :transition="500">
         <slide v-for="(item,index) in data" :key="index">
 
           <router-link :to="'/recipe/'+item.article_id">
@@ -49,18 +54,20 @@
                   <div class="slideContainer" style="position: relative">
                     <div class="w-100 d-grid h-100">
                       <img style="align-self:center !important;"
-                           :src="'https://panel.elit.webagent.ir/'+item.image" class="mx-auto  rounded img-fluid w-100" alt="">
+                           :src="'https://panel.elit.webagent.ir/'+item.image" class="mx-auto  rounded img-fluid w-100"
+                           alt="">
                     </div>
-                    <div class="w-100 h-100 slideProductImg" >
+                    <div class="w-100 h-100 slideProductImg">
                       <img style="align-self:center !important; height: 80% "
-                           :src="'https://panel.elit.webagent.ir/'+item.article.product.image" class="img-fluid mx-auto  rounded img-fluid" alt="">
+                           :src="'https://panel.elit.webagent.ir/'+item.article.product.image"
+                           class="img-fluid mx-auto  rounded img-fluid" alt="">
 
                     </div>
                     <div class="slideTitle text-center text-light">
-                      <h4 >
+                      <h4>
                         {{ item.article?.title }}
                         <br>
-                        با  {{ item.article?.product?.title }} الیت
+                        با {{ item.article?.product?.title }} الیت
                       </h4>
 
                     </div>
@@ -78,7 +85,8 @@
       </carousel>
     </div>
     <div class=" d-md-none productSlider mb-5">
-      <Carousel class="" :itemsToShow="1.0" :itemsToScroll="1" :wrapAround="true"  :snapAlign="'start'" :transition="500">
+      <Carousel class="" :itemsToShow="1.0" :itemsToScroll="1" :wrapAround="true" :snapAlign="'start'"
+                :transition="500">
         <slide v-for="(item,index) in data" :key="index">
 
           <router-link :to="'/recipe/'+item.article_id">
@@ -88,18 +96,20 @@
                   <div class="slideContainer" style="position: relative">
                     <div class="w-100 d-grid h-100">
                       <img style="align-self:center !important;"
-                           :src="'https://panel.elit.webagent.ir/'+item.image" class="mx-auto  rounded img-fluid w-100" alt="">
+                           :src="'https://panel.elit.webagent.ir/'+item.image" class="mx-auto  rounded img-fluid w-100"
+                           alt="">
                     </div>
-                    <div class="w-100 h-100 slideProductImg" >
+                    <div class="w-100 h-100 slideProductImg">
                       <img style="align-self:center !important; height: 80% "
-                           :src="'https://panel.elit.webagent.ir/'+item.article.product.image" class="img-fluid mx-auto  rounded img-fluid" alt="">
+                           :src="'https://panel.elit.webagent.ir/'+item.article.product.image"
+                           class="img-fluid mx-auto  rounded img-fluid" alt="">
 
                     </div>
                     <div class="slideTitle text-center text-light">
-                      <h4 >
+                      <h4>
                         {{ item.article?.title }}
                         <br>
-                        با  {{ item.article?.product?.title }} الیت
+                        با {{ item.article?.product?.title }} الیت
                       </h4>
 
                     </div>
@@ -123,7 +133,8 @@
 <script>
 import 'vue3-carousel/dist/carousel.css';
 import {Carousel, Slide, Pagination, Navigation} from 'vue3-carousel';
-import {onMounted, ref} from "vue";
+import {computed, onMounted, ref} from "vue";
+import {useStore} from 'vuex'
 
 export default {
   name: 'ProductsSlider',
@@ -133,24 +144,22 @@ export default {
     Pagination,
     Navigation,
   },
-  props: [ ],
+  props: [],
   setup(_props) {
 
-    const data = ref([]);
+    // const data = ref([]);
+    const store = useStore();
     const getData = () => {
-      axios.get('https://panel.elit.webagent.ir/api/food/slides')
-          .then((response) => {
-            data.value = response.data;
-          })
-          .catch();
+      store.commit('getFoodSlider');
+      // data.value = store.state.foodSlider;
+      // console.log('info',store.state.foodSlider);
     }
     onMounted(() => {
       getData();
-
-
     });
     return {
-      getData, data
+      getData, store,
+      data: computed(()=>store.state.foodSlider),
     }
   }
 }
@@ -258,7 +267,7 @@ export default {
   height: 100% !important;
 }
 
-:deep(.slideTitle h4){
+:deep(.slideTitle h4) {
   align-self: center;
   margin: 5px !important;
 }
@@ -271,6 +280,7 @@ export default {
   left: 0;
   background-color: black;
 }
+
 :deep(.slideContainer:hover .slideProductImg) {
   opacity: 1;
 }

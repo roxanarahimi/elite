@@ -3,4 +3,6 @@ import App from './App.vue'
 import router from './router'
 window.axios = require('axios');
 
-createApp(App).use(router).mount('#app')
+import store from './store/index';
+
+createApp(App).use(router).use(store).mount('#app')

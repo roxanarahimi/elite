@@ -78,6 +78,8 @@
 import homeSlider from "@/components/homeSlider";
 import theFooter from "@/components/Footer";
 import theMenu from "@/components/Menu";
+import {useStore} from "vuex";
+import {computed, onMounted} from "vue";
 
 export default {
   name: "posts",
@@ -86,19 +88,19 @@ export default {
   homeSlider,
     theMenu
   },
-  data() {
-    return {
-      data: [],
+  setup(_props) {
 
+    const store = useStore();
+    const getData = () => {
+      store.commit('getRecipeCats');
     }
-  },
-  mounted() {
-    axios.get('https://panel.elit.webagent.ir/api/category/article' )
-        .then((response) => {
-          this.data = response.data;
-          console.log(this.data);
-
-        }).catch();
+    onMounted(() => {
+      getData();
+    });
+    return {
+      getData, store,
+      data: computed(()=>store.state.recipeCats),
+    }
   }
 }
 </script>

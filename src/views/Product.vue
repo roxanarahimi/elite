@@ -111,16 +111,18 @@
 </template>
 
 <script>
-import {onMounted, ref} from "vue";
+import {computed, onMounted, ref} from "vue";
 import {useRoute} from "vue-router/dist/vue-router";
-
+import { useStore} from 'vuex'
 export default {
   name: "Product",
   setup() {
+    const route = useRoute();
+    const store = useStore();
     const data = ref({});
     const features = ref([]);
-    const route = useRoute();
     onMounted(() => {
+
       axios.get('https://panel.elit.webagent.ir/api/product/' + route.params.id)
           .then((response) => {
             data.value = response.data.product;
@@ -136,10 +138,14 @@ export default {
             }
           })
           .catch();
+      store.commit('getProduct', route.params.id);
     });
 
     return {
-      data, route, features
+      data,features,
+      // data: computed(()=>store.state.product),
+      // features: computed(()=>store.state.productFeatures),
+      route, store
     }
   }
 

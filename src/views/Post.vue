@@ -72,25 +72,24 @@
 </template>
 
 <script>
-import {onMounted, ref} from "vue";
+import {computed, onMounted} from "vue";
 import {useRoute} from "vue-router/dist/vue-router";
+import {useStore} from "vuex";
 
 export default {
   name: "Post",
   setup() {
-    const data = ref({});
     const route = useRoute();
-    onMounted(() => {
-      axios.get('https://panel.elit.webagent.ir/api/article/' + route.params.id)
-          .then((response) => {
-            data.value = response.data;
-            console.log(response.data);
+    const store = useStore();
 
-          }).catch();
+    onMounted(() => {
+      store.commit('getRecipe', route.params.id);
+
     });
 
     return {
-      data, route,
+      data: computed(()=>store.state.recipe),
+      route,
     }
   }
 

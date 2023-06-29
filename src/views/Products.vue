@@ -82,11 +82,12 @@
 <script>
 
 import productsSlider from "@/components/productsSlider";
-import {onBeforeMount, onMounted, ref} from "vue";
+import {computed, onBeforeMount, onMounted, ref} from "vue";
 
 import theFooter from "@/components/Footer";
 import {useRoute} from "vue-router/dist/vue-router";
 import theMenu from "@/components/Menu";
+import {useStore} from 'vuex'
 
 
 export default {
@@ -100,26 +101,17 @@ export default {
 
   setup() {
 
-    const data = ref([]);
     const route = useRoute();
-
+    const store = useStore();
     const getData = () => {
-      // axios.get('http://127.0.0.1:8000/api/category/product')
-      axios.get('https://panel.elit.webagent.ir/api/category/product')
-          .then((response) => {
-            data.value = response.data;
-            console.log(data.value)
-          })
-          .then(()=>{
-          setTimeout(()=>{
+      store.commit('getProductCats');
+      setTimeout(()=>{
             let path = route.fullPath;
             let element = document.getElementById('to_'+path.split("#")[1])
             if(element){
               element.click();
             }
           },1500)
-          })
-          .catch();
     };
 
     onBeforeMount(() => {
@@ -140,7 +132,8 @@ export default {
 
     })
     return {
-      data, getData, route,
+      data: computed(()=>store.state.productsCats),
+      getData, route,
     }
   },
 

@@ -44,28 +44,26 @@
 </template>
 
 <script>
-import {onMounted, ref} from "vue";
+import {computed, onMounted, ref} from "vue";
 import {useRoute} from "vue-router/dist/vue-router";
 import theFooter from "@/components/Footer";
 import theMenu from "@/components/Menu";
+import {useStore} from "vuex";
+
 
 export default {
   components: {theFooter, theMenu},
   name: "Posts",
   setup() {
-    const data = ref([]);
     const route = useRoute();
+    const store = useStore();
     onMounted(() => {
-      axios.get('https://panel.elit.webagent.ir/api/article/by/category/' + route.params.id)
-          .then((response) => {
-            data.value = response.data.data;
-            console.log(data.value);
-
-          }).catch();
+      store.commit('getRecipes', route.params.id);
     });
 
     return {
-      data, route,
+      data: computed(()=>store.state.recipes),
+      route, store
     }
   }
 }
