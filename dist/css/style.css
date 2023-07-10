@@ -119,6 +119,8 @@ a, a:hover{
     background-color: #EEEEEF;
 }
 
+
+
 .parallax2 {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -126,9 +128,12 @@ a, a:hover{
     min-height: 50vh;
     background-size: 100%;
     overflow-x: hidden !important;
-    min-height: 1500px;
 }
-
+@media (min-width: 1500px) {
+    .parallax2 {
+        min-height: 1600px;
+    }
+}
 
 .bg-gray {
     background-color: #B9B9B9;
