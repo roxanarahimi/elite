@@ -126,6 +126,7 @@ a, a:hover{
     min-height: 50vh;
     background-size: 100%;
     overflow-x: hidden !important;
+    min-height: 1500px;
 }
 
 

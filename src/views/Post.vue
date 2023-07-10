@@ -3,7 +3,7 @@
 
   <div class="container-fluid" v-if="data">
     <div class="row flex-row-reverse">
-      <div class="col-xl-5 " style="background: url('/img/Ellipse.png') no-repeat top left; background-size: 90%">
+      <div class="col-xl-5 " style="background: url('/img/Ellipse.png') no-repeat top left; background-size: 90%; min-height: 700px">
 
         <img :src="'https://panel.elit.webagent.ir'+data.image" class="img-fluid" style="width: 70% ; margin-top: 20%"
              alt="">
