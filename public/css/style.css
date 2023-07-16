@@ -1,23 +1,17 @@
 @font-face {
     font-family: 'IranSans';
-    src: url('../fonts/IRANSans.eot?#') format('eot'),  /* IE6–8 */
-    url('../fonts/IRANSans.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('../fonts/IRANSans.woff2') format('woff2'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('../fonts/IRANSans.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */}
+    src: url('../fonts/IRANSans.eot?#') format('eot'), /* IE6–8 */ url('../fonts/IRANSans.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans.woff2') format('woff2'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSans.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
 
 @font-face {
     font-family: 'IranSansBold';
-    src: url('../fonts/IRANSansBold.eot?#') format('eot'),  /* IE6–8 */
-    url('../fonts/IRANSansBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('../fonts/IRANSansBold.woff2') format('woff2'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('../fonts/IRANSansBold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */}
+    src: url('../fonts/IRANSansBold.eot?#') format('eot'), /* IE6–8 */ url('../fonts/IRANSansBold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSansBold.woff2') format('woff2'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/IRANSansBold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
 
 
 @font-face {
     font-family: 'BYekan';
-    src: url('../fonts/BYekan.eot?#') format('eot'),  /* IE6–8 */
-    url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('../fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+    src: url('../fonts/BYekan.eot?#') format('eot'), /* IE6–8 */ url('../fonts/BYekan.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
 }
 
 
@@ -26,7 +20,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
     direction: rtl;
-    background-color: #222222;
+    /*background-color: #222222;*/
 }
 
 * {
@@ -34,6 +28,8 @@ html {
 }
 
 body {
+    max-width: 1525px;
+    margin: 0 auto;
     background-color: white;
     min-height: 100vh;
     overflow-x: hidden !important;
@@ -58,20 +54,22 @@ body {
 }
 
 
-.menu-main-menu-container{
+.menu-main-menu-container {
     width: 100% !important;
     padding-left: 2rem;
     padding-right: 2rem;
 
 }
-#menu-main-menu{
+
+#menu-main-menu {
     width: 100% !important;
     display: flex !important;
     justify-content: space-between !important;
-    margin-top:5px !important;
+    margin-top: 5px !important;
 
 }
-ul{
+
+ul {
     padding-right: 0 !important;
 }
 
@@ -90,11 +88,13 @@ nav div ul li a {
     font-size: 16px;
     /*font-weight: bold;*/
 }
-a, a:hover{
+
+a, a:hover {
     text-decoration: none;
     display: block;
     color: black;
 }
+
 .bottomNav {
     background-color: #B9B9B9;
     border-color: #707070;
@@ -105,7 +105,7 @@ a, a:hover{
 .bottomNavInner {
     background-color: #ff0000;
     text-align: center;
-    width:75%;
+    width: 75%;
 
 }
 
@@ -115,10 +115,10 @@ a, a:hover{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.bg-gray2{
+
+.bg-gray2 {
     background-color: #EEEEEF;
 }
-
 
 
 .parallax2 {
@@ -129,6 +129,7 @@ a, a:hover{
     background-size: 100%;
     overflow-x: hidden !important;
 }
+
 @media (min-width: 1500px) {
     .parallax2 {
         min-height: 1600px;
@@ -138,6 +139,7 @@ a, a:hover{
 .bg-gray {
     background-color: #B9B9B9;
 }
+
 .bg-gray2 {
     background-color: #DBDBDB;
 }
@@ -161,21 +163,25 @@ a, a:hover{
     margin-top: 370px;
     margin-left: -50px
 }
-.contct-outer{
+
+.contct-outer {
     text-align: justify;
     height: calc(100vh - 525px)
 }
-.contact{
-    font-family: 'BYekan' ;
+
+.contact {
+    font-family: 'BYekan';
     font-size: 22px;
-    padding-left:150px;
-    padding-right:150px;
-    line-height:10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 10px;
 }
-.contact-fa{
+
+.contact-fa {
     border-left: 6px solid red;
 }
-.contact-en{
+
+.contact-en {
     font-size: 21px;
     font-family: 'arial';
     direction: ltr;
@@ -184,76 +190,85 @@ a, a:hover{
 }
 
 
-.s-1{
+.s-1 {
     padding-right: 25px !important;
     font-size: 95px !important;
     color: white !important;
     margin-bottom: 0 !important;
-    margin-top:-10px !important;
+    margin-top: -10px !important;
     font-weight: bold !important;
 }
-.s-2{
+
+.s-2 {
     padding-right: 25px !important;
-    font-size: 80px  !important;
+    font-size: 80px !important;
     color: #FBC901 !important;
     margin-bottom: 0 !important;
-    margin-top:-15px !important;
+    margin-top: -15px !important;
     font-weight: bold !important;
 }
-.s-3{
+
+.s-3 {
     padding-right: 25px !important;
     font-size: 93px !important;
     color: white !important;
     margin-bottom: 0 !important;
-    margin-top:-15px !important;
+    margin-top: -15px !important;
     font-weight: bold !important;
 }
 
-.img1{
-    width:70px;
+.img1 {
+    width: 70px;
 }
-.img2{
-    width:75px;
+
+.img2 {
+    width: 75px;
 }
-.img3{
-    width:70px;
+
+.img3 {
+    width: 70px;
 }
-.img4{
-    width:60px;
+
+.img4 {
+    width: 60px;
 }
-.img5{
-    width:90px;
+
+.img5 {
+    width: 90px;
 }
 
 
-
-.fly1{
+.fly1 {
     position: absolute;
-    right:600px;
+    right: 600px;
     top: 1000px;
-    width:100px;
+    width: 100px;
 }
-.fly2{
+
+.fly2 {
     position: absolute;
-    left:300px;
+    left: 300px;
     top: 1500px;
-    width:100px;
+    width: 100px;
 
 }
-.fly3{
+
+.fly3 {
     position: absolute;
-    left:200px;
+    left: 200px;
     top: 2210px;
-    width:100px;
+    width: 100px;
 
 }
-.fly4{
+
+.fly4 {
     position: absolute;
-    right:150px;
+    right: 150px;
     top: 2310px;
-    width:100px;
+    width: 100px;
 
 }
+
 @media (min-width: 1400px) {
 
 
@@ -273,31 +288,34 @@ a, a:hover{
 
 @media (max-width: 1399px) {
 
-    .fly1{
+    .fly1 {
         position: absolute;
-        right:600px;
+        right: 600px;
         top: 900px;
-        width:100px;
+        width: 100px;
     }
-    .fly2{
+
+    .fly2 {
         position: absolute;
-        left:300px;
+        left: 300px;
         top: 1400px;
-        width:100px;
+        width: 100px;
 
     }
-    .fly3{
+
+    .fly3 {
         position: absolute;
-        left:200px;
+        left: 200px;
         top: 2100px;
-        width:100px;
+        width: 100px;
 
     }
-    .fly4{
+
+    .fly4 {
         position: absolute;
-        right:150px;
+        right: 150px;
         top: 2200px;
-        width:100px;
+        width: 100px;
 
     }
 
@@ -307,6 +325,7 @@ a, a:hover{
         margin-top: 10px;
         font-size: 18px;
     }
+
     .food1 {
         width: 35vw;
         height: 35vw;
@@ -331,63 +350,108 @@ a, a:hover{
 
 }
 
-@media (max-width: 1200px) {
+body {
+    position: relative;
+}
 
+@media (min-width: 1600px) {
 
-    .fly1{
+    .fly1 {
         position: absolute;
-        right:400px;
-        top: 700px;
-        width:100px;
+        right: 400px;
+        top: 1200px;
+        width: 100px;
     }
-    .fly2{
-        position: absolute;
-        left:300px;
-        top: 1000px;
-        width:100px;
 
-    }
-    .fly3{
+    .fly2 {
         position: absolute;
-        left:200px;
-        top: 1650px;
-        width:100px;
+        left: 300px;
+        top: 1400px;
+        width: 100px;
 
     }
-    .fly4{
+
+    .fly3 {
         position: absolute;
-        right:150px;
-        top: 1750px;
-        width:100px;
+        left: 200px;
+        top: 2700px;
+        width: 100px;
+
+    }
+
+    .fly4 {
+        position: absolute;
+        right: 150px;
+        top: 2800px;
+        width: 100px;
 
     }
 }
+
+@media (max-width: 1200px) {
+
+
+    .fly1 {
+        position: absolute;
+        right: 400px;
+        top: 700px;
+        width: 100px;
+    }
+
+    .fly2 {
+        position: absolute;
+        left: 300px;
+        top: 1000px;
+        width: 100px;
+
+    }
+
+    .fly3 {
+        position: absolute;
+        left: 200px;
+        top: 1650px;
+        width: 100px;
+
+    }
+
+    .fly4 {
+        position: absolute;
+        right: 150px;
+        top: 1750px;
+        width: 100px;
+
+    }
+}
+
 @media (max-width: 991px) {
-    .fly1{
+    .fly1 {
         position: absolute;
-        right:350px;
+        right: 350px;
         top: 900px;
-        width:70px;
+        width: 70px;
     }
-    .fly2{
+
+    .fly2 {
         position: absolute;
-        left:200px;
+        left: 200px;
         top: 1200px;
-        width:70px;
+        width: 70px;
 
     }
-    .fly3{
+
+    .fly3 {
         position: absolute;
-        left:100px;
+        left: 100px;
         top: 1700px;
-        width:70px;
+        width: 70px;
 
     }
-    .fly4{
+
+    .fly4 {
         position: absolute;
-        right:70px;
+        right: 70px;
         top: 1800px;
-        width:70px;
+        width: 70px;
 
     }
 
@@ -405,23 +469,27 @@ a, a:hover{
         margin-top: 100px;
         margin-left: -20px
     }
-    .contaact-outer{
+
+    .contaact-outer {
         text-align: justify;
         /*height: 100vh !important;*/
     }
-    .contact{
-        font-size:14px !important;
-        padding-left:35px !important;
-        padding-right:45px !important;
-        line-height:6px !important;
+
+    .contact {
+        font-size: 14px !important;
+        padding-left: 35px !important;
+        padding-right: 45px !important;
+        line-height: 6px !important;
     }
-    .contact-fa{
+
+    .contact-fa {
         border-bottom: 6px solid red;
         border-left: none;
-        margin-bottom:20px !important;
+        margin-bottom: 20px !important;
 
     }
-    .contact-en{
+
+    .contact-en {
         font-size: 13px !important;
         font-family: 'arial' !important;
         direction: ltr !important;
@@ -449,68 +517,78 @@ a, a:hover{
 
 @media (max-width: 700px) {
 
-    .fly1{
+    .fly1 {
         position: absolute;
-        right:200px;
+        right: 200px;
         top: 550px;
-        width:50px;
+        width: 50px;
     }
-    .fly2{
+
+    .fly2 {
         position: absolute;
-        left:150px;
+        left: 150px;
         top: 750px;
-        width:50px;
+        width: 50px;
 
     }
-    .fly3{
+
+    .fly3 {
         position: absolute;
-        left:100px;
+        left: 100px;
         top: 950px;
-        width:50px;
+        width: 50px;
 
     }
-    .fly4{
+
+    .fly4 {
         position: absolute;
-        right:50px;
+        right: 50px;
         top: 1100px;
-        width:50px;
+        width: 50px;
 
     }
 
 
-
-    .about{
+    .about {
         font-size: 16px !important;
     }
 
-    .bottomNavInner{
-        width:90% !important;
+    .bottomNavInner {
+        width: 90% !important;
     }
-    .bottomNavInner p{
+
+    .bottomNavInner p {
         font-size: 9px !important;
     }
-    .menu-main-menu-container{
+
+    .menu-main-menu-container {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
 
     }
-    nav{
+
+    nav {
         height: 45px !important;
     }
-    .img1{
-        width:35px;
+
+    .img1 {
+        width: 35px;
     }
-    .img2{
-        width:40px;
+
+    .img2 {
+        width: 40px;
     }
-    .img3{
-        width:35px;
+
+    .img3 {
+        width: 35px;
     }
-    .img4{
-        width:30px;
+
+    .img4 {
+        width: 30px;
     }
-    .img5{
-        width:45px;
+
+    .img5 {
+        width: 45px;
     }
 
 
@@ -520,7 +598,7 @@ a, a:hover{
     }
 
     .parallax1 {
-        height: calc(55vh - 120px);
+        height: calc(65vh - 120px);
         background: url("/img/a.jpg") no-repeat;
         background-position-x: left;
         background-position-y: top;
@@ -528,52 +606,61 @@ a, a:hover{
     }
 
 
-    .s-1{
+    .s-1 {
         padding-right: 25px;
         font-size: 50px !important;
-        padding-bottom:20px;
+        padding-bottom: 20px;
     }
-    .s-2{
+
+    .s-2 {
         padding-right: 25px;
-        font-size: 45px  !important;
-        padding-bottom:20px;
+        font-size: 45px !important;
+        padding-bottom: 20px;
 
     }
-    .s-3{
+
+    .s-3 {
         padding-right: 25px;
         font-size: 51px !important;
 
     }
+
     .logo {
         width: 15% !important;
         margin-top: 17px !important;
     }
-    nav{
-        width:79% !important;
-    }
-    nav div ul li a{
-        font-size:8px !important;
-        padding:3px
 
-    }
-    .foodtxt{
-        margin-top:10px !important;
+    nav {
+        width: 79% !important;
     }
 
-    .foodtxt h1{
-        margin-top:0px !important;
+    nav div ul li a {
+        font-size: 8px !important;
+        padding: 3px
+
+    }
+
+    .foodtxt {
+        margin-top: 10px !important;
+    }
+
+    .foodtxt h1 {
+        margin-top: 0px !important;
         font-size: 18px;
     }
-    .foodp{
+
+    .foodp {
         font-size: 12px;
     }
-    .precepy{
+
+    .precepy {
 
 
-        font-size:12px;
-        padding-left:5px;
-        padding-right:5px;
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
+
     .food1 {
         margin-top: 0;
         margin-right: -20px
@@ -589,40 +676,44 @@ a, a:hover{
         margin-left: -20px
     }
 
-    .txtxx{
+    .txtxx {
         font-size: 14px !important;
     }
+
     .bottomNav {
         height: 145px;
     }
 }
 
 @media (max-width: 500px) {
-    .fly1{
+    .fly1 {
         position: absolute;
-        right:120px;
+        right: 120px;
         top: 600px;
-        width:50px;
+        width: 50px;
     }
-    .fly2{
+
+    .fly2 {
         position: absolute;
-        left:120px;
+        left: 120px;
         top: 800px;
-        width:50px;
+        width: 50px;
 
     }
-    .fly3{
+
+    .fly3 {
         position: absolute;
-        left:100px;
+        left: 100px;
         top: 900px;
-        width:50px;
+        width: 50px;
 
     }
-    .fly4{
+
+    .fly4 {
         position: absolute;
-        right:10px;
+        right: 10px;
         top: 1000px;
-        width:50px;
+        width: 50px;
 
     }
 
@@ -642,7 +733,7 @@ a, a:hover{
     }
 }
 
-.cube{
+.cube {
     position: relative;
     top: 300px;
     right: calc(100% - 10px);

@@ -15,7 +15,6 @@
         <div class="row">
           <div class="col-xl-6  mb-3">
             <div class="cube">
-
             </div>
             <div class="bg-gray rounded  p-4  ms-5 "
                  style="text-align: justify; border-radius: 20px !important;">
