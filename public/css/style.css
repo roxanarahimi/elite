@@ -127,7 +127,7 @@ a, a:hover {
     background: url("/img/bg2.png") no-repeat;
     min-height: 50vh;
     background-size: 100%;
-    overflow-x: hidden !important;
+    overflow: hidden;
 }
 
 @media (min-width: 1500px) {
@@ -142,6 +142,14 @@ a, a:hover {
 
 .bg-gray2 {
     background-color: #DBDBDB;
+}
+.food1, .food2, .food3{
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.food1:hover, .food2:hover, .food3:hover{
+    transform: scale(1.2);
+
 }
 
 .food1 {
@@ -161,7 +169,8 @@ a, a:hover {
     width: 500px;
     height: 475px;
     margin-top: 370px;
-    margin-left: -50px
+    margin-left: -50px;
+    margin-bottom: 30px;
 }
 
 .contct-outer {
@@ -504,12 +513,12 @@ body {
     }
 
     .food2 {
-        margin-top: -100px
+        margin-top: -40px
 
     }
 
     .food3 {
-        margin-top: 20px;
+        margin-top: 120px;
         margin-left: -20px
     }
 }
@@ -520,13 +529,13 @@ body {
     .fly1 {
         position: absolute;
         right: 200px;
-        top: 550px;
+        top: 600px;
         width: 50px;
     }
 
     .fly2 {
         position: absolute;
-        left: 150px;
+        left: 230px;
         top: 750px;
         width: 50px;
 
@@ -535,7 +544,7 @@ body {
     .fly3 {
         position: absolute;
         left: 100px;
-        top: 950px;
+        top: 1200px;
         width: 50px;
 
     }
@@ -543,7 +552,7 @@ body {
     .fly4 {
         position: absolute;
         right: 50px;
-        top: 1100px;
+        top: 1300px;
         width: 50px;
 
     }
@@ -662,17 +671,17 @@ body {
     }
 
     .food1 {
-        margin-top: 0;
+        margin-top: 20px;
         margin-right: -20px
     }
 
     .food2 {
-        margin-top: -20px
+        margin-top: 30px
 
     }
 
     .food3 {
-        margin-top: 18px;
+        margin-top: 150px;
         margin-left: -20px
     }
 
@@ -685,7 +694,101 @@ body {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
+    .fly1 {
+        position: absolute;
+        right: 120px;
+        top: 500px;
+        width: 50px;
+    }
+
+    .fly2 {
+        position: absolute;
+        left: 120px;
+        top: 750px;
+        width: 50px;
+
+    }
+
+    .fly3 {
+        position: absolute;
+        left: 100px;
+        top: 1100px;
+        width: 50px;
+
+    }
+
+    .fly4 {
+        position: absolute;
+        right: 10px;
+        top: 1200px;
+        width: 50px;
+
+    }
+
+    .food1 {
+        margin-top: 30px;
+        margin-right: -20px
+    }
+
+    .food2 {
+        margin-top: -10px
+
+    }
+
+    .food3 {
+        margin-top: 120px;
+        margin-left: -20px
+    }
+}
+@media (max-width: 450px) {
+    .fly1 {
+        position: absolute;
+        right: 120px;
+        top: 600px;
+        width: 50px;
+    }
+
+    .fly2 {
+        position: absolute;
+        left: 120px;
+        top: 800px;
+        width: 50px;
+
+    }
+
+    .fly3 {
+        position: absolute;
+        left: 100px;
+        top: 970px;
+        width: 50px;
+
+    }
+
+    .fly4 {
+        position: absolute;
+        right: 10px;
+        top: 1070px;
+        width: 50px;
+
+    }
+
+    .food1 {
+        margin-top: 20px;
+        margin-right: -20px
+    }
+
+    .food2 {
+        margin-top: -70px
+
+    }
+
+    .food3 {
+        margin-top: 0px;
+        margin-left: -20px
+    }
+}
+@media (max-width: 350px) {
     .fly1 {
         position: absolute;
         right: 120px;
@@ -742,4 +845,6 @@ body {
     height: 20px;
     transform: rotate(45deg);
 }
+
+
 

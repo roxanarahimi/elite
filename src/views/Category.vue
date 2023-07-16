@@ -13,7 +13,7 @@
     <div class="row justify-content-start mx-auto px-5" >
       <div v-for="item in data" class="col-lg-4 px-5 mb-4">
         <router-link :to="'/posts/'+ item.id"  class="bg-gray2 p-4" style="border-radius: 20px">
-          <img :src="'https://panel.elit.webagent.ir'+item.image" style="border-radius:30px" class="w-100" alt="">
+          <img :src="panelUrl+item.image" style="border-radius:30px" class="w-100" alt="">
           <h1 class="my-5 text-center">{{ item.title }}</h1>
         </router-link>
       </div>
@@ -91,6 +91,7 @@ export default {
   setup(_props) {
 
     const store = useStore();
+    const panelUrl = store.state.panelUrl;
     const getData = () => {
       store.commit('getRecipeCats');
     }
@@ -98,7 +99,7 @@ export default {
       getData();
     });
     return {
-      getData, store,
+      getData, store, panelUrl,
       data: computed(()=>store.state.recipeCats),
     }
   }

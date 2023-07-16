@@ -17,7 +17,7 @@
     <div class="row justify-content-start mx-auto px-5" v-if="data.length" >
       <router-link v-for="item in data" :key="item.id" :to="'/product/'+item.id" style="max-height: 250px"  class="col-sm-6 col-lg-3 mb-3">
         <div class="bg-gray2 p-4 h-100" style="border-radius: 20px">
-          <img :src="'https://panel.elit.webagent.ir'+item.image" class="img-fluid h-75 rounded" alt="">
+          <img :src="panelUrl+item.image" class="img-fluid h-75 rounded" alt="">
           <h6 class="mt-4">
 
             {{ item.title }}
@@ -36,6 +36,7 @@
 
 <script>
 import {ref} from "vue";
+import { useStore} from 'vuex'
 
 import theFooter from "@/components/Footer";
 import theMenu from "@/components/Menu";
@@ -46,10 +47,12 @@ export default {
   setup(){
 
     const data = ref([]);
+    const store = useStore();
+    const panelUrl = store.state.panelUrl;
     const search = () =>{
       let term = document.getElementById('search').value;
 
-      axios.get('https://panel.elit.webagent.ir/api/search?term='+term)
+      axios.get(panelUrl+'/api/search?term='+term)
       .then((response)=>{
         data.value = response.data ;
         console.log(data.value)
@@ -61,7 +64,7 @@ export default {
     }
 
     return{
-      search, data
+      search, data, panelUrl
     }
   }
 }

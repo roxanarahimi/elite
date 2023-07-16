@@ -8,7 +8,7 @@
     <div class="row flex-row-reverse">
       <div class="col-xl-5 "  style="background: url('/img/Ellipse 2.png') no-repeat top left; background-size: 90%; min-height: 700px">
 
-        <img :src="'https://panel.elit.webagent.ir'+data.image"  class="img-fluid" style="width: 70% ; margin-top: 20%"
+        <img :src="panelUrl+data.image"  class="img-fluid" style="width: 70% ; margin-top: 20%"
              alt="">
       </div>
       <div class="col-xl-7 pt-5">
@@ -122,7 +122,7 @@ export default {
     const features = ref([]);
     onMounted(() => {
 
-      axios.get('https://panel.elit.webagent.ir/api/product/' + route.params.id)
+      axios.get(store.state.panelUrl+'/api/product/' + route.params.id)
           .then((response) => {
             data.value = response.data.product;
             console.log(response.data);

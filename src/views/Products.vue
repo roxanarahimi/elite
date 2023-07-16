@@ -14,7 +14,7 @@
            style="border-radius: 20px;overflow: hidden; display: grid; background-color: whitesmoke">
           <div class="">
 
-            <img :src="'https://panel.elit.webagent.ir'+item.image" class=" w-100 rounded img-fluid" alt="">
+            <img :src="panelUrl+item.image" class=" w-100 rounded img-fluid" alt="">
           </div>
           <div class="text-light text-center"
                style="align-self: end; background-color: rgba(0,0,0,0.27); height: 65px;">
@@ -103,6 +103,7 @@ export default {
 
     const route = useRoute();
     const store = useStore();
+    const panelUrl = store.state.panelUrl;
     const getData = () => {
       store.commit('getProductCats');
       setTimeout(()=>{
@@ -133,7 +134,7 @@ export default {
     })
     return {
       data: computed(()=>store.state.productsCats),
-      getData, route,
+      getData, route,panelUrl,
     }
   },
 

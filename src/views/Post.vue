@@ -5,7 +5,7 @@
     <div class="row flex-row-reverse">
       <div class="col-xl-5 " style="background: url('/img/Ellipse.png') no-repeat top left; background-size: 90%; min-height: 700px">
 
-        <img :src="'https://panel.elit.webagent.ir'+data.image" class="img-fluid" style="width: 70% ; margin-top: 20%"
+        <img :src="panelUrl+data.image" class="img-fluid" style="width: 70% ; margin-top: 20%"
              alt="">
       </div>
       <div class="col-xl-7 pt-5">
@@ -81,6 +81,8 @@ export default {
   setup() {
     const route = useRoute();
     const store = useStore();
+    const panelUrl = store.state.panelUrl;
+
 
     onMounted(() => {
       store.commit('getRecipe', route.params.id);
@@ -89,7 +91,7 @@ export default {
 
     return {
       data: computed(()=>store.state.recipe),
-      route,
+      route, panelUrl,
     }
   }
 

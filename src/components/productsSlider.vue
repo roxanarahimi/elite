@@ -10,8 +10,8 @@
                 <div class="slideContainer" style="position: relative">
 
                   <div class="w-100 d-grid h-100" style="min-height: 260px !important">
-                    <img v-if="'https://panel.elit.webagent.ir'+item[0].image" style="align-self:center !important;"
-                         :src="'https://panel.elit.webagent.ir'+item[0].image" class="mx-auto  rounded img-fluid w-75"
+                    <img v-if="panelUrl+item[0].image" style="align-self:center !important;"
+                         :src="panelUrl+item[0].image" class="mx-auto  rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
@@ -32,8 +32,8 @@
               <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
                 <div v-if="item[1]" class="slideContainer" style="position: relative">
                   <div class="w-100 h-100 d-grid" style="min-height: 260px !important">
-                    <img v-if="'https://panel.elit.webagent.ir'+item[1].image" style="align-self:center !important;"
-                         :src="'https://panel.elit.webagent.ir'+item[1].image" class="mx-auto  rounded img-fluid w-75"
+                    <img v-if="panelUrl+item[1].image" style="align-self:center !important;"
+                         :src="panelUrl+item[1].image" class="mx-auto  rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
@@ -63,8 +63,8 @@
                 <div class="slideContainer" style="position: relative">
 
                   <div class="w-100 h-100 d-grid" style="min-height: 260px !important">
-                    <img v-if="'https://panel.elit.webagent.ir'+item[0].image" style="align-self:center !important;"
-                         :src="'https://panel.elit.webagent.ir'+item[0].image" class="mx-auto  rounded img-fluid w-75"
+                    <img v-if="panelUrl+item[0].image" style="align-self:center !important;"
+                         :src="panelUrl+item[0].image" class="mx-auto  rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center">
@@ -85,8 +85,8 @@
               <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
                 <div v-if="item[1]" class="slideContainer" style="position: relative">
                   <div class="w-100 h-100 d-grid" style="min-height: 260px !important">
-                    <img v-if="'https://panel.elit.webagent.ir'+item[1].image" style="align-self:center !important;"
-                         :src="'https://panel.elit.webagent.ir'+item[1].image" class="mx-auto  rounded img-fluid w-75"
+                    <img v-if="panelUrl+item[1].image" style="align-self:center !important;"
+                         :src="panelUrl+item[1].image" class="mx-auto  rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
@@ -117,8 +117,8 @@
                 <div class="slideContainer" style="position: relative">
 
                   <div class="w-100 h-100 d-grid" style="min-height: 260px !important">
-                    <img v-if="'https://panel.elit.webagent.ir'+item[0].image" style="align-self:center !important;"
-                         :src="'https://panel.elit.webagent.ir'+item[0].image" class="mx-auto  rounded img-fluid w-75"
+                    <img v-if="panelUrl+item[0].image" style="align-self:center !important;"
+                         :src="panelUrl+item[0].image" class="mx-auto  rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
@@ -139,8 +139,8 @@
               <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
                 <div v-if="item[1]" class="slideContainer" style="position: relative">
                   <div class="w-100 h-100 d-grid" style="min-height: 260px !important">
-                    <img v-if="'https://panel.elit.webagent.ir'+item[1].image" style="align-self:center !important;"
-                         :src="'https://panel.elit.webagent.ir'+item[1].image" class="mx-auto rounded img-fluid w-75"
+                    <img v-if="panelUrl+item[1].image" style="align-self:center !important;"
+                         :src="panelUrl+item[1].image" class="mx-auto rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
@@ -175,8 +175,8 @@
                   <div class="w-100 justify-content-center"
                        style="min-height: 280px !important ; display: grid !important;">
                     <img style=" align-self: center !important; alignment: center !important; width: 60%;"
-                         v-if="'https://panel.elit.webagent.ir'+item[0].image"
-                         :src="'https://panel.elit.webagent.ir'+item[0].image" class=" rounded img-fluid mx-auto"
+                         v-if="panelUrl+item[0].image"
+                         :src="panelUrl+item[0].image" class=" rounded img-fluid mx-auto"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
@@ -199,8 +199,8 @@
                   <div class="w-100 justify-content-center"
                        style="height: 280px !important ; display: grid !important;">
                     <img style=" align-self: center !important; margin: 0 auto !important;width: 60%;"
-                         v-if="'https://panel.elit.webagent.ir'+item[1].image"
-                         :src="'https://panel.elit.webagent.ir'+item[1].image" class=" rounded img-fluid mx-auto"
+                         v-if="panelUrl+item[1].image"
+                         :src="panelUrl+item[1].image" class=" rounded img-fluid mx-auto"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
@@ -235,8 +235,8 @@
 
                   <div class="w-100" style="min-height: 260px !important;display: grid !important;">
                     <img style=" align-self: center !important; margin: 0 auto !important"
-                         v-if="'https://panel.elit.webagent.ir'+item[0].image"
-                         :src="'https://panel.elit.webagent.ir'+item[0].image" class=" rounded img-fluid w-75"
+                         v-if="panelUrl+item[0].image"
+                         :src="panelUrl+item[0].image" class=" rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
@@ -256,8 +256,8 @@
                 <div v-if="item[1]" class="slideContainer" style="position: relative">
                   <div class="w-100" style="min-height: 260px !important; display: grid !important;">
                     <img style=" align-self: center !important; margin: 0 auto !important"
-                         v-if="'https://panel.elit.webagent.ir'+item[1].image"
-                         :src="'https://panel.elit.webagent.ir'+item[1].image" class=" rounded img-fluid w-75"
+                         v-if="panelUrl+item[1].image"
+                         :src="panelUrl+item[1].image" class=" rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
@@ -291,8 +291,8 @@
 
                   <div class="w-100" style="min-height: 260px !important; display: grid !important;">
                     <img style=" align-self: center !important; margin: 0 auto !important"
-                         v-if="'https://panel.elit.webagent.ir'+item[0].image"
-                         :src="'https://panel.elit.webagent.ir'+item[0].image" class=" rounded img-fluid w-75"
+                         v-if="panelUrl+item[0].image"
+                         :src="panelUrl+item[0].image" class=" rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
@@ -312,8 +312,8 @@
                 <div v-if="item[1]" class="slideContainer" style="position: relative">
                   <div class="w-100" style="min-height: 260px !important; display: grid !important;">
                     <img style=" align-self: center !important; margin: 0 auto !important"
-                         v-if="'https://panel.elit.webagent.ir'+item[1].image"
-                         :src="'https://panel.elit.webagent.ir'+item[1].image" class=" rounded img-fluid w-75"
+                         v-if="panelUrl+item[1].image"
+                         :src="panelUrl+item[1].image" class=" rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
@@ -345,6 +345,7 @@
 import 'vue3-carousel/dist/carousel.css';
 import {Carousel, Slide, Pagination, Navigation} from 'vue3-carousel';
 import {onMounted, ref} from "vue";
+import {useStore} from "vuex";
 
 export default {
   name: 'ProductsSlider',
@@ -358,9 +359,11 @@ export default {
   setup(_props) {
 
     const data = ref([]);
+    const store = useStore();
+    const panelUrl = store.state.panelUrl;
     const getData = () => {
       // axios.get('http://127.0.0.1:8000/api/product/by/category/' + _props.catId)
-      axios.get('https://panel.elit.webagent.ir/api/product/by/category/' + _props.catId)
+      axios.get(panelUrl+'/api/product/by/category/' + _props.catId)
           .then((response) => {
             data.value = response.data.data;
           })
@@ -372,7 +375,7 @@ export default {
 
     });
     return {
-      getData, data
+      getData, data, store, panelUrl,
     }
   }
 }

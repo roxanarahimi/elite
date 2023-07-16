@@ -6,7 +6,11 @@
 
     </div>
 
-
+    <div class="row justify-content-center">
+      <div class="mt-5 col-11 col-md-10 col-xl-9 container-fluid mx-auto ">
+        <video class="w-100 rounded" controls autoplay src="/vdo/about.mp4"></video>
+      </div>
+    </div>
     <div class="row px-5" style="  text-align: justify;">
       <div class=" px-lg-5 mt-5" style="">
         <div class=" px-lg-5 mt-5" style="">

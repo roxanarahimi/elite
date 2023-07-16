@@ -12,12 +12,12 @@
                   <div class="slideContainer" style="position: relative">
                     <div class="w-100 d-grid h-100">
                       <img style="align-self:center !important;"
-                           :src="'https://panel.elit.webagent.ir/'+item.image" class="mx-auto  rounded img-fluid w-100"
+                           :src="panelUrl+item.image" class="mx-auto  rounded img-fluid w-100"
                            alt="">
                     </div>
                     <div class="w-100 h-100 slideProductImg">
                       <img style="align-self:center !important; height: 80% "
-                           :src="'https://panel.elit.webagent.ir/'+item.article.product.image"
+                           :src="panelUrl+item.article.product.image"
                            class="img-fluid mx-auto  rounded img-fluid" alt="">
 
                     </div>
@@ -54,12 +54,12 @@
                   <div class="slideContainer" style="position: relative">
                     <div class="w-100 d-grid h-100">
                       <img style="align-self:center !important;"
-                           :src="'https://panel.elit.webagent.ir/'+item.image" class="mx-auto  rounded img-fluid w-100"
+                           :src="panelUrl+item.image" class="mx-auto  rounded img-fluid w-100"
                            alt="">
                     </div>
                     <div class="w-100 h-100 slideProductImg">
                       <img style="align-self:center !important; height: 80% "
-                           :src="'https://panel.elit.webagent.ir/'+item.article.product.image"
+                           :src="panelUrl+item.article.product.image"
                            class="img-fluid mx-auto  rounded img-fluid" alt="">
 
                     </div>
@@ -96,12 +96,12 @@
                   <div class="slideContainer" style="position: relative">
                     <div class="w-100 d-grid h-100">
                       <img style="align-self:center !important;"
-                           :src="'https://panel.elit.webagent.ir/'+item.image" class="mx-auto  rounded img-fluid w-100"
+                           :src="panelUrl+item.image" class="mx-auto  rounded img-fluid w-100"
                            alt="">
                     </div>
                     <div class="w-100 h-100 slideProductImg">
                       <img style="align-self:center !important; height: 80% "
-                           :src="'https://panel.elit.webagent.ir/'+item.article.product.image"
+                           :src="panelUrl+item.article.product.image"
                            class="img-fluid mx-auto  rounded img-fluid" alt="">
 
                     </div>
@@ -149,6 +149,7 @@ export default {
 
     // const data = ref([]);
     const store = useStore();
+    const panelUrl = store.state.panelUrl;
     const getData = () => {
       store.commit('getFoodSlider');
       // data.value = store.state.foodSlider;
@@ -158,7 +159,7 @@ export default {
       getData();
     });
     return {
-      getData, store,
+      getData, store,panelUrl,
       data: computed(()=>store.state.foodSlider),
     }
   }
