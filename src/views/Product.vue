@@ -118,11 +118,12 @@ export default {
   setup() {
     const route = useRoute();
     const store = useStore();
+    const panelUrl = store.state.panelUrl;
     const data = ref({});
     const features = ref([]);
     onMounted(() => {
 
-      axios.get(store.state.panelUrl+'/api/product/' + route.params.id)
+      axios.get(panelUrl+'/api/product/' + route.params.id)
           .then((response) => {
             data.value = response.data.product;
             console.log(response.data);
@@ -141,7 +142,7 @@ export default {
     });
 
     return {
-      data,features,
+      data,features, panelUrl,
       // data: computed(()=>store.state.product),
       // features: computed(()=>store.state.productFeatures),
       route, store
