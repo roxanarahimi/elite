@@ -27,7 +27,7 @@
               </div>
 
               <div>
-                <p dir="ltr" style="font-size: 18px;white-space: pre-line; text-align: right !important">
+                <p dir="rtl" style="font-size: 18px;white-space: pre-line; text-align: justify !important">
                   {{ data.text }}
                 </p>
 
@@ -46,7 +46,7 @@
                   <tbody>
                   <tr v-for="item in features" :key="item.id">
                     <th class=" p-0">
-                      <div class="rounded-start bg-light   mb-1 p-1">{{ item.label }}:</div>
+                      <div class="rounded-start bg-light  mb-1 p-1">{{ item.label }}:</div>
                     </th>
                     <th class="text-center  p-0 ">
                       <div class=" bg-light  mb-1 p-1 ">({{ item.unit }})</div>
@@ -65,23 +65,23 @@
 
             <div style="align-self: end;">
               <div dir="ltr">
-                <h1 class="m-0" style="font-size: 70px; font-weight: bold; line-height: 60px">{{ data.title_en }}</h1>
+                <h1 class="m-0" style="font-size: 70px; font-weight: bolder; line-height: 90px">{{ data.title_en }}</h1>
                 <h1 class="m-0 text-black-50" style="font-size: 70px; line-height: 60px">{{ data.subTitle }}</h1>
-                <p class="mb-5" style="font-size: 30px; line-height: 30px">{{ data.flavor }}</p>
+                <p class=" fw-bold mb-5" style="font-size: 30px; line-height: 30px">{{ data.flavor }}</p>
               </div>
               <div class="mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important;"
                    :style="{ backgroundColor: data.color }">
                 <h3>{{ data.title }}</h3>
               </div>
-              <div class="mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important; "
+              <div v-if="data.tag1" class="mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important; "
                    :style="{ backgroundColor: data.color }">
                 <h3>{{ data.tag1 }}</h3>
               </div>
-              <div class="mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important; "
+              <div v-if="data.tag2" class="mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important; "
                    :style="{ backgroundColor: data.color  }">
                 <h3>{{ data.tag2 }}</h3>
               </div>
-              <a :href="data.link" target="_blank" class="cart rounded text-center py-3  mb-3">
+              <a v-if="data.link" :href="data.link" target="_blank" class="cart rounded text-center py-3  mb-3">
                 <h3>خرید اینترنتی
                   <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                     <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>

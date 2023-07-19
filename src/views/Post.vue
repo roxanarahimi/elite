@@ -38,10 +38,10 @@
             <router-link :to="'/product/'+data.product?.id">
               <img :src="'https://panel.elit.webagent.ir'+data.product?.image" class="w-100 img-fluid" alt="">
             </router-link>
-            <div dir="ltr">
-              <h1>{{ data.product?.title_en }}</h1>
+            <div dir="ltr" style="font-family: arial">
+              <h1 class="fw-bolder">{{ data.product?.title_en }}</h1>
               <h1 class="text-black-50">{{ data.product?.subTitle }}</h1>
-              <p>{{ data.product?.flavor }}</p>
+              <p class="fw-bold">{{ data.product?.flavor }}</p>
             </div>
 
             <a :href="'/recipe/'+data.tag?.id" class="bg-gray mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important;">
