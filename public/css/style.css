@@ -41,7 +41,7 @@ body {
 }
 
 .parallax1 {
-    height: calc(100vh - 150px);
+    height: calc(100vh - 140px);
     background: url("/img/bg.jpg") no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -781,12 +781,12 @@ body {
     }
 
     .food2 {
-        margin-top: -100px
+        margin-top: -65px
 
     }
 
     .food3 {
-        margin-top: -20px;
+        margin-top: 10px;
         margin-left: -20px
     }
 }
