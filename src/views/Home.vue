@@ -12,13 +12,16 @@
          </svg>
        </a>
      </div>
-     <div class="parallax1" >
+     <div class="parallax1" style="position: relative" >
 
+       <div class="cover" style="position: absolute;top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.2)">
+
+       </div>
 
        <the-menu />
 
        <div class="row p-0 m-0 " style="overflow: hidden !important;">
-         <div class="col-12" style="font-weight: bold">
+         <div class="col-12" style="font-weight: bold; z-index: 1000">
            <h1 class="s-1 pt-5 pt-lg-0">ســالـــم</h1>
            <h1 class="s-2">خــوشـمزه</h1>
            <h1 class="s-3">اقـتصادی</h1>
@@ -27,7 +30,7 @@
 
 
      </div>
-     <div class="bottomNav px-3 pt-4 px-lg-5" >
+     <div class="bottomNav px-3 px-lg-5" >
        <div class="bottomNavInner d-flex justify-content-around rounded-pill pt-3 px-3 w-100 mx-auto">
          <!--        :to="{ path: '/products', params: {cat}, query: { cat:  1}} "-->
          <router-link  to="/products#noodelite">
@@ -48,8 +51,8 @@
            <p>چاشنی و ادویه</p>
          </router-link>
          <router-link to="/products#bouillon">
-           <img src="/img/Vector%20Smart%20Object1.png" class="mt-2 mb-1 mb-lg-0 mt-lg-4 img5" alt="">
-           <p>عصاره</p>
+           <img src="/img/Vector%20Smart%20Object1.png" class=" mb-1 mb-lg-0 mt-lg-4 img5" alt="">
+           <p class="mb-2">عصاره</p>
          </router-link>
 
        </div>

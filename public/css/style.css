@@ -41,15 +41,15 @@ body {
 }
 
 .parallax1 {
-    height: calc(100vh - 180px);
-    background: url("/img/a.jpg") no-repeat;
-    background-position-x: right;
-    background-position-y: top;
+    height: calc(100vh - 150px);
+    background: url("/img/bg.jpg") no-repeat;
+    background-position-x: center;
+    background-position-y: center;
     background-size: cover;
 }
 
 .nav {
-    padding-top: 100px;
+    padding-top: 50px;
 
 }
 
@@ -98,22 +98,24 @@ a, a:hover {
 .bottomNav {
     background-color: #B9B9B9;
     border-color: #707070;
-    height: 180px;
+    height: 140px;
     margin-top: 0 !important;
+    display: grid;
 }
 
 .bottomNavInner {
     background-color: #ff0000;
     text-align: center;
     width: 75%;
-
+    height: 75%;
+    align-self: center;
 }
 
 .bottomNavInner p {
     color: whitesmoke;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .bg-gray2 {
@@ -227,23 +229,23 @@ a, a:hover {
 }
 
 .img1 {
-    width: 70px;
+    width: 50px;
 }
 
 .img2 {
-    width: 75px;
+    width: 55px;
 }
 
 .img3 {
-    width: 70px;
+    width: 50px;
 }
 
 .img4 {
-    width: 60px;
+    width: 40px;
 }
 
 .img5 {
-    width: 90px;
+    width: 60px;
 }
 
 
@@ -581,23 +583,23 @@ body {
     }
 
     .img1 {
-        width: 35px;
+        width: 20px;
     }
 
     .img2 {
-        width: 40px;
-    }
-
-    .img3 {
-        width: 35px;
-    }
-
-    .img4 {
         width: 30px;
     }
 
+    .img3 {
+        width: 25px;
+    }
+
+    .img4 {
+        width: 20px;
+    }
+
     .img5 {
-        width: 45px;
+        width: 30px;
     }
 
 
@@ -607,9 +609,9 @@ body {
     }
 
     .parallax1 {
-        height: calc(65vh - 120px);
-        background: url("/img/a.jpg") no-repeat;
-        background-position-x: left;
+        height: calc(60vh - 100px);
+        background: url("/img/bg.jpg") no-repeat;
+        background-position-x: center;
         background-position-y: top;
         background-size: cover;
     }
@@ -690,7 +692,7 @@ body {
     }
 
     .bottomNav {
-        height: 145px;
+        height: 100px;
     }
 }
 
