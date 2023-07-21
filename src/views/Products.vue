@@ -9,23 +9,22 @@
 
   <div class="container-fluid p-0 px-lg-5" style="min-height: 300px">
     <div class="row px-5">
-      <div v-for="(item, index) in data" :key="index" class="col-sm-4 p-lg-5 mb-3">
-        <a :id="'to_'+item.title_en" :href="'#'+item.title_en" class="h-100"
-           style="border-radius: 20px;overflow: hidden; display: grid; background-color: whitesmoke">
+      <div v-for="(item, index) in data" :key="index" class="col-sm-4 p-lg-5 mb-3" style="">
+        <a :id="'to_'+item.title_en" :href="'#'+item.title_en" class="h-100" style="position: relative; border-radius: 20px;overflow: hidden; display: grid; background-color: whitesmoke">
           <div class="">
 
             <img :src="panelUrl+item.image" class=" w-100 rounded img-fluid" alt="">
           </div>
-          <div class="text-light text-center"
-               style="align-self: end; background-color: rgba(0,0,0,0.27); height: 65px;">
+          <div class="text-light text-center w-100" style="position: absolute; bottom: 0; left: 0; background-color: rgba(0,0,0,0.27); height: 65px;">
 
-            <h3>
+            <h3 class="mt-3">
               {{ item.title }}
 
             </h3>
 
           </div>
         </a>
+
       </div>
 
     </div>
