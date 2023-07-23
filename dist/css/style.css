@@ -145,11 +145,13 @@ a, a:hover {
 .bg-gray2 {
     background-color: #DBDBDB;
 }
-.food1, .food2, .food3{
+
+.food1, .food2, .food3 {
     transition: all 0.5s ease;
     cursor: pointer;
 }
-.food1:hover, .food2:hover, .food3:hover{
+
+.food1:hover, .food2:hover, .food3:hover {
     transform: scale(1.2);
 
 }
@@ -743,6 +745,7 @@ body {
         margin-left: -20px
     }
 }
+
 @media (max-width: 450px) {
     .fly1 {
         position: absolute;
@@ -790,6 +793,7 @@ body {
         margin-left: -20px
     }
 }
+
 @media (max-width: 350px) {
     .fly1 {
         position: absolute;
@@ -849,4 +853,19 @@ body {
 }
 
 
+.post-img {
+    transition: all 1s ease;
+    cursor: pointer;
+    z-index: 10000000;
+    opacity: 1 !important;
+}
 
+.post-img:hover {
+    transform: scale(1.2);
+
+}
+
+.post-img:hover #post-bg-cover {
+
+    background-color: white;
+}
