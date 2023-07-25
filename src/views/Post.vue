@@ -39,8 +39,8 @@
             </router-link>
             <div dir="ltr" style="font-family: arial">
               <h1 class="fw-bolder">{{ data.product?.title_en }}</h1>
-              <h1 class="text-black-50">{{ data.product?.subTitle }}</h1>
-              <p class="fw-bold">{{ data.product?.flavor }}</p>
+              <h1 class="text-black-50 fw-bold">{{ data.product?.subTitle }}</h1>
+              <p class="fw-bold h5">{{ data.product?.flavor }}</p>
             </div>
 
             <a :href="'/recipe/'+data.tag?.id" class="bg-gray mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important;">
