@@ -6,42 +6,22 @@
         <slide v-for="(item,index) in data" :key="index">
           <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-100">
-              <router-link :to="'/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
+              <router-link :to="'/product/'+item.id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
                 <div class="slideContainer" style="position: relative">
 
                   <div class="w-100 d-grid h-100" style="min-height: 260px !important">
-                    <img v-if="panelUrl+item[0].image" style="align-self:center !important;"
-                         :src="panelUrl+item[0].image" class="mx-auto  rounded img-fluid w-75"
+                    <img v-if="panelUrl+item.image" style="align-self:center !important;"
+                         :src="panelUrl+item.image" class="mx-auto  rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
                     <h3>
-                      {{ item[0].title }}
+                      {{ item.title }}
                     </h3>
 
                   </div>
                 </div>
 
-              </router-link>
-            </div>
-          </div>
-        </slide>
-        <slide v-for="(item,index) in data" :key="index">
-          <div class="w-100 h-100" style="margin: 1px">
-            <div class="w-100 h-100">
-              <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
-                <div v-if="item[1]" class="slideContainer" style="position: relative">
-                  <div class="w-100 h-100 d-grid" style="min-height: 260px !important">
-                    <img v-if="panelUrl+item[1].image" style="align-self:center !important;"
-                         :src="panelUrl+item[1].image" class="mx-auto  rounded img-fluid w-75"
-                         :class="{'my-5': catId==3}" alt="">
-                  </div>
-                  <div class="slideTitle text-light text-center ">
-                    <h3>
-                      {{ item[1].title }}
-                    </h3>
-                  </div>
-                </div>
               </router-link>
             </div>
           </div>
@@ -59,40 +39,19 @@
         <slide v-for="(item,index) in data" :key="index">
           <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-100">
-              <router-link :to="'/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
+              <router-link :to="'/product/'+item.id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
                 <div class="slideContainer" style="position: relative">
 
-                  <div class="w-100 h-100 d-grid" style="min-height: 260px !important">
-                    <img v-if="panelUrl+item[0].image" style="align-self:center !important;"
-                         :src="panelUrl+item[0].image" class="mx-auto  rounded img-fluid w-75"
-                         :class="{'my-5': catId==3}" alt="">
-                  </div>
-                  <div class="slideTitle text-light text-center">
-                    <h3>
-                      {{ item[0].title }}
-                    </h3>
-
-                  </div>
-                </div>
-
-              </router-link>
-            </div>
-          </div>
-        </slide>
-        <slide v-for="(item,index) in data" :key="index">
-          <div class="w-100 h-100" style="margin: 1px">
-            <div class="w-100 h-100">
-              <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
-                <div v-if="item[1]" class="slideContainer" style="position: relative">
-                  <div class="w-100 h-100 d-grid" style="min-height: 260px !important">
-                    <img v-if="panelUrl+item[1].image" style="align-self:center !important;"
-                         :src="panelUrl+item[1].image" class="mx-auto  rounded img-fluid w-75"
+                  <div class="w-100 d-grid h-100" style="min-height: 260px !important">
+                    <img v-if="panelUrl+item.image" style="align-self:center !important;"
+                         :src="panelUrl+item.image" class="mx-auto  rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
                     <h3>
-                      {{ item[1].title }}
+                      {{ item.title }}
                     </h3>
+
                   </div>
                 </div>
 
@@ -100,6 +59,7 @@
             </div>
           </div>
         </slide>
+
 
         <template #addons>
           <navigation/>
@@ -113,17 +73,17 @@
         <slide v-for="(item,index) in data" :key="index">
           <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-100">
-              <router-link :to="'/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
+              <router-link :to="'/product/'+item.id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
                 <div class="slideContainer" style="position: relative">
 
-                  <div class="w-100 h-100 d-grid" style="min-height: 260px !important">
-                    <img v-if="panelUrl+item[0].image" style="align-self:center !important;"
-                         :src="panelUrl+item[0].image" class="mx-auto  rounded img-fluid w-75"
+                  <div class="w-100 d-grid h-100" style="min-height: 260px !important">
+                    <img v-if="panelUrl+item.image" style="align-self:center !important;"
+                         :src="panelUrl+item.image" class="mx-auto  rounded img-fluid w-75"
                          :class="{'my-5': catId==3}" alt="">
                   </div>
                   <div class="slideTitle text-light text-center ">
                     <h3>
-                      {{ item[0].title }}
+                      {{ item.title }}
                     </h3>
 
                   </div>
@@ -133,27 +93,7 @@
             </div>
           </div>
         </slide>
-        <slide v-for="(item,index) in data" :key="index">
-          <div class="w-100 h-100" style="margin: 1px">
-            <div class="w-100 h-100">
-              <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
-                <div v-if="item[1]" class="slideContainer" style="position: relative">
-                  <div class="w-100 h-100 d-grid" style="min-height: 260px !important">
-                    <img v-if="panelUrl+item[1].image" style="align-self:center !important;"
-                         :src="panelUrl+item[1].image" class="mx-auto rounded img-fluid w-75"
-                         :class="{'my-5': catId==3}" alt="">
-                  </div>
-                  <div class="slideTitle text-light text-center ">
-                    <h3>
-                      {{ item[1].title }}
-                    </h3>
-                  </div>
-                </div>
 
-              </router-link>
-            </div>
-          </div>
-        </slide>
 
         <template #addons>
           <navigation/>
@@ -190,7 +130,7 @@
               </router-link>
             </div>
             </div>
-            <div class="w-100 h-50" style="margin: 1px">
+            <div v-if="item[1].id" class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">
               <!--              :class="{'bg-main': index%2 === 0, 'bg-gray2': index%2 === 1}"-->
               <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
@@ -215,6 +155,20 @@
 
             </div>
             </div>
+            <div v-else class="w-100 h-50" style="margin: 1px">
+              <div class="w-100 h-100">
+              <div  style="  border-radius: 30px;overflow: hidden;">
+                <div class="slideContainer " style="position: relative;">
+
+                  <div class="w-100 justify-content-center"
+                       style="height: 280px !important ; display: grid !important;">
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+            </div>
           </div>
         </slide>
 
@@ -229,47 +183,66 @@
       <Carousel class="" :itemsToShow="3.0" :wrapAround="false" :transition="500">
         <slide v-for="(item,index) in data" :key="index">
           <div class="w-100" style="margin: 1px">
-            <div class="w-100 h-50">
-              <router-link :to="'/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
-                <div class="slideContainer" style="position: relative">
-
-                  <div class="w-100" style="min-height: 260px !important;display: grid !important;">
-                    <img style=" align-self: center !important; margin: 0 auto !important"
-                         v-if="panelUrl+item[0].image"
-                         :src="panelUrl+item[0].image" class=" rounded img-fluid w-75"
-                         :class="{'my-5': catId==3}" alt="">
-                  </div>
-                  <div class="slideTitle text-light text-center ">
-                    <h3>
-                      {{ item[0].title }}
-                    </h3>
-
-                  </div>
-                </div>
-
-              </router-link>
-            </div>
             <div class="w-100 h-50" style="margin: 1px">
+              <div class="w-100 h-100">              <!--              :class="{'bg-gray2': index%2 === 0, 'bg-main': index%2 === 1}"-->
+                <router-link :to="'/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
+                  <div class="slideContainer" style="position: relative;">
+                    <div class="w-100 justify-content-center"
+                         style="min-height: 280px !important ; display: grid !important;">
+                      <img style=" align-self: center !important; alignment: center !important; width: 60%;"
+                           v-if="panelUrl+item[0].image"
+                           :src="panelUrl+item[0].image" class=" rounded img-fluid mx-auto"
+                           :class="{'my-5': catId==3}" alt="">
+                    </div>
+                    <div class="slideTitle text-light text-center ">
+                      <h3>
+                        {{ item[0].title }}
+                      </h3>
+
+                    </div>
+                  </div>
+
+                </router-link>
+              </div>
+            </div>
+            <div v-if="item[1].id" class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">
-                <router-link :to="'/product/'+item[1].id" class="bg-gray3"
-                           style="  border-radius: 30px;overflow: hidden;">
-                <div v-if="item[1]" class="slideContainer" style="position: relative">
-                  <div class="w-100" style="min-height: 260px !important; display: grid !important;">
-                    <img style=" align-self: center !important; margin: 0 auto !important"
-                         v-if="panelUrl+item[1].image"
-                         :src="panelUrl+item[1].image" class=" rounded img-fluid w-75"
-                         :class="{'my-5': catId==3}" alt="">
+                <!--              :class="{'bg-main': index%2 === 0, 'bg-gray2': index%2 === 1}"-->
+                <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
+                  <div class="slideContainer " style="position: relative;">
+
+                    <div class="w-100 justify-content-center"
+                         style="height: 280px !important ; display: grid !important;">
+                      <img style=" align-self: center !important; margin: 0 auto !important;width: 60%;"
+                           v-if="panelUrl+item[1].image"
+                           :src="panelUrl+item[1].image" class=" rounded img-fluid mx-auto"
+                           :class="{'my-5': catId==3}" alt="">
+                    </div>
+                    <div class="slideTitle text-light text-center ">
+                      <h3>
+                        {{ item[1].title }}
+                      </h3>
+
+                    </div>
                   </div>
-                  <div class="slideTitle text-light text-center ">
-                    <h3>
-                      {{ item[1].title }}
-                    </h3>
+
+                </router-link>
+
+              </div>
+            </div>
+            <div v-else class="w-100 h-50" style="margin: 1px">
+              <div class="w-100 h-100">
+                <div  style="  border-radius: 30px;overflow: hidden;">
+                  <div class="slideContainer " style="position: relative;">
+
+                    <div class="w-100 justify-content-center"
+                         style="height: 280px !important ; display: grid !important;">
+                    </div>
                   </div>
+
                 </div>
 
-              </router-link>
-
-            </div>
+              </div>
             </div>
           </div>
         </slide>
@@ -285,47 +258,66 @@
       <Carousel class="" :itemsToShow="1.0" :wrapAround="false" :transition="500">
         <slide v-for="(item,index) in data" :key="index">
           <div class="w-100" style="margin: 1px">
-            <div class="w-100 h-50">
-              <router-link :to="'/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
-                <div class="slideContainer" style="position: relative">
-
-                  <div class="w-100" style="min-height: 260px !important; display: grid !important;">
-                    <img style=" align-self: center !important; margin: 0 auto !important"
-                         v-if="panelUrl+item[0].image"
-                         :src="panelUrl+item[0].image" class=" rounded img-fluid w-75"
-                         :class="{'my-5': catId==3}" alt="">
-                  </div>
-                  <div class="slideTitle text-light text-center ">
-                    <h3>
-                      {{ item[0].title }}
-                    </h3>
-
-                  </div>
-                </div>
-
-              </router-link>
-            </div>
             <div class="w-100 h-50" style="margin: 1px">
+              <div class="w-100 h-100">              <!--              :class="{'bg-gray2': index%2 === 0, 'bg-main': index%2 === 1}"-->
+                <router-link :to="'/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
+                  <div class="slideContainer" style="position: relative;">
+                    <div class="w-100 justify-content-center"
+                         style="min-height: 280px !important ; display: grid !important;">
+                      <img style=" align-self: center !important; alignment: center !important; width: 60%;"
+                           v-if="panelUrl+item[0].image"
+                           :src="panelUrl+item[0].image" class=" rounded img-fluid mx-auto"
+                           :class="{'my-5': catId==3}" alt="">
+                    </div>
+                    <div class="slideTitle text-light text-center ">
+                      <h3>
+                        {{ item[0].title }}
+                      </h3>
+
+                    </div>
+                  </div>
+
+                </router-link>
+              </div>
+            </div>
+            <div v-if="item[1].id" class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">
-                <router-link :to="'/product/'+item[1].id" class="bg-gray3"
-                           style="  border-radius: 30px;overflow: hidden;">
-                <div v-if="item[1]" class="slideContainer" style="position: relative">
-                  <div class="w-100" style="min-height: 260px !important; display: grid !important;">
-                    <img style=" align-self: center !important; margin: 0 auto !important"
-                         v-if="panelUrl+item[1].image"
-                         :src="panelUrl+item[1].image" class=" rounded img-fluid w-75"
-                         :class="{'my-5': catId==3}" alt="">
+                <!--              :class="{'bg-main': index%2 === 0, 'bg-gray2': index%2 === 1}"-->
+                <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
+                  <div class="slideContainer " style="position: relative;">
+
+                    <div class="w-100 justify-content-center"
+                         style="height: 280px !important ; display: grid !important;">
+                      <img style=" align-self: center !important; margin: 0 auto !important;width: 60%;"
+                           v-if="panelUrl+item[1].image"
+                           :src="panelUrl+item[1].image" class=" rounded img-fluid mx-auto"
+                           :class="{'my-5': catId==3}" alt="">
+                    </div>
+                    <div class="slideTitle text-light text-center ">
+                      <h3>
+                        {{ item[1].title }}
+                      </h3>
+
+                    </div>
                   </div>
-                  <div class="slideTitle text-light text-center ">
-                    <h3>
-                      {{ item[1].title }}
-                    </h3>
+
+                </router-link>
+
+              </div>
+            </div>
+            <div v-else class="w-100 h-50" style="margin: 1px">
+              <div class="w-100 h-100">
+                <div  style="  border-radius: 30px;overflow: hidden;">
+                  <div class="slideContainer " style="position: relative;">
+
+                    <div class="w-100 justify-content-center"
+                         style="height: 280px !important ; display: grid !important;">
+                    </div>
                   </div>
+
                 </div>
 
-              </router-link>
-
-            </div>
+              </div>
             </div>
           </div>
         </slide>
@@ -359,6 +351,7 @@ export default {
   setup(_props) {
 
     const data = ref([]);
+    const data2 = ref([]);
     const store = useStore();
     const panelUrl = store.state.panelUrl;
     const getData = () => {
@@ -366,6 +359,7 @@ export default {
       axios.get(panelUrl+'/api/product/by/category/' + _props.catId)
           .then((response) => {
             data.value = response.data.data;
+            data2.value = response.data.data;
           })
           .catch();
     }
@@ -375,7 +369,7 @@ export default {
 
     });
     return {
-      getData, data, store, panelUrl,
+      getData, data,data2, store, panelUrl,
     }
   }
 }
