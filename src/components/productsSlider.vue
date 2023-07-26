@@ -157,7 +157,7 @@
             </div>
             <div v-else class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">
-              <div  style="  border-radius: 30px;overflow: hidden;">
+              <div  style="  border-radius: 30px;overflow: hidden;" class="bg-gray3">
                 <div class="slideContainer " style="position: relative;">
 
                   <div class="w-100 justify-content-center"
@@ -232,7 +232,7 @@
             </div>
             <div v-else class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">
-                <div  style="  border-radius: 30px;overflow: hidden;">
+                <div  style="  border-radius: 30px;overflow: hidden;" class="bg-gray3">
                   <div class="slideContainer " style="position: relative;">
 
                     <div class="w-100 justify-content-center"
@@ -307,7 +307,7 @@
             </div>
             <div v-else class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">
-                <div  style="  border-radius: 30px;overflow: hidden;">
+                <div  style="  border-radius: 30px;overflow: hidden;" class="bg-gray3">
                   <div class="slideContainer " style="position: relative;">
 
                     <div class="w-100 justify-content-center"
