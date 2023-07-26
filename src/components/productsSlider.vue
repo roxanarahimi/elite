@@ -3,7 +3,7 @@
     <div class="d-none d-lg-block productSlider mb-5">
       <Carousel class="" :itemsToShow="5.0" :itemsToScroll="1" :wrapAround="true" :snapAlign="'start'"
                 :transition="500">
-        <slide v-for="(item,index) in data" :key="index">
+        <slide v-for="(item,index) in data2" :key="index">
           <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-100">
               <router-link :to="'/product/'+item.id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
@@ -36,7 +36,7 @@
     <div class="d-none d-sm-block d-lg-none productSlider mb-5">
       <Carousel class="" :itemsToShow="3.0" :itemsToScroll="1" :wrapAround="true" :snapAlign="'start'"
                 :transition="500">
-        <slide v-for="(item,index) in data" :key="index">
+        <slide v-for="(item,index) in data2" :key="index">
           <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-100">
               <router-link :to="'/product/'+item.id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
@@ -70,7 +70,7 @@
     <div class="d-sm-none productSlider mb-5">
       <Carousel class="" :itemsToShow="1.0" :itemsToScroll="1" :wrapAround="true" :snapAlign="'start'"
                 :transition="500">
-        <slide v-for="(item,index) in data" :key="index">
+        <slide v-for="(item,index) in data2" :key="index">
           <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-100">
               <router-link :to="'/product/'+item.id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
@@ -130,7 +130,7 @@
               </router-link>
             </div>
             </div>
-            <div v-if="item[1].id" class="w-100 h-50" style="margin: 1px">
+            <div v-if="item[1].length != 0" class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">
               <!--              :class="{'bg-main': index%2 === 0, 'bg-gray2': index%2 === 1}"-->
               <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
@@ -182,7 +182,7 @@
     <div class="d-none d-sm-block d-lg-none productSlider mb-5">
       <Carousel class="" :itemsToShow="3.0" :wrapAround="false" :transition="500">
         <slide v-for="(item,index) in data" :key="index">
-          <div class="w-100" style="margin: 1px">
+          <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">              <!--              :class="{'bg-gray2': index%2 === 0, 'bg-main': index%2 === 1}"-->
                 <router-link :to="'/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
@@ -205,7 +205,7 @@
                 </router-link>
               </div>
             </div>
-            <div v-if="item[1].id" class="w-100 h-50" style="margin: 1px">
+            <div v-if="item[1].length != 0" class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">
                 <!--              :class="{'bg-main': index%2 === 0, 'bg-gray2': index%2 === 1}"-->
                 <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
@@ -257,7 +257,7 @@
     <div class="d-sm-none productSlider mb-5">
       <Carousel class="" :itemsToShow="1.0" :wrapAround="false" :transition="500">
         <slide v-for="(item,index) in data" :key="index">
-          <div class="w-100" style="margin: 1px">
+          <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">              <!--              :class="{'bg-gray2': index%2 === 0, 'bg-main': index%2 === 1}"-->
                 <router-link :to="'/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
@@ -280,7 +280,7 @@
                 </router-link>
               </div>
             </div>
-            <div v-if="item[1].id" class="w-100 h-50" style="margin: 1px">
+            <div v-if="item[1].length != 0" class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">
                 <!--              :class="{'bg-main': index%2 === 0, 'bg-gray2': index%2 === 1}"-->
                 <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
@@ -359,7 +359,7 @@ export default {
       axios.get(panelUrl+'/api/product/by/category/' + _props.catId)
           .then((response) => {
             data.value = response.data.data;
-            data2.value = response.data.data;
+            data2.value = response.data.data2;
           })
           .catch();
     }
