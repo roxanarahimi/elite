@@ -32,7 +32,7 @@
       </p>
 
       <div class="d-lg-flex justify-content-lg-end flex-row-reverse">
-        <img class="m-4" width="85%" style="border-radius:15px;" src="/img/39.png" />
+        <img class="m-4" width="85%" style="border-radius:15px;" src="/img/web 570 in 320-min.jpg" />
         <div class="px-4" style="width: 90%; text-align:left;">
           <h1 class="mt-5">آش دوغ محلی</h1>
           <p>
@@ -54,7 +54,7 @@
       </p>
 
       <div class="d-lg-flex justify-content-lg-end flex-row-reverse">
-        <img class="m-4" width="85%" style="border-radius:15px;" src="/img/39.png" />
+        <img class="m-4" width="85%" style="border-radius:15px;" src="/img/web 570 in 320 noodle-min.jpg" />
         <div class="px-4" style="width: 90%; text-align:left;">
           <h1 class="mt-5">سالاد نودالیت کریسپی</h1>
           <p>
