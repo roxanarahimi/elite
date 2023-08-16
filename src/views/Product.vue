@@ -1,7 +1,9 @@
 <template>
   <div class="container-fluid p-0 m-0" style="overflow-x: hidden !important">
-
-  <div :style="{ backgroundColor: data.color }" style=" width: 100%; height: 80px;"></div>
+    <div class="container-fluid p-0" style="position: absolute; top: 0px; left:0; ">
+      <the-menu />
+    </div>
+  <div :style="{ backgroundColor: data.color }" style=" width: 100%; height: 90px;"></div>
 
   <div class="container-fluid" v-if="data">
 
@@ -113,7 +115,9 @@
 import {computed, onMounted, ref} from "vue";
 import {useRoute} from "vue-router/dist/vue-router";
 import { useStore} from 'vuex'
+import theMenu from "@/components/Menu"
 export default {
+  components: { theMenu},
   name: "Product",
   setup() {
     const route = useRoute();

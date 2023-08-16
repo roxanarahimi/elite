@@ -3,9 +3,9 @@
     <div class="d-none d-lg-block">
       <Carousel :itemsToShow="1.9" :wrapAround="true" :transition="500">
         <slide v-for="slide in images" :key="slide">
-          <router-link :to="slide.link">
+<!--          <router-link :to="slide.link">-->
             <img :src="slide.image" style="max-width: 970px">
-          </router-link>
+<!--          </router-link>-->
         </slide>
 
         <template #addons>

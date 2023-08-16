@@ -1,6 +1,8 @@
 <template>
   <div class="container-fluid p-0 m-0" style="overflow-x: hidden !important">
-
+    <div class="container-fluid p-0" style="position: absolute; top: 0px; left:0; ">
+      <the-menu />
+    </div>
   <div class="container-fluid" v-if="data">
     <div class="row flex-row-reverse">
       <div class="col-xl-5 post-bg " style="background: url('/img/Ellipse.png') no-repeat top left; background-size: 90%; min-height: 400px">
@@ -8,7 +10,7 @@
              alt="">
       </div>
       <div class="col-xl-7 pt-5">
-        <div class="row">
+        <div class="row" style="padding-top: 100px">
           <div class="col-xl-6 mb-3">
             <div class="cube">
 
@@ -74,8 +76,9 @@
 import {computed, onMounted} from "vue";
 import {useRoute} from "vue-router/dist/vue-router";
 import {useStore} from "vuex";
-
+import theMenu from "@/components/Menu"
 export default {
+  components: { theMenu},
   name: "Post",
   setup() {
     const route = useRoute();

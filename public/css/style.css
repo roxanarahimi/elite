@@ -42,7 +42,7 @@ body {
 
 .parallax1 {
     height: calc(100vh - 140px);
-    background: url("/img/bg.jpg") no-repeat;
+    background: url("/img/bg.webp") no-repeat;
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
@@ -612,7 +612,7 @@ body {
 
     .parallax1 {
         height: calc(60vh - 100px);
-        background: url("/img/bg.jpg") no-repeat;
+        background: url("/img/bg.webp") no-repeat;
         background-position-x: center;
         background-position-y: top;
         background-size: cover;
@@ -868,4 +868,7 @@ body {
 .post-img:hover #post-bg-cover {
 
     background-color: white;
+}
+.nav-logo{
+    z-index: 200000000 !important;
 }
