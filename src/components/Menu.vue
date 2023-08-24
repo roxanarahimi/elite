@@ -1,8 +1,7 @@
 <template>
   <div class="nav d-flex justify-content-center">
     <router-link class="logo d-block" to="/"><img src="/img/Layer%2023.png" class="me-3 me-lg-5 img-fluid nav-logo" width="150" alt=""></router-link>
-
-    <nav class="bg-main rounded rounded-pill navbar mt-3" style="border: 1px solid white;height: 50px; width: 75%">
+    <nav class="bg-main rounded rounded-pill navbar mt-3" style="box-shadow: 0 2px 20px 0 rgba(255,255,255,0.46), 0 2px 50px 0 rgba(255,255,255,0.51);height: 50px; width: 75%">
       <div class="menu-main-menu-container">
         <ul id="menu-main-menu" class="menu">
           <li id="menu-item-61"
@@ -33,7 +32,6 @@
         </ul>
       </div>
     </nav>
-
   </div>
 </template>
 

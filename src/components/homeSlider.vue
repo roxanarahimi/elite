@@ -2,10 +2,9 @@
   <div class="homeSlider">
     <div class="d-none d-lg-block">
       <Carousel :itemsToShow="1.9" :wrapAround="true" :transition="500">
-        <slide v-for="slide in images" :key="slide">
-<!--          <router-link :to="slide.link">-->
+        <slide v-for="(slide,index) in images" :key="index">
             <img :src="slide.image" style="max-width: 970px">
-<!--          </router-link>-->
+          <h1 :class="{ 'foodSlideTitle0': index===0, 'foodSlideTitle': index !==0, }">{{ slide.text }}</h1>
         </slide>
 
         <template #addons>
@@ -16,8 +15,8 @@
     </div>
     <div class="d-lg-none">
       <Carousel :itemsToShow="1" :wrapAround="true" :autoplay="3000" :transition="500" >
-        <slide v-for="slide in images" :key="slide" style="">
-          <img class="img-fluid" :src="slide.image" style="max-width: 100% ;">
+        <slide v-for="(slide,index) in images" :key="index" style="">
+          <img  class="img-fluid" :src="slide.image" style="max-width: 100% ;">
         </slide>
 
         <template #addons>
@@ -44,9 +43,9 @@ export default {
   data() {
     return {
       images: [
-        {"image": "/img/R3.png", "link": "/products#noodelite"},
-        {"image": "/img/R2.png", "link": "/products#bouillon"},
-        {"image": "/img/R1.png", "link": "/products#soup"},
+        {"image": "/img/R3.png", "text": "یک غذای کامل 3 دقیقه ای"},
+        {"image": "/img/R2.png", "text": "سالم و دلچسب برای همه"},
+        {"image": "/img/R1.png", "text": "سالم خوشمزه اقتصادی"},
 
       ]
     }
@@ -143,6 +142,23 @@ export default {
   color: white !important;
   border-radius: 50% !important;
 }
+:deep(.foodSlideTitle) {
+ position: absolute;
+  top: 200px;
+  font-family: 'BYekan';
+  font-width: bolder;
+  text-shadow:  2px 2px 5px white;
+  font-size: 50px;
+}
+:deep(.foodSlideTitle0) {
+ position: absolute;
+  color: white;
+  text-shadow:  2px 2px 5px black;
+  top: 200px;
+  font-family: 'BYekan';
+  font-width: bolder;
+  font-size: 50px;
+}
 
 @media (min-width: 1300px) {
   :deep( .carousel__prev) {
@@ -165,4 +181,5 @@ export default {
     max-height: 250px !important;
   }
 }
+
 </style>
