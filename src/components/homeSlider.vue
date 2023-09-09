@@ -3,8 +3,14 @@
     <div class="d-none d-lg-block">
       <Carousel :itemsToShow="1.9" :wrapAround="true" :transition="500">
         <slide v-for="(slide,index) in images" :key="index">
-            <img :src="slide.image" style="max-width: 970px">
-          <h1 :class="{ 'foodSlideTitle0': index===0, 'foodSlideTitle': index !==0, }">{{ slide.text }}</h1>
+          <img :src="slide.image" style="max-width: 970px">
+          <div style=" position: absolute; top: 200px;">
+            <div style="position: relative;">
+              <div class="titleBack"></div>
+              <h1 class="mx-4" style="position: relative"
+                  :class="{ 'foodSlideTitle0': index===0, 'foodSlideTitle': index !==0, }">{{ slide.text }}</h1>
+            </div>
+          </div>
         </slide>
 
         <template #addons>
@@ -14,9 +20,9 @@
       </carousel>
     </div>
     <div class="d-lg-none">
-      <Carousel :itemsToShow="1" :wrapAround="true" :autoplay="3000" :transition="500" >
+      <Carousel :itemsToShow="1" :wrapAround="true" :autoplay="3000" :transition="500">
         <slide v-for="(slide,index) in images" :key="index" style="">
-          <img  class="img-fluid" :src="slide.image" style="max-width: 100% ;">
+          <img class="img-fluid" :src="slide.image" style="max-width: 100% ;">
         </slide>
 
         <template #addons>
@@ -142,22 +148,32 @@ export default {
   color: white !important;
   border-radius: 50% !important;
 }
+
 :deep(.foodSlideTitle) {
- position: absolute;
-  top: 200px;
+
   font-family: 'BYekan';
   font-width: bolder;
-  text-shadow:  2px 2px 5px white;
+  text-shadow: 2px 2px 5px white;
   font-size: 50px;
 }
+
 :deep(.foodSlideTitle0) {
- position: absolute;
+
   color: white;
-  text-shadow:  2px 2px 5px black;
-  top: 200px;
+  text-shadow: 2px 2px 5px black;
   font-family: 'BYekan';
   font-width: bolder;
   font-size: 50px;
+}
+
+:deep(.titleBack) {
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  display: block;
+  backdrop-filter: blur(20px) !important;
 }
 
 @media (min-width: 1300px) {
@@ -171,11 +187,13 @@ export default {
   }
 
 }
+
 @media (max-width: 991px) {
   :deep(.carousel__viewport) {
     max-height: 350px !important;
   }
 }
+
 @media (max-width: 700px) {
   :deep(.carousel__viewport) {
     max-height: 250px !important;

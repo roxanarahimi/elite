@@ -21,9 +21,10 @@
                 <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
               </svg>
             </span>
-                  <small><a target="_blank"
-                            href="https://www.google.com/maps/place/AmadehLaziz/@35.7302329,51.3807302,19z/data=!4m6!3m5!1s0x3f8e07d020c7ca45:0x43bf4c9a730015f3!8m2!3d35.7301399!4d51.3807224!16s%2Fg%2F11c1r04p2q">دفتر
-                    مرکزی: تهران، خیابان گیشا، خیابان هشتم، پلاک 58</a></small>
+                  <small>
+                    <a target="_blank"  href="https://www.google.com/maps/place/AmadehLaziz/@35.7302329,51.3807302,19z/data=!4m6!3m5!1s0x3f8e07d020c7ca45:0x43bf4c9a730015f3!8m2!3d35.7301399!4d51.3807224!16s%2Fg%2F11c1r04p2q">
+                    دفتر مرکزی: تهران، خیابان گیشا، خیابان هشتم، پلاک 58</a>
+                  </small>
                 </li>
                 <li class="d-flex">
             <span class="me-2">
