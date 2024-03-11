@@ -22,8 +22,9 @@
               </svg>
             </span>
                   <small>
-                    <a target="_blank"  href="https://www.google.com/maps/place/AmadehLaziz/@35.7302329,51.3807302,19z/data=!4m6!3m5!1s0x3f8e07d020c7ca45:0x43bf4c9a730015f3!8m2!3d35.7301399!4d51.3807224!16s%2Fg%2F11c1r04p2q">
-                    دفتر مرکزی: تهران، خیابان گیشا، خیابان هشتم، پلاک 58</a>
+                    <a target="_blank"
+                       href="https://www.google.com/maps/place/AmadehLaziz/@35.7302329,51.3807302,19z/data=!4m6!3m5!1s0x3f8e07d020c7ca45:0x43bf4c9a730015f3!8m2!3d35.7301399!4d51.3807224!16s%2Fg%2F11c1r04p2q">
+                      دفتر مرکزی: تهران، خیابان گیشا، خیابان هشتم، پلاک 58</a>
                   </small>
                 </li>
                 <li class="d-flex">
@@ -118,7 +119,9 @@
             <div class="col-sm-6 col-xl-5 px-3">
               <p class="text-center"><b>درباره الیت</b></p>
               <small class="d-block">
-                برند الیت در سال ۱۳۸۴ به ثبت رسید و برند اصلی شرکت آماده لذیذ است. عصاره ، نودالیت و سوپ های نیمه آماده جزو اولین محصولات تولید شده توسط الیت می‌باشند. محصولات الیت با تمرکز بر کیفیت و سلامت خانواده ها و مدرن ترین استاندارد های مواد غذایی دنیا تولید می‌شود.
+                برند الیت در سال ۱۳۸۴ به ثبت رسید و برند اصلی شرکت آماده لذیذ است. عصاره ، نودالیت و سوپ های نیمه آماده
+                جزو اولین محصولات تولید شده توسط الیت می‌باشند. محصولات الیت با تمرکز بر کیفیت و سلامت خانواده ها و مدرن
+                ترین استاندارد های مواد غذایی دنیا تولید می‌شود.
               </small>
             </div>
             <div class="col-1 d-none d-xl-block"></div>
@@ -173,10 +176,10 @@ export default {
       var copyText = document.getElementById("postalcode").innerText;
       navigator.clipboard.writeText(copyText).then(() => {
 
-        document.getElementById("coppyAlert").style.opacity= "1";
+        document.getElementById("coppyAlert").style.opacity = "1";
         setTimeout(() => {
-          document.getElementById("coppyAlert").style.opacity= "0";
-        },2000)
+          document.getElementById("coppyAlert").style.opacity = "0";
+        }, 2000)
       });
     }
   }
@@ -186,18 +189,19 @@ export default {
 
 <style scoped>
 
-#coppyAlert{
+#coppyAlert {
   position: absolute;
   opacity: 0;
   transition: 0.5s ease;
-  top:0;
-  right:0;
+  top: 0;
+  right: 0;
   background-color: whitesmoke;
   border-radius: 5px;
   direction: rtl;
-  padding:2px;
+  padding: 2px;
 
 }
+
 footer {
   background: url("../../public/img/footer.png") no-repeat;
 

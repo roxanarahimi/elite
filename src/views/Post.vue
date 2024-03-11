@@ -87,6 +87,7 @@ export default {
 
 
     onMounted(() => {
+      document.querySelector('#app').scrollIntoView();
       store.commit('getRecipe', route.params.id);
 
     });
