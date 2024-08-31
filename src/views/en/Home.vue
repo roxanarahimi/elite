@@ -1,7 +1,7 @@
 <template>
 
- <div class="container-fluid p-0 m-0" style="overflow-x: hidden !important">
-   <div class="container-fluid m-0 p-0">
+ <div class="container-fluid p-0 m-0 text-en"  style="overflow-x: hidden !important">
+   <div class="container-fluid m-0 p-0" dir="rtl">
      <div class="p-3 ps-4" style="z-index:20000; box-shadow:  0.3px 0.3px white; width: 80px; height: 60px; border-radius: 0 50rem 50rem 0; background-color: red; position: fixed; top:250px; left: 0; color: white;">
        <a class="text-light" href="https://www.instagram.com/manoelite" target="_blank">
          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -17,34 +17,34 @@
 
        <div class="row p-0 m-0 " style="overflow: hidden !important;">
          <div class="col-12" style="font-weight: bold; z-index: 1000">
-           <h1 class="s-1 pt-5 pt-lg-0">ســالـــم</h1>
-           <h1 class="s-2">خــوشـمزه</h1>
-           <h1 class="s-3">اقـتصادی</h1>
+           <h1 class="s-4 pt-5 pt-lg-0">HEALTHY</h1>
+           <h1 class="s-5" >DELICIOUS</h1>
+           <h1 class="s-6">ECONOMIC</h1>
          </div>
        </div>
      </div>
      <div class="bottomNav px-3 px-lg-5" >
        <div class="bottomNavInner d-flex justify-content-around rounded-pill pt-3 px-3 w-100 mx-auto">
          <!--        :to="{ path: '/products', params: {cat}, query: { cat:  1}} "-->
-         <router-link  to="/products#noodelite">
+         <router-link  to="/en/products#noodelite">
            <img src="/img/Vector%20Smart%20Object-3.png" class="img1" alt="">
            <p>نودالیت</p>
          </router-link>
-         <router-link to="/products#bouillon">
+         <router-link to="/en/products#bouillon">
          <img src="/img/Vector%20Smart%20Object1.png" class=" mb-1 mb-lg-0 mt-lg-4 img5" alt="">
          <p class="mb-2">عصاره</p>
        </router-link>
 
-         <router-link to="/products#soup">
+         <router-link to="/en/products#soup">
            <img src="/img/Vector%20Smart%20Object-2.png" class="img2" alt="">
            <p>سوپ</p>
          </router-link>
 
-         <router-link to="/products#seasoning">
+         <router-link to="/en/products#seasoning">
            <img src="/img/Vector%20Smart%20Object.png" class="img4" alt="">
            <p>چاشنی و ادویه</p>
          </router-link>
-         <router-link to="/products#pasta">
+         <router-link to="/en/products#pasta">
            <img src="/img/Vector%20Smart%20Object-1.png" class="img3" alt="">
            <p>آش و پاستا</p>
 
@@ -53,7 +53,7 @@
      </div>
 
    </div>
-   <div class="container-fluid p-0 m-0">
+   <div class="container-fluid p-0 m-0" dir="rtl">
      <div class="parallax2">
 
        <img src="img/Leaf.png" class="fly1" alt="">
@@ -170,10 +170,10 @@
 </template>
 
 <script>
-import homeSlider from "@/components/homeSlider";
-import theFooter from "@/components/Footer";
-import foodSlider from "@/components/foodsSlider";
-import theMenu from "@/components/Menu";
+import homeSlider from "@/components/en/homeSlider";
+import theFooter from "@/components/en/Footer";
+import foodSlider from "@/components/en/foodsSlider";
+import theMenu from "@/components/en/Menu";
 export default {
   name: 'Home',
   components: {homeSlider, theFooter, theMenu, foodSlider}

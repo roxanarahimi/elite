@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid p-0 m-0" style="overflow-x: hidden !important">
+  <div class="container-fluid p-0 m-0 text-en" style="overflow-x: hidden !important">
     <div class="container-fluid p-0" style="position: absolute; top: 0px; left:0; ">
       <the-menu />
     </div>
@@ -36,7 +36,7 @@
           </div>
           <div class="col-xl-6">
 
-            <router-link :to="'/product/'+data.product?.id">
+            <router-link :to="'/en/product/'+data.product?.id">
               <img :src="'https://panel.elit.webagent.ir'+data.product?.image" class="w-100 img-fluid" alt="">
             </router-link>
             <div dir="ltr" style="font-family: arial">
@@ -45,7 +45,7 @@
               <p class="fw-bold h5">{{ data.product?.flavor }}</p>
             </div>
 
-            <a :href="'/recipe/'+data.tag?.id" class="bg-gray mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important;">
+            <a :href="'/en/recipe/'+data.tag?.id" class="bg-gray mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important;">
               <h1>{{ data.tag?.title }}</h1>
             </a>
             <div class="bg-main  rounded  text-center mb-5 py-3 text-light" style=" border-radius: 20px !important;">
@@ -76,7 +76,7 @@
 import {computed, onMounted} from "vue";
 import {useRoute} from "vue-router/dist/vue-router";
 import {useStore} from "vuex";
-import theMenu from "@/components/Menu"
+import theMenu from "@/components/en/Menu"
 export default {
   components: { theMenu},
   name: "Post",

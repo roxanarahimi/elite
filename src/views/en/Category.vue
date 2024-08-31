@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid p-0 m-0" style="overflow-x: hidden !important">
+  <div class="container-fluid p-0 m-0 text-en" style="overflow-x: hidden !important">
 
     <div class="container-fluid p-0">
       <the-menu/>
@@ -12,7 +12,7 @@
 
       <div class="row justify-content-start mx-auto px-xl-5">
         <div v-for="item in data" class="col-lg-4 px-5 mb-4">
-          <router-link :to="'/posts/'+ item.id" class="bg-gray2 p-4" style="border-radius: 20px">
+          <router-link :to="'/en/posts/'+ item.id" class="bg-gray2 p-4" style="border-radius: 20px">
             <img :src="panelUrl+item.image" style="border-radius:30px" class="w-100" alt="">
             <h1 class="my-5 text-center">{{ item.title }}</h1>
           </router-link>
@@ -21,7 +21,7 @@
 
 
     </div>
-    <div class="p-5">
+    <div  dir="rtl" class="p-5">
 
       <a target="_blank" href="/vdo/آش%20دوغ%20محلی-2%20اردیبهشت.mp4"
          class="mb-5 pl-lg-2 m-lg-5 d-flex justify-content-between" style="border:1px solid  red ; border-radius: 20px;">
@@ -41,8 +41,8 @@
               <img class="img-fluid w-100 my-5" style="border-radius:15px; align-self: center" src="/img/web 570 in 320-min.jpg"/>
             </div>
             <div class="col-lg-4 reS" style="">
-            <h3 class="mt-lg-5">آش دوغ محلی</h3>
-            <p>
+            <h3 class="mt-lg-5 text-end">آش دوغ محلی</h3>
+            <p class="text-end">
               مواد لازم:
               <br>
               سوپ جو الیت ۲ بسته
@@ -93,8 +93,8 @@
               <img class="img-fluid w-100 my-5" style="border-radius:15px; align-self: center" src="/img/web 570 in 320 noodle-min.jpg"/>
             </div>
             <div class="col-lg-4 reS" style="">
-            <h3 class="mt-lg-5">سالاد نودالیت کریسپی</h3>
-            <p>
+            <h3 class="mt-lg-5 text-end">سالاد نودالیت کریسپی</h3>
+              <p class="text-end">
               مواد لازم:
               <br>
               نودالیت مرغ ۲ بسته
@@ -117,7 +117,7 @@
               <br>
               فلفل دلمه‌ای قرمز به میزان دلخواه
             </p>
-            <p>
+              <p class="text-end">
 
               طرز تهیه:
               <br>
@@ -139,9 +139,9 @@
 </template>
 
 <script>
-import homeSlider from "@/components/homeSlider";
-import theFooter from "@/components/Footer";
-import theMenu from "@/components/Menu";
+import homeSlider from "@/components/en/homeSlider";
+import theFooter from "@/components/en/Footer";
+import theMenu from "@/components/en/Menu";
 import {useStore} from "vuex";
 import {computed, onMounted} from "vue";
 

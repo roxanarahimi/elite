@@ -80,8 +80,8 @@
   </div>
 </template>
 <script>
-import theFooter from "@/components/Footer";
-import theMenu from "@/components/Menu"
+import theFooter from "@/components/ar/Footer";
+import theMenu from "@/components/ar/Menu"
 
 export default {
   components: {theFooter, theMenu}

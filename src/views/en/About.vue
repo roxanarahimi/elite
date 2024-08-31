@@ -1,9 +1,8 @@
 <template>
-  <div class="container-fluid p-0 m-0" style="overflow-x: hidden !important">
+  <div class="container-fluid p-0 m-0 text-en"  style="overflow-x: hidden !important">
 
     <div class="container-fluid p-0">
       <the-menu/>
-
     </div>
 
     <div class="row justify-content-center">
@@ -15,62 +14,53 @@
       <div class=" px-lg-5 mt-5" style="">
         <div class=" px-lg-5 mt-5" style="">
           <p class="main_p" style="font-size: 20px">
-            کارخانه بزرگ الیت محصولات غذایی نیمه‌آماده شامل نودالیت، سوپ، عصاره، انواع چاشنی و ادویه، انواع پودر دسر و
-            انواع
-            قهوه، با ظرفیت تولیدی بیش از 24.000 تن در سال، تولید می‌کند. برند الیت در سال 1384 به ثبت رسید.
+            The biggest Elite factory produces semi-ready food products for the major food, of noodlelite, soups,
+            extracts, types of staffing and spices, dessert powders and coffees, with production capacity over 24,000
+            tons annually. Elite brand was registered in 2005.
             <br>
-            الیت رهبر بازار در زمینه‌های فروش و تأمین محصولات غذایی در گروه‌های نودالیت ، انواع عصاره‌های گوشت، مرغ،
-            سبزیجات
-            و سوپ‌های نیمه آماده است. محصولات غذایی الیت با تمرکز بر سلامت غذا و استفاده از بهترین مواد اولیه و مطابق با
-            استانداردهای روز دنیا آماده می‌شود.
+            Elite is a market leader in selling and supplying food products in noodlelite groups, all kinds of meat,
+            chicken and vegetables extracts and semi-ready soups. Elite food products are prepared focusing on food
+            health and using high quality raw materials under global compliance and standards.
           </p>
           <hr>
-          <h4 class="fw-bold"> کیفیت و سلامت</h4>
+          <h4 class="fw-bold">Quality and Health</h4>
           <p>
-
-            کیفیت و سلامت غذا اصل اول کسب‌وکار ما است. این مجموعه در سال 1379 با تولید محصولات متنوع غذای آماده، فعالیت
-            خود
-            را آغاز کرده و امروز پس از سال‌ها تلاش مستمر در خانواده 700نفری الیت توانسته‌ایم گام‌های بزرگی در تحقق رؤیای
-            غذای سالم و در دسترس برای همه برداریم. سبک زندگی سالم راهیست که به حفظ بهبود سلامتی و رفاه افراد کمک می‌کند.
-            الیت با تولید محصولات غذایی سالم، دستاوردی بزرگ در راستای جامعه سالم رقم زده است.
-
+            Food quality and health is the first principle of our business. This group began its activity by producing
+            various ready-to-eat food in 2000 and today, after years of continuous efforts in Elite 700- family member,
+            we have been able to take great steps in realizing dream of healthy and accessible food to everyone. A
+            healthy lifestyle is a way to help people how to maintain their health and well-being. Upon healthy food
+            products, Elite has made a great achievement towards healthy society.
           </p>
           <hr>
-          <h4 class="fw-bold"> افتخارات</h4>
+          <h4 class="fw-bold"> Honors</h4>
           <p>
-
-            الیت با تولید غذای آماده و نیمه‌آماده، فرایند آشپزی را آسان و به آن سرعت بخشیده است. در حال حاضر سبد غذایی
-            محصولات الیت بیش از 300 قلم کالا را به خود اختصاص می‌دهد. شایان ذکر است الیت در طول سال‌های فعالیت خود با
-            عظمی
-            راسخ به‌عنوان یکی از موفق‌ترین شرکت‌های تولیدکننده محصولات غذایی مطرح شده است و در این عرصه موفق شده است
-            عنوان
-            صادرکننده برتر ایران را کسب کند.
+            Elite has made the cooking process easy and faster by producing ready and semi-ready food. Recently, Elite
+            food basket includes more than 300 products. It is worth mentioning that Elite as one of the most successful
+            companies has emerged in food industries during its activity and won title of top export-oriented company in
+            Iran.
           </p>
           <hr>
-          <h4 class="fw-bold"> مسوولیت اجتماعی ما</h4>
+          <h4 class="fw-bold">Our Social Responsibility</h4>
           <p>
-
-            این شرکت در راستای مسئولیت اجتماعی، پاره‌ای اقدامات در حمایت از حفظ محیط زیست در برنامه خود دارد. این امر
-            موجب
-            فرهنگسازی بین کارمندان و مشتریان خواهد شد، سطح آگاهی جامعه را نسبت به مسائل محیط زیستی افزایش می‌دهد و رفتار
-            محیط زیستی را ترویج می‌کند.
+            In line with social responsibility, this Company takes some measures to support and protect the environment.
+            This will create culture among employees and customers, increase the level of awareness of society regarding
+            environmental issues and promote environmental behavior as well.
           </p>
           <p>
-            این اقدامات محیط زیستی شامل موارد زیر است:
+            Environmental measures include:
             <br> <span class="dot_span">.</span>
-            حمایت از انجمن یوزپلنگ ایرانی برای حفاظت از زیستگاه یوزپلنگ
+            Supporting the Iranian Cheetah Society in the conservation of cheetah habitat
             <br> <span class="dot_span">.</span>
-            پاکسازی کوه دماوند و اختصاص تسهیلاتی برای کوهنوردان در هنگام کوهنوردی
+            Cleaning Mount Damavand and allocating facilities to climbers
             <br><span class="dot_span">.</span>
-            ارسال پک محصولات برای محیط‌بانان شبه جزیره میانکاله و تعمیر لندرور محیط بانان
+            Sending pack of products to the rangers in Miancale peninsula and repairing their Land Rover
             <br> <span class="dot_span">.</span>
-            اختصاص دوربین‌هایی برای عکاسی از حیات وحش در منطقه شکار ممنوع هزار جریب برای ثبت زیبایی‌های حیات وحش ایران و
-            تکمیل ساخت یک انباری
+            Allocating cameras for wildlife photography in 1,000-acre designated hunting area to record the beauties of
+            Iran's wildlife and constructing a warehouse
           </p>
           <p>
-            شعار مسئولیت اجتماعی ما: «<span style="color: #ff0000">دست در دست هم برای طبیعت</span>» انتخاب شده است. ما
-            علاوه‌بر
-            تولید محصول سالم، به داشتن یک سرزمین پاک و زیبا نیز اهمیت می‌دهیم.
+            Social Responsibility Quotes: «<span style="color: #ff0000">Hand- in- Hand with Nature</span>»
+            In addition to develop healthy products, we also take care of clean and beautiful land.
           </p>
         </div>
       </div>
@@ -80,8 +70,8 @@
   </div>
 </template>
 <script>
-import theFooter from "@/components/Footer";
-import theMenu from "@/components/Menu"
+import theFooter from "@/components/en/Footer";
+import theMenu from "@/components/en/Menu"
 
 export default {
   components: {theFooter, theMenu}

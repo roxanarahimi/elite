@@ -36,7 +36,7 @@
           </div>
           <div class="col-xl-6">
 
-            <router-link :to="'/product/'+data.product?.id">
+            <router-link :to="'/ar/product/'+data.product?.id">
               <img :src="'https://panel.elit.webagent.ir'+data.product?.image" class="w-100 img-fluid" alt="">
             </router-link>
             <div dir="ltr" style="font-family: arial">
@@ -45,7 +45,7 @@
               <p class="fw-bold h5">{{ data.product?.flavor }}</p>
             </div>
 
-            <a :href="'/recipe/'+data.tag?.id" class="bg-gray mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important;">
+            <a :href="'/ar/recipe/'+data.tag?.id" class="bg-gray mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important;">
               <h1>{{ data.tag?.title }}</h1>
             </a>
             <div class="bg-main  rounded  text-center mb-5 py-3 text-light" style=" border-radius: 20px !important;">
@@ -76,7 +76,7 @@
 import {computed, onMounted} from "vue";
 import {useRoute} from "vue-router/dist/vue-router";
 import {useStore} from "vuex";
-import theMenu from "@/components/Menu"
+import theMenu from "@/components/ar/Menu"
 export default {
   components: { theMenu},
   name: "Post",

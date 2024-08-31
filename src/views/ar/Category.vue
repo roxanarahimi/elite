@@ -12,7 +12,7 @@
 
       <div class="row justify-content-start mx-auto px-xl-5">
         <div v-for="item in data" class="col-lg-4 px-5 mb-4">
-          <router-link :to="'/posts/'+ item.id" class="bg-gray2 p-4" style="border-radius: 20px">
+          <router-link :to="'/ar/posts/'+ item.id" class="bg-gray2 p-4" style="border-radius: 20px">
             <img :src="panelUrl+item.image" style="border-radius:30px" class="w-100" alt="">
             <h1 class="my-5 text-center">{{ item.title }}</h1>
           </router-link>
@@ -139,9 +139,9 @@
 </template>
 
 <script>
-import homeSlider from "@/components/homeSlider";
-import theFooter from "@/components/Footer";
-import theMenu from "@/components/Menu";
+import homeSlider from "@/components/ar/homeSlider";
+import theFooter from "@/components/ar/Footer";
+import theMenu from "@/components/ar/Menu";
 import {useStore} from "vuex";
 import {computed, onMounted} from "vue";
 

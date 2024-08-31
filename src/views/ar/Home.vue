@@ -26,25 +26,25 @@
      <div class="bottomNav px-3 px-lg-5" >
        <div class="bottomNavInner d-flex justify-content-around rounded-pill pt-3 px-3 w-100 mx-auto">
          <!--        :to="{ path: '/products', params: {cat}, query: { cat:  1}} "-->
-         <router-link  to="/products#noodelite">
+         <router-link  to="/ar/products#noodelite">
            <img src="/img/Vector%20Smart%20Object-3.png" class="img1" alt="">
            <p>نودالیت</p>
          </router-link>
-         <router-link to="/products#bouillon">
+         <router-link to="/ar/products#bouillon">
          <img src="/img/Vector%20Smart%20Object1.png" class=" mb-1 mb-lg-0 mt-lg-4 img5" alt="">
          <p class="mb-2">عصاره</p>
        </router-link>
 
-         <router-link to="/products#soup">
+         <router-link to="/ar/products#soup">
            <img src="/img/Vector%20Smart%20Object-2.png" class="img2" alt="">
            <p>سوپ</p>
          </router-link>
 
-         <router-link to="/products#seasoning">
+         <router-link to="/ar/products#seasoning">
            <img src="/img/Vector%20Smart%20Object.png" class="img4" alt="">
            <p>چاشنی و ادویه</p>
          </router-link>
-         <router-link to="/products#pasta">
+         <router-link to="/ar/products#pasta">
            <img src="/img/Vector%20Smart%20Object-1.png" class="img3" alt="">
            <p>آش و پاستا</p>
 
@@ -170,10 +170,10 @@
 </template>
 
 <script>
-import homeSlider from "@/components/homeSlider";
-import theFooter from "@/components/Footer";
-import foodSlider from "@/components/foodsSlider";
-import theMenu from "@/components/Menu";
+import homeSlider from "@/components/ar/homeSlider";
+import theFooter from "@/components/ar/Footer";
+import foodSlider from "@/components/ar/foodsSlider";
+import theMenu from "@/components/ar/Menu";
 export default {
   name: 'Home',
   components: {homeSlider, theFooter, theMenu, foodSlider}

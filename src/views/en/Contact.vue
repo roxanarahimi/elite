@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid p-0 m-0" style="overflow-x: hidden !important">
+  <div class="container-fluid p-0 m-0 text-en" style="overflow-x: hidden !important">
 
   <div class="container-fluid p-0">
 
@@ -69,8 +69,8 @@
 </template>
 
 <script>
-import theFooter from "@/components/Footer";
-import theMenu from "@/components/Menu";
+import theFooter from "@/components/en/Footer";
+import theMenu from "@/components/en/Menu";
 
 export default {
   components: { theFooter, theMenu },

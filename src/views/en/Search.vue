@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid p-0 m-0" style="overflow-x: hidden !important">
+  <div class="container-fluid p-0 m-0 text-en" style="overflow-x: hidden !important">
 
   <div class="container-fluid p-0">
 
@@ -13,7 +13,7 @@
 
     <div class="row justify-content-start mx-auto px-5" v-if="data" >
       <h3 v-show="data.products?.length">محصولات: </h3>
-      <router-link v-for="item in data.products" :key="item.id" :to="'/product/'+item.id" style="max-height: 250px"  class="col-sm-6 col-lg-3 mb-3">
+      <router-link v-for="item in data.products" :key="item.id" :to="'/en/product/'+item.id" style="max-height: 250px"  class="col-sm-6 col-lg-3 mb-3">
         <div class="bg-gray2 p-4 h-100" style="border-radius: 20px">
           <img :src="panelUrl+item.image" class="img-fluid h-75 rounded" alt="">
           <h6 class="mt-4">
@@ -23,7 +23,7 @@
         </div>
       </router-link>
       <h3 v-show="data.articles?.length">دستور پخت ها: </h3>
-      <router-link v-for="item in data.articles" :key="item.id" :to="'/recipe/'+item.id" style="max-height: 250px"  class="col-sm-6 col-lg-3 mb-3">
+      <router-link v-for="item in data.articles" :key="item.id" :to="'/en/recipe/'+item.id" style="max-height: 250px"  class="col-sm-6 col-lg-3 mb-3">
         <div class="bg-gray2 p-4 h-100" style="border-radius: 20px">
           <img :src="panelUrl+item.image" class="img-fluid h-75 rounded" alt="">
           <h6 class="mt-4">
@@ -33,7 +33,7 @@
         </div>
       </router-link>
       <h3 v-show="data.blogs?.length" >مطالب: </h3>
-      <router-link v-for="item in data.blogs" :key="item.id" :to="'/blog/'+item.id" style="max-height: 250px"  class="col-sm-6 col-lg-3 mb-3">
+      <router-link v-for="item in data.blogs" :key="item.id" :to="'/en/blog/'+item.id" style="max-height: 250px"  class="col-sm-6 col-lg-3 mb-3">
         <div class="bg-gray2 p-4 h-100" style="border-radius: 20px">
           <img :src="panelUrl+item.image" class="img-fluid h-75 rounded" alt="">
           <h6 class="mt-4">

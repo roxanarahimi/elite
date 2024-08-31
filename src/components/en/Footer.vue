@@ -1,5 +1,5 @@
 <template>
-  <footer class="">
+  <footer class=""  dir="rtl">
 
 
     <div class="containerr">
@@ -203,7 +203,7 @@ export default {
 }
 
 footer {
-  background: url("../../public/img/footer.png") no-repeat;
+  background: url("../../../public/img/footer.png") no-repeat;
 
   background-size: 100%;
   min-height: 500px;

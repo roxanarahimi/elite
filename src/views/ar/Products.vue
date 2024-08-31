@@ -80,12 +80,12 @@
 
 <script>
 
-import productsSlider from "@/components/productsSlider";
+import productsSlider from "@/components/ar/productsSlider";
 import {computed, onBeforeMount, onMounted, ref} from "vue";
 
-import theFooter from "@/components/Footer";
+import theFooter from "@/components/ar/Footer";
 import {useRoute} from "vue-router/dist/vue-router";
-import theMenu from "@/components/Menu";
+import theMenu from "@/components/ar/Menu";
 import {useStore} from 'vuex'
 
 

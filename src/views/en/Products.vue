@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container-fluid p-0 m-0" style="overflow-x: hidden !important">
+  <div class="container-fluid p-0 m-0 text-en" style="overflow-x: hidden !important">
 
   <div class="container-fluid p-0" id="top">
 
@@ -80,12 +80,12 @@
 
 <script>
 
-import productsSlider from "@/components/productsSlider";
-import {computed, onBeforeMount, onMounted, ref} from "vue";
+import productsSlider from "@/components/en/productsSlider";
+import {computed, onBeforeMount, onMounted} from "vue";
 
-import theFooter from "@/components/Footer";
+import theFooter from "@/components/en/Footer";
 import {useRoute} from "vue-router/dist/vue-router";
-import theMenu from "@/components/Menu";
+import theMenu from "@/components/en/Menu";
 import {useStore} from 'vuex'
 
 

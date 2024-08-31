@@ -1,28 +1,41 @@
 <template>
-  <div class="nav d-flex justify-content-center">
-    <router-link class="logo d-block" to="/">
+  <div class="nav d-flex justify-content-center" dir="rtl">
+    <router-link class="logo d-block" to="/en/">
       <img src="/img/Layer%2023.png" class="me-3 me-lg-5 img-fluid nav-logo" width="150" alt=""></router-link>
     <nav class="bg-main rounded rounded-pill navbar mt-3">
       <div class="menu-main-menu-container">
         <ul id="menu-main-menu" class="menu">
           <li id="menu-item-61"
               class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-61">
-            <a href="/" aria-current="page">خانه</a>
+            <a href="/en/" aria-current="page">Home</a>
           </li>
-          <li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136">
-            <router-link to="/products">محصولات</router-link>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136">
+            <router-link to="/en/products">Products</router-link>
           </li>
-          <li id="menu-item-105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105">
-            <router-link to="/categories">دستور پخت</router-link>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105">
+            <router-link to="/en/categories">Recipes</router-link>
           </li>
-          <li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103">
-            <router-link to="/about">درباره الیت</router-link>
+          <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103">
+            <router-link to="/en/about">About Elite</router-link>
           </li>
-          <li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
-            <a href="https://digikala.com/search/?brands%5B0%5D=7630&q=Elite" target="_blank">خرید اینترنتی</a>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
+            <a href="https://digikala.com/search/?brands%5B0%5D=7630&q=Elite" target="_blank">Online Shopping</a>
           </li>
-          <li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139">
-            <router-link to="/search">
+          <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
+           <div class="d-flex">
+             <router-link to="/" class="d-block">
+               <img src="/img/ir.svg" class="languageImg" title="persian" alt="persian">
+             </router-link>
+<!--             <router-link to="/en/" class="d-block">-->
+<!--               <img src="/img/gb.svg" class="languageImg" title="english" alt="english">-->
+<!--             </router-link>-->
+             <router-link to="/ar/" class="d-block">
+               <img src="/img/sa.svg" class="languageImg" title="arabic" alt="arabic">
+             </router-link>
+           </div>
+          </li>
+          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139">
+            <router-link to="/en/search">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                    class="bi bi-search" viewBox="0 0 16 16">
                 <path
@@ -47,5 +60,11 @@ nav {
   box-shadow: 0 2px 20px 0 rgba(255, 255, 255, 0.46), 0 2px 50px 0 rgba(255, 255, 255, 0.51);
   height: 50px;
   width: 75%
+}
+.languageImg{
+  width: 35px !important;
+  height: auto !important;
+  border-radius: 50%;
+  margin: 0 5px;
 }
 </style>

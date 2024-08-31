@@ -52,7 +52,106 @@ const routes = [
         name: 'product',
         params: true,
         component: () => import(/* webpackChunkName: "product" */ '../views/Product.vue')
+    },
+ //   en ***************************************************************
+    {
+        path: '/en',
+        name: 'homeEn',
+        component: () => import(/* webpackChunkName: "homeEn" */ '../views/en/Home')
+    },
+    {
+        path: '/en/about',
+        name: 'aboutEn',
+        component: () => import(/* webpackChunkName: "aboutEn" */ '../views/en/About.vue')
+    },
+    {
+        path: '/en/contact',
+        name: 'contactEn',
+        component: () => import(/* webpackChunkName: "contactEn" */ '../views/en/Contact.vue')
+    },
+    {
+        path: '/en/categories',
+        name: 'categoriesEn',
+        component: () => import(/* webpackChunkName: "categoriesEn" */ '../views/en/Category.vue')
+    },
+    {
+        path: '/en/posts/:id',
+        name: 'postsEn',
+        component: () => import(/* webpackChunkName: "postsEn" */ '../views/en/Posts.vue')
+    },
+    {
+        path: '/en/recipe/:id',
+        name: 'recipeEn',
+        component: () => import(/* webpackChunkName: "recipeEn" */ '../views/en/Post.vue')
     }
+    ,
+    {
+        path: '/en/products',
+        name: 'productsEn',
+        params: true,
+        component: () => import(/* webpackChunkName: "productsEn" */ '../views/en/Products.vue')
+    },
+    {
+        path: '/en/searchEn',
+        name: 'search',
+        component: () => import(/* webpackChunkName: "searchEn" */ '../views/en/Search.vue')
+    },
+    {
+        path: '/en/product/:id',
+        name: 'productEn',
+        params: true,
+        component: () => import(/* webpackChunkName: "productEn" */ '../views/en/Product.vue')
+    },
+    //ar *************************************************************************************
+    {
+        path: '/ar',
+        name: 'homeAr',
+        component: () => import(/* webpackChunkName: "homeAr" */ '../views/ar/Home.vue')
+    },
+    {
+        path: '/ar/about',
+        name: 'aboutAr',
+        component: () => import(/* webpackChunkName: "aboutAr" */ '../views/ar/About.vue')
+    },
+    {
+        path: '/ar/contact',
+        name: 'contactAr',
+        component: () => import(/* webpackChunkName: "contactAr" */ '../views/ar/Contact.vue')
+    },
+    {
+        path: '/ar/categories',
+        name: 'categoriesAr',
+        component: () => import(/* webpackChunkName: "categoriesAr" */ '../views/ar/Category.vue')
+    },
+    {
+        path: '/ar/posts/:id',
+        name: 'postsAr',
+        component: () => import(/* webpackChunkName: "postsAr" */ '../views/ar/Posts.vue')
+    },
+    {
+        path: '/ar/recipe/:id',
+        name: 'recipeAr',
+        component: () => import(/* webpackChunkName: "recipeAr" */ '../views/ar/Post.vue')
+    }
+    ,
+    {
+        path: '/ar/products',
+        name: 'productsAr',
+        params: true,
+        component: () => import(/* webpackChunkName: "productsAr" */ '../views/ar/Products.vue')
+    },
+    {
+        path: '/ar/search',
+        name: 'searchAr',
+        component: () => import(/* webpackChunkName: "searchAr" */ '../views/ar/Search.vue')
+    },
+    {
+        path: '/ar/product/:id',
+        name: 'productAr',
+        params: true,
+        component: () => import(/* webpackChunkName: "productAr" */ '../views/ar/Product.vue')
+    }
+
 
 ]
 

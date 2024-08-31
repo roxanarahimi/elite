@@ -115,7 +115,7 @@
 import {computed, onMounted, ref} from "vue";
 import {useRoute} from "vue-router/dist/vue-router";
 import { useStore} from 'vuex'
-import theMenu from "@/components/Menu"
+import theMenu from "@/components/ar/Menu"
 export default {
   components: { theMenu},
   name: "Product",
