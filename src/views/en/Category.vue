@@ -14,7 +14,7 @@
         <div v-for="item in data" class="col-lg-4 px-5 mb-4">
           <router-link :to="'/en/posts/'+ item.id" class="bg-gray2 p-4" style="border-radius: 20px">
             <img :src="panelUrl+item.image" style="border-radius:30px" class="w-100" alt="">
-            <h1 class="my-5 text-center">{{ item.title }}</h1>
+            <h1 class="my-5 text-center">{{ item.title_en }}</h1>
           </router-link>
         </div>
       </div>

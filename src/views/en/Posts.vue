@@ -22,7 +22,7 @@
             <img :src="panelUrl+item.image" class="w-100 rounded" alt="">
             <h2 class="mt-4">
 
-              {{ item.title }}
+              {{ item.title_en }}
             </h2>
           </router-link>
         </div>

@@ -25,7 +25,7 @@
                       <h4>
                         {{ item.article?.title_ar }}
                         <br>
-                        با {{item.article?.product?.title_ar  }} الیت
+                        مع {{item.article?.product?.title_ar  }} إیلیت
                       </h4>
 
                     </div>
@@ -67,7 +67,7 @@
                       <h4>
                         {{ item.article?.title_ar }}
                         <br>
-                        با {{ item.article?.product?.title_ar }} الیت
+                        مع {{item.article?.product?.title_ar  }} إیلیت
                       </h4>
 
                     </div>
@@ -109,7 +109,7 @@
                       <h4>
                         {{ item.article?.title_ar }}
                         <br>
-                        با {{ item.article?.product?.title_ar }} الیت
+                        مع {{item.article?.product?.title_ar  }} إیلیت
                       </h4>
 
                     </div>

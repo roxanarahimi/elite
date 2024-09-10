@@ -32,16 +32,16 @@
           </h6>
         </div>
       </router-link>
-      <h3 v-show="data.blogs?.length" >مطالب: </h3>
-      <router-link v-for="item in data.blogs" :key="item.id" :to="'/blog/'+item.id" style="max-height: 250px"  class="col-sm-6 col-lg-3 mb-3">
-        <div class="bg-gray2 p-4 h-100" style="border-radius: 20px">
-          <img :src="panelUrl+item.image" class="img-fluid h-75 rounded" alt="">
-          <h6 class="mt-4">
+<!--      <h3 v-show="data.blogs?.length" >مطالب: </h3>-->
+<!--      <router-link v-for="item in data.blogs" :key="item.id" :to="'/blog/'+item.id" style="max-height: 250px"  class="col-sm-6 col-lg-3 mb-3">-->
+<!--        <div class="bg-gray2 p-4 h-100" style="border-radius: 20px">-->
+<!--          <img :src="panelUrl+item.image" class="img-fluid h-75 rounded" alt="">-->
+<!--          <h6 class="mt-4">-->
 
-            {{ item.title }}
-          </h6>
-        </div>
-      </router-link>
+<!--            {{ item.title }}-->
+<!--          </h6>-->
+<!--        </div>-->
+<!--      </router-link>-->
     </div>
 
   </div>

@@ -21,14 +21,14 @@
               <div class="d-flex justify-content-between mb-5">
                 <h1 class="" style="color: #ff0000; font-size: 35px; text-align:  right">
 
-                  {{ data.title }}
+                  {{ data.title_en }}
                 </h1>
                 <img src="/img/flash.png" width="100" height="50" style="margin-left: -28px" alt="">
               </div>
 
               <div>
                 <p dir="ltr" style="font-size: 18px;white-space: pre-line; text-align: right !important">
-                  {{ data.text }}
+                  {{ data.text_en }}
                 </p>
 
               </div>
@@ -46,10 +46,10 @@
             </div>
 
             <a :href="'/en/recipe/'+data.tag?.id" class="bg-gray mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important;">
-              <h1>{{ data.tag?.title }}</h1>
+              <h1>{{ data.tag?.title_en }}</h1>
             </a>
             <div class="bg-main  rounded  text-center mb-5 py-3 text-light" style=" border-radius: 20px !important;">
-              <h1>{{ data.title }}</h1>
+              <h1>{{ data.title_en }}</h1>
             </div>
 
           </div>
@@ -60,7 +60,7 @@
 
   <div class="d-flex" @click="$router.go(-1)"
        style="cursor: pointer !important; position: fixed; bottom: 20px; left: 20px; background-color: white; padding: 10px; border-radius: 20%">
-    <span>بازگشت</span>
+    <span>back</span>
     <div style="background-color: red; color: white; width: 30px; height:30px;  border-radius: 50%; text-align: center">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left"
            viewBox="0 0 16 16">
