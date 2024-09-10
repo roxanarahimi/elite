@@ -18,7 +18,7 @@
           <div class="text-light text-center w-100" style="position: absolute; bottom: 0; left: 0; background-color: rgba(0,0,0,0.27); height: 65px;">
 
             <h3 class="mt-3">
-              {{ item.title }}
+              {{ item.title_en}}
 
             </h3>
 
@@ -33,7 +33,7 @@
 
   <div v-for="(item, index) in data" :key="index" :id="item.title_en" class="container-fluid p-0 mt-5 pt-5 px-lg-5"
        style=" ">
-    <h2 class="text-center">{{ item.title }}</h2>
+    <h2 class="text-center">{{ item.title_en}}</h2>
     <products-slider :oneRowMode="item.id==5 || item.id==6" :cat-id="item.id"/>
   </div>
 

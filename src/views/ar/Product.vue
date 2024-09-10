@@ -30,7 +30,7 @@
 
               <div>
                 <p dir="rtl" style="font-size: 18px;white-space: pre-line; text-align: justify !important">
-                  {{ data.text }}
+                  {{ data.text_ar }}
                 </p>
 
               </div>
@@ -38,7 +38,7 @@
 
               <div class="mt-5  d-flex justify-content-between mb-5">
                 <p class="fw-bold mt-3" style=" text-align:  right">
-                  جدول ارزش غذایی در 100 گرم
+                  جدول القيمة الغذائية لكل 100 جرام
                 </p>
                 <img src="/img/flash.png" width="100" height="50" style="margin-left: -28px" alt="">
               </div>
@@ -73,18 +73,18 @@
               </div>
               <div class="mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important;"
                    :style="{ backgroundColor: data.color }">
-                <h3>{{ data.title }}</h3>
+                <h3>{{ data.title_ar }}</h3>
               </div>
               <div v-if="data.tag1" class="mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important; "
                    :style="{ backgroundColor: data.color }">
-                <h3>{{ data.tag1 }}</h3>
+                <h3>{{ data.tag1_ar }}</h3>
               </div>
               <div v-if="data.tag2" class="mb-3 rounded  text-center py-3 text-light" style=" border-radius: 20px !important; "
                    :style="{ backgroundColor: data.color  }">
-                <h3>{{ data.tag2 }}</h3>
+                <h3>{{ data.tag2_ar }}</h3>
               </div>
               <a v-if="data.link" :href="data.link" target="_blank" class="cart rounded text-center py-3  mb-3">
-                <h3>خرید اینترنتی
+                <h3>التسوق عبر الإنترنت
                   <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
                     <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z"/>
                   </svg>
@@ -99,7 +99,7 @@
 
   <div class="d-flex" @click="$router.go(-1)"
        style="cursor: pointer !important; position: fixed; bottom: 20px; left: 20px; background-color: white; padding: 10px; border-radius: 20%">
-    <span>بازگشت</span>
+    <span>العودة</span>
     <div style="background-color: red; color: white; width: 30px; height:30px;  border-radius: 50%; text-align: center">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left"
            viewBox="0 0 16 16">

@@ -89,7 +89,7 @@
      <h3 style="font-family:IranSansBold ;font-size:35px">الطبخ مع إیلیت</h3>
 
      <p class="fw-bold txtxx" style="font-size:25px">
-       إذا كنت مهتمًا بالطهي، قم بزيارة الوصفات أدناه لذت آشپزی با محصولات الیت
+       إذا كنت مهتمًا بالطهي، قم بزيارة الوصفات أدناه
      </p>
 
 

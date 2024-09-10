@@ -6,7 +6,7 @@
         <slide v-for="(item,index) in data2" :key="index">
           <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-100">
-              <router-link :to="'/product/'+item.id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
+              <router-link :to="'/ar/product/'+item.id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
                 <div class="slideContainer" style="position: relative">
 
                   <div class="w-100 d-grid h-100" style="min-height: 260px !important">
@@ -39,7 +39,7 @@
         <slide v-for="(item,index) in data2" :key="index">
           <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-100">
-              <router-link :to="'/product/'+item.id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
+              <router-link :to="'/ar/product/'+item.id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
                 <div class="slideContainer" style="position: relative">
 
                   <div class="w-100 d-grid h-100" style="min-height: 260px !important">
@@ -73,7 +73,7 @@
         <slide v-for="(item,index) in data2" :key="index">
           <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-100">
-              <router-link :to="'/product/'+item.id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
+              <router-link :to="'/ar/product/'+item.id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
                 <div class="slideContainer" style="position: relative">
 
                   <div class="w-100 d-grid h-100" style="min-height: 260px !important">
@@ -110,7 +110,7 @@
           <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">              <!--              :class="{'bg-gray2': index%2 === 0, 'bg-main': index%2 === 1}"-->
-              <router-link :to="'/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
+              <router-link :to="'/ar/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
                 <div class="slideContainer" style="position: relative;">
                   <div class="w-100 justify-content-center"
                        style="min-height: 280px !important ; display: grid !important;">
@@ -133,7 +133,7 @@
             <div v-if="item[1].length != 0" class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">
               <!--              :class="{'bg-main': index%2 === 0, 'bg-gray2': index%2 === 1}"-->
-              <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
+              <router-link :to="'/ar/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
                 <div class="slideContainer " style="position: relative;">
 
                   <div class="w-100 justify-content-center"
@@ -185,7 +185,7 @@
           <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">              <!--              :class="{'bg-gray2': index%2 === 0, 'bg-main': index%2 === 1}"-->
-                <router-link :to="'/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
+                <router-link :to="'/ar/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
                   <div class="slideContainer" style="position: relative;">
                     <div class="w-100 justify-content-center"
                          style="min-height: 280px !important ; display: grid !important;">
@@ -208,7 +208,7 @@
             <div v-if="item[1].length != 0" class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">
                 <!--              :class="{'bg-main': index%2 === 0, 'bg-gray2': index%2 === 1}"-->
-                <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
+                <router-link :to="'/ar/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
                   <div class="slideContainer " style="position: relative;">
 
                     <div class="w-100 justify-content-center"
@@ -260,7 +260,7 @@
           <div class="w-100 h-100" style="margin: 1px">
             <div class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">              <!--              :class="{'bg-gray2': index%2 === 0, 'bg-main': index%2 === 1}"-->
-                <router-link :to="'/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
+                <router-link :to="'/ar/product/'+item[0].id" class="bg-gray3" style=" border-radius: 30px;overflow: hidden;">
                   <div class="slideContainer" style="position: relative;">
                     <div class="w-100 justify-content-center"
                          style="min-height: 280px !important ; display: grid !important;">
@@ -283,7 +283,7 @@
             <div v-if="item[1].length != 0" class="w-100 h-50" style="margin: 1px">
               <div class="w-100 h-100">
                 <!--              :class="{'bg-main': index%2 === 0, 'bg-gray2': index%2 === 1}"-->
-                <router-link :to="'/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
+                <router-link :to="'/ar/product/'+item[1].id" class="bg-gray3" style="  border-radius: 30px;overflow: hidden;">
                   <div class="slideContainer " style="position: relative;">
 
                     <div class="w-100 justify-content-center"
