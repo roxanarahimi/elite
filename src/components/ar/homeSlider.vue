@@ -49,9 +49,9 @@ export default {
   data() {
     return {
       images: [
-        {"image": "/img/R3.png", "text": "یک غذای کامل 3 دقیقه ای"},
-        {"image": "/img/R2.png", "text": "سالم و دلچسب برای همه"},
-        {"image": "/img/R1.png", "text": "سالم خوشمزه اقتصادی"},
+        {"image": "/img/R3.png", "text": "وجبة كاملة في 3 دقائق"},
+        {"image": "/img/R2.png", "text": "صحية وقلبية للجميع"},
+        {"image": "/img/R1.png", "text": "صحية  لذيذة اقتصادية"},
 
       ]
     }

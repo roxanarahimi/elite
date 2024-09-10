@@ -21,19 +21,19 @@
           <li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
             <a href="https://digikala.com/search/?brands%5B0%5D=7630&q=Elite" target="_blank">خرید اینترنتی</a>
           </li>
-          <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
-            <div class="d-flex">
-<!--              <router-link to="/" class="d-block">-->
-<!--                <img src="/img/ir.svg" class="languageImg" title="persian" alt="persian">-->
+<!--          <li  class="menu-item menu-item-type-post_type menu-item-object-page">-->
+<!--            <div class="d-flex">-->
+<!--&lt;!&ndash;              <router-link to="/" class="d-block">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img src="/img/ir.svg" class="languageImg" title="persian" alt="persian">&ndash;&gt;-->
+<!--&lt;!&ndash;              </router-link>&ndash;&gt;-->
+<!--              <router-link to="/en/" class="d-block">-->
+<!--                <img src="/img/gb.svg" class="languageImg" title="english" alt="english">-->
 <!--              </router-link>-->
-              <router-link to="/en/" class="d-block">
-                <img src="/img/gb.svg" class="languageImg" title="english" alt="english">
-              </router-link>
-              <router-link to="/ar/" class="d-block">
-                <img src="/img/sa.svg" class="languageImg" title="arabic" alt="arabic">
-              </router-link>
-            </div>
-          </li>
+<!--              <router-link to="/ar/" class="d-block">-->
+<!--                <img src="/img/sa.svg" class="languageImg" title="arabic" alt="arabic">-->
+<!--              </router-link>-->
+<!--            </div>-->
+<!--          </li>-->
           <li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139">
             <router-link to="/search">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"

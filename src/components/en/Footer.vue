@@ -129,16 +129,16 @@
           <div class="col-xl-6">
             <div class="col-12 px-3">
               <div class="row" style="padding-top: 100px">
-                <router-link to="/recipe/3" class="col-6 col-md-3">
+                <router-link to="/en/recipe/3" class="col-6 col-md-3">
                   <img class="img-fluid footer_img" src="/img/f1.png" alt="">
                 </router-link>
-                <router-link to="/recipe/5" class="col-6 col-md-3">
+                <router-link to="/en/recipe/5" class="col-6 col-md-3">
                   <img class="img-fluid footer_img" src="/img/f2.png" alt="">
                 </router-link>
-                <router-link to="/recipe/2" class="col-6 col-md-3">
+                <router-link to="/en/recipe/2" class="col-6 col-md-3">
                   <img class="img-fluid footer_img" src="/img/f3.png" alt="">
                 </router-link>
-                <router-link to="/recipe/4" class="col-6 col-md-3">
+                <router-link to="/en/recipe/4" class="col-6 col-md-3">
                   <img class="img-fluid footer_img" src="/img/f4.png" alt="">
                 </router-link>
               </div>

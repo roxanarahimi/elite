@@ -17,9 +17,9 @@
 
        <div class="row p-0 m-0 " style="overflow: hidden !important;">
          <div class="col-12" style="font-weight: bold; z-index: 1000">
-           <h1 class="s-1 pt-5 pt-lg-0">ســالـــم</h1>
-           <h1 class="s-2">خــوشـمزه</h1>
-           <h1 class="s-3">اقـتصادی</h1>
+           <h1 class="s-1 pt-5 pt-lg-0">صـحـــیة</h1>
+           <h1 class="s-2">لـذیـــــذة</h1>
+           <h1 class="s-3">اقـتصادیة</h1>
          </div>
        </div>
      </div>
@@ -28,25 +28,25 @@
          <!--        :to="{ path: '/products', params: {cat}, query: { cat:  1}} "-->
          <router-link  to="/ar/products#noodelite">
            <img src="/img/Vector%20Smart%20Object-3.png" class="img1" alt="">
-           <p>نودالیت</p>
+           <p>نودإیلیت</p>
          </router-link>
          <router-link to="/ar/products#bouillon">
          <img src="/img/Vector%20Smart%20Object1.png" class=" mb-1 mb-lg-0 mt-lg-4 img5" alt="">
-         <p class="mb-2">عصاره</p>
+         <p class="mb-2">مستخلص</p>
        </router-link>
 
          <router-link to="/ar/products#soup">
            <img src="/img/Vector%20Smart%20Object-2.png" class="img2" alt="">
-           <p>سوپ</p>
+           <p>حساء</p>
          </router-link>
 
          <router-link to="/ar/products#seasoning">
            <img src="/img/Vector%20Smart%20Object.png" class="img4" alt="">
-           <p>چاشنی و ادویه</p>
+           <p>بهارات</p>
          </router-link>
          <router-link to="/ar/products#pasta">
            <img src="/img/Vector%20Smart%20Object-1.png" class="img3" alt="">
-           <p>آش و پاستا</p>
+           <p>آش و باستا</p>
 
          </router-link>
        </div>
@@ -66,13 +66,12 @@
          <img src="/img/Layer%201.png" class="food1" alt="">
          <div class="text-light pt-5 px-3  foodtxt">
            <h1 class="mt-5 fw-bold ">
-             محصولات الیت
+             منتجات إیلیت
            </h1>
            <p class="foodp" style="">
-             محصولات الیت به شما کمک میکند یک آشپزی راحت را تجربه کنید.
+             تساعدك منتجات إیلیت على تجربة طهي مريحة.
              <br>
-             همچنین به طعم و عطر غذای شما بهبود می بخشدو شما را به یک
-             آشپز حرفه ای تبدیل می کند.
+             كما أنه يحسن طعم ورائحة طعامك ويجعلك طباخًا محترفًا.
            </p>
          </div>
 
@@ -87,10 +86,10 @@
 
    <div class="py-5 text-center fw-bold" style="overflow-x: hidden !important;">
 
-     <h3 style="font-family:IranSansBold ;font-size:35px">آشپزی با الیت</h3>
+     <h3 style="font-family:IranSansBold ;font-size:35px">الطبخ مع إیلیت</h3>
 
      <p class="fw-bold txtxx" style="font-size:25px">
-       اگر به آشپزی علاقه دارید به رسپی های زیر سر بزنید
+       إذا كنت مهتمًا بالطهي، قم بزيارة الوصفات أدناه لذت آشپزی با محصولات الیت
      </p>
 
 
@@ -154,7 +153,7 @@
    </div>
 
    <div class="py-5 text-center fw-bold w-100">
-     <h3 style="font-family:IranSansBold">لذت آشپزی با محصولات الیت</h3>
+     <h3 style="font-family:IranSansBold">متعة الطبخ مع منتجات إیلیت</h3>
 
      <div class="p-0 m-0" style="overflow-x: hidden !important;">
        <home-slider/>

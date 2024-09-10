@@ -23,9 +23,9 @@
                     </div>
                     <div class="slideTitle text-center text-light">
                       <h4>
-                        {{ item.article?.title }}
+                        {{ item.article?.title_ar }}
                         <br>
-                        با {{ item.article?.product?.title }} الیت
+                        با {{item.article?.product?.title_ar  }} الیت
                       </h4>
 
                     </div>
@@ -65,9 +65,9 @@
                     </div>
                     <div class="slideTitle text-center text-light">
                       <h4>
-                        {{ item.article?.title }}
+                        {{ item.article?.title_ar }}
                         <br>
-                        با {{ item.article?.product?.title }} الیت
+                        با {{ item.article?.product?.title_ar }} الیت
                       </h4>
 
                     </div>
@@ -107,9 +107,9 @@
                     </div>
                     <div class="slideTitle text-center text-light">
                       <h4>
-                        {{ item.article?.title }}
+                        {{ item.article?.title_ar }}
                         <br>
-                        با {{ item.article?.product?.title }} الیت
+                        با {{ item.article?.product?.title_ar }} الیت
                       </h4>
 
                     </div>
@@ -137,7 +137,7 @@ import {computed, onMounted, ref} from "vue";
 import {useStore} from 'vuex'
 
 export default {
-  name: 'ProductsSlider',
+  name: 'foodsSlider',
   components: {
     Carousel,
     Slide,

@@ -16,7 +16,7 @@
                   </div>
                   <div class="slideTitle text-light text-center ">
                     <h3>
-                      {{ item.title }}
+                      {{ item.title_en }}
                     </h3>
 
                   </div>
@@ -49,7 +49,7 @@
                   </div>
                   <div class="slideTitle text-light text-center ">
                     <h3>
-                      {{ item.title }}
+                      {{ item.title_en }}
                     </h3>
 
                   </div>
@@ -83,7 +83,7 @@
                   </div>
                   <div class="slideTitle text-light text-center ">
                     <h3>
-                      {{ item.title }}
+                      {{ item.title_en }}
                     </h3>
 
                   </div>
@@ -121,7 +121,7 @@
                   </div>
                   <div class="slideTitle text-light text-center ">
                     <h3>
-                      {{ item[0].title }}
+                      {{ item[0].title_en }}
                     </h3>
 
                   </div>
@@ -145,7 +145,7 @@
                   </div>
                   <div class="slideTitle text-light text-center ">
                     <h3>
-                      {{ item[1].title }}
+                      {{ item[1].title_en }}
                     </h3>
 
                   </div>
@@ -196,7 +196,7 @@
                     </div>
                     <div class="slideTitle text-light text-center ">
                       <h3>
-                        {{ item[0].title }}
+                        {{ item[0].title_en }}
                       </h3>
 
                     </div>
@@ -220,7 +220,7 @@
                     </div>
                     <div class="slideTitle text-light text-center ">
                       <h3>
-                        {{ item[1].title }}
+                        {{ item[1].title_en }}
                       </h3>
 
                     </div>
@@ -271,7 +271,7 @@
                     </div>
                     <div class="slideTitle text-light text-center ">
                       <h3>
-                        {{ item[0].title }}
+                        {{ item[0].title_en }}
                       </h3>
 
                     </div>
@@ -295,7 +295,7 @@
                     </div>
                     <div class="slideTitle text-light text-center ">
                       <h3>
-                        {{ item[1].title }}
+                        {{ item[1].title_en }}
                       </h3>
 
                     </div>

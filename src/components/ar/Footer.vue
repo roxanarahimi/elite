@@ -9,7 +9,7 @@
         <div class="row px-5 xo ">
           <div class="col-xl-6 row flex-row-reverse">
             <div class="col-sm-6 col-xl-6 px-3">
-              <p class="text-center"><b>تماس با ما</b></p>
+              <p class="text-center"><b>اتصل بنا</b></p>
 
               <ul>
                 <li class="d-flex">
@@ -24,7 +24,7 @@
                   <small>
                     <a target="_blank"
                        href="https://www.google.com/maps/place/AmadehLaziz/@35.7302329,51.3807302,19z/data=!4m6!3m5!1s0x3f8e07d020c7ca45:0x43bf4c9a730015f3!8m2!3d35.7301399!4d51.3807224!16s%2Fg%2F11c1r04p2q">
-                      دفتر مرکزی: تهران، خیابان گیشا، خیابان هشتم، پلاک 58</a>
+                      المكتب الرئيسي: رقم 58، الشارع الثامن، شارع جيشا، طهران</a>
                   </small>
                 </li>
                 <li class="d-flex">
@@ -51,13 +51,13 @@
            </span>
 
                   <small dir="ltr" style="cursor: pointer;position: relative" @click="coppyCode">
-                    کد پستی:
+                    الرمز البريدي:
 
                     <span id="postalcode">
                       1446863914
                     </span>
                     <span id="coppyAlert">
-                      کپی شد!
+                      تم نسخ!
                     </span>
                   </small>
                 </li>
@@ -72,8 +72,9 @@
               </svg>
             </span>
                   <small><a target="_blank"
-                            href="https://www.google.com/maps/place/Elite+company/@35.7533913,51.0211096,15.89z/data=!4m14!1m7!3m6!1s0x3f8deb414a374c79:0x43e1c8e22a05902e!2sElite+company!8m2!3d35.752755!4d51.02824!16s%2Fg%2F11csc8jgy6!3m5!1s0x3f8deb414a374c79:0x43e1c8e22a05902e!8m2!3d35.752755!4d51.02824!16s%2Fg%2F11csc8jgy6">کارخانه1:کرج،
-                    سیمین دشت، نبش کوچه هشتم شرقی</a></small>
+                            href="https://www.google.com/maps/place/Elite+company/@35.7533913,51.0211096,15.89z/data=!4m14!1m7!3m6!1s0x3f8deb414a374c79:0x43e1c8e22a05902e!2sElite+company!8m2!3d35.752755!4d51.02824!16s%2Fg%2F11csc8jgy6!3m5!1s0x3f8deb414a374c79:0x43e1c8e22a05902e!8m2!3d35.752755!4d51.02824!16s%2Fg%2F11csc8jgy6">
+                    المصنع الأول: كرج، سيمين دشت، زاوية الزقاق الثامن الشرقي
+                  </a></small>
                 </li>
                 <li class="d-flex mb-3">
             <span class="me-2">
@@ -99,8 +100,9 @@
               </svg>
             </span>
                   <small><a target="_blank"
-                            href="https://www.google.com/maps/place/Amadeh+Laziz+Factory/@35.8900418,50.8912728,18.22z/data=!4m14!1m7!3m6!1s0x3f8dbb279b510219:0xa67fc687f7452e7f!2sAmadeh+Laziz+Factory!8m2!3d35.8901593!4d50.8927433!16s%2Fg%2F11j7yy56ks!3m5!1s0x3f8dbb279b510219:0xa67fc687f7452e7f!8m2!3d35.8901593!4d50.8927433!16s%2Fg%2F11j7yy56ks">کارخانه2:
-                    کرج، شهرک صنعتی بهارستان، گلستان 3</a></small>
+                            href="https://www.google.com/maps/place/Amadeh+Laziz+Factory/@35.8900418,50.8912728,18.22z/data=!4m14!1m7!3m6!1s0x3f8dbb279b510219:0xa67fc687f7452e7f!2sAmadeh+Laziz+Factory!8m2!3d35.8901593!4d50.8927433!16s%2Fg%2F11j7yy56ks!3m5!1s0x3f8dbb279b510219:0xa67fc687f7452e7f!8m2!3d35.8901593!4d50.8927433!16s%2Fg%2F11j7yy56ks">
+                    المصنع 2: كرج، مدينة بهارستان الصناعية، كلستان 3
+                  </a></small>
                 </li>
                 <li class="d-flex mb-3">
             <span class="me-2">
@@ -117,11 +119,11 @@
               </ul>
             </div>
             <div class="col-sm-6 col-xl-5 px-3">
-              <p class="text-center"><b>درباره الیت</b></p>
+              <p class="text-center"><b>حول إیلیت</b></p>
               <small class="d-block">
-                برند الیت در سال ۱۳۸۴ به ثبت رسید و برند اصلی شرکت آماده لذیذ است. عصاره ، نودالیت و سوپ های نیمه آماده
-                جزو اولین محصولات تولید شده توسط الیت می‌باشند. محصولات الیت با تمرکز بر کیفیت و سلامت خانواده ها و مدرن
-                ترین استاندارد های مواد غذایی دنیا تولید می‌شود.
+                تم تسجيل ماركة إيليت عام 2004 والعلامة التجارية الرئيسية للشركة جاهزة ولذيذة. تعد شوربات الخلاصة
+                والنوداليت والشوربات شبه الجاهزة من بين المنتجات الأولى التي تنتجها شركة إليت. يتم إنتاج منتجات إیلیت من
+                خلال التركيز على جودة وصحة الأسرة وأحدث المعايير الغذائية في العالم
               </small>
             </div>
             <div class="col-1 d-none d-xl-block"></div>
@@ -129,16 +131,16 @@
           <div class="col-xl-6">
             <div class="col-12 px-3">
               <div class="row" style="padding-top: 100px">
-                <router-link to="/recipe/3" class="col-6 col-md-3">
+                <router-link to="/ar/recipe/3" class="col-6 col-md-3">
                   <img class="img-fluid footer_img" src="/img/f1.png" alt="">
                 </router-link>
-                <router-link to="/recipe/5" class="col-6 col-md-3">
+                <router-link to="/ar/recipe/5" class="col-6 col-md-3">
                   <img class="img-fluid footer_img" src="/img/f2.png" alt="">
                 </router-link>
-                <router-link to="/recipe/2" class="col-6 col-md-3">
+                <router-link to="/ar/recipe/2" class="col-6 col-md-3">
                   <img class="img-fluid footer_img" src="/img/f3.png" alt="">
                 </router-link>
-                <router-link to="/recipe/4" class="col-6 col-md-3">
+                <router-link to="/ar/recipe/4" class="col-6 col-md-3">
                   <img class="img-fluid footer_img" src="/img/f4.png" alt="">
                 </router-link>
               </div>
@@ -150,9 +152,9 @@
         <div class="row">
           <div class="col-12">
             <small class="d-block m-3 mx-5">
-              &copy; کلیه حقوق این وبسایت متعلق به شرکت
+              &copy; جميع حقوق هذا الموقع مملوكة لشركة
               <br class="d-sm-none">
-              آماده لذیذ میباشد.
+              آماده لذیذ.
             </small>
           </div>
         </div>

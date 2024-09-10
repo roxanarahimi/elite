@@ -23,9 +23,9 @@
                     </div>
                     <div class="slideTitle text-center text-light">
                       <h4>
-                        {{ item.article?.title }}
+                        {{ item.article?.title_en }}
                         <br>
-                        با {{ item.article?.product?.title }} الیت
+                        با {{ item.article?.product?.title_en }} الیت
                       </h4>
 
                     </div>
@@ -65,9 +65,9 @@
                     </div>
                     <div class="slideTitle text-center text-light">
                       <h4>
-                        {{ item.article?.title }}
+                        {{ item.article?.title_en }}
                         <br>
-                        با {{ item.article?.product?.title }} الیت
+                        با {{ item.article?.product?.title_en }} الیت
                       </h4>
 
                     </div>
@@ -107,9 +107,9 @@
                     </div>
                     <div class="slideTitle text-center text-light">
                       <h4>
-                        {{ item.article?.title }}
+                        {{ item.article?.title_en }}
                         <br>
-                        با {{ item.article?.product?.title }} الیت
+                        با {{ item.article?.product?.title_en }} الیت
                       </h4>
 
                     </div>

@@ -7,23 +7,23 @@
         <ul id="menu-main-menu" class="menu">
           <li id="menu-item-61"
               class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-61">
-            <a href="/" aria-current="page">بیت</a>
+            <a href="/ar/" aria-current="page">بیت</a>
           </li>
           <li id="menu-item-136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136">
-            <router-link to="/products">منتجات</router-link>
+            <router-link to="/ar/products">منتجات</router-link>
           </li>
           <li id="menu-item-105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105">
-            <router-link to="/categories">دستور پخت</router-link>
+            <router-link to="/ar/categories">وصفات طبخ</router-link>
           </li>
           <li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103">
-            <router-link to="/about">درباره الیت</router-link>
+            <router-link to="/ar/about">حول إیلیت</router-link>
           </li>
           <li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
-            <a href="https://digikala.com/search/?brands%5B0%5D=7630&q=Elite" target="_blank">خرید اینترنتی</a>
+            <a href="https://digikala.com/search/?brands%5B0%5D=7630&q=Elite" target="_blank">التسوق عبر الإنترنت</a>
           </li>
           <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
             <div class="d-flex">
-              <router-link to="/" class="d-block">
+              <router-link to="/ar/" class="d-block">
                 <img src="/img/ir.svg" class="languageImg" title="persian" alt="persian">
               </router-link>
               <router-link to="/en/" class="d-block">
