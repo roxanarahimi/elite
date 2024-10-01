@@ -21,116 +21,125 @@
 
 
     </div>
-    <div  dir="rtl" class="p-5">
+    <div dir="rtl" class="p-5">
 
       <a target="_blank" href="/vdo/آش%20دوغ%20محلی-2%20اردیبهشت.mp4"
-         class="mb-5 pl-lg-2 m-lg-5 d-flex justify-content-between" style="border:1px solid  red ; border-radius: 20px;">
+         class="mb-5 pl-lg-2 m-lg-5 d-flex justify-content-between"
+         style="border:1px solid  red ; border-radius: 20px;">
 
         <div class="row">
           <div class="col-3 col-lg-1 h-100">
             <div class="d-grid h-100">
               <div class="" style="color:red; font-size:100px; align-self: center; height: 200px">
-                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                     class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                 </svg>
               </div>
             </div>
           </div>
           <div class="col-9 col-lg-11 row flex-row-reverse">
             <div class="col-lg-8 d-grid">
-              <img class="img-fluid w-100 my-5" style="border-radius:15px; align-self: center" src="/img/web 570 in 320-min.jpg"/>
+              <img class="img-fluid w-100 my-5" style="border-radius:15px; align-self: center"
+                   src="/img/web 570 in 320-min.jpg"/>
             </div>
-            <div class="col-lg-4 reS" style="">
-            <h3 class="mt-lg-5 text-end">آش دوغ محلی</h3>
+            <div class="col-lg-4 reS" style="" dir="ltr">
+              <h3 class="mt-lg-5 text-end">Local buttermilk soup</h3>
+              <p class="text-end">
+                ingredients:
+                <br>
+                Joe Elite 2 packs
+                <br>
+                Buttermilk without gas 1 liter
+                <br>
+                2 liters of water
+                <br>
+                Coriander and parsley 250 grams
+                <br>
+                Tomato juice 1 glass
+                <br>
+                1 cup cooked lentils
+                <br>
+                1 cup cooked chickpeas
+                <br>
+                Barberry 3 tablespoons
+                <br>
+                3 tablespoons of hot onion
+                <br>
+                Curd 2 tablespoons
+              </p>
+              <p>
+                How to prepare:
+                <br>
+                Pour buttermilk, water, coriander and parsley, tomato juice, lentils, peas, barberry, onion and curd into
+                the pot. Then, we mix 2 packets of elite barley soup with one liter of cold water, and add it to other
+                ingredients. Our delicious buttermilk soup is ready.
+              </p>
+            </div>
+          </div>
+        </div>
+      </a> <a target="_blank" href="/vdo/سالاد%20نودالیت%20کریسپی.mp4"
+              class="mb-5 pl-lg-2 m-lg-5 d-flex justify-content-between"
+              style="border:1px solid  red ; border-radius: 20px;">
+
+      <div class="row">
+        <div class="col-3 col-lg-1 h-100">
+          <div class="d-grid h-100">
+            <div class="" style="color:red; font-size:100px; align-self: center; height: 200px">
+              <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                   class="bi bi-chevron-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 col-lg-11 row flex-row-reverse">
+          <div class="col-lg-8 d-grid">
+            <img class="img-fluid w-100 my-5" style="border-radius:15px; align-self: center"
+                 src="/img/web 570 in 320 noodle-min.jpg"/>
+          </div>
+          <div class="col-lg-4 reS" style=""  dir="ltr">
+            <h3 class="mt-lg-5 text-end">Crispy Noodelite Salad</h3>
             <p class="text-end">
-              مواد لازم:
+              ingredients:
               <br>
-              سوپ جو الیت ۲ بسته
+              Noodelite chicken 2 packs
               <br>
-              دوغ بدون گاز ۱ لیتر
+              Canned tuna 1 pc
               <br>
-              آب ۲ لیتر
+              3 grated carrots
               <br>
-              گشنیز و جعفری ۲۵۰ گرم
+              Mustard yogurt 150 grams
               <br>
-              آب گوجه فرنگی ۱ لیوان
+              2 eggs
               <br>
-              عدس پخته ۱ پیمانه
+              1 lemon
               <br>
-              نخود پخته ۱ پیمانه
+              3 chopped onions
               <br>
-              زرشک ۳ قاشق غذاخوری
+              1 chopped lettuce
               <br>
-              پیاز داغ ۳ قاشق غذاخوری
+              Mustard sauce 2 tablespoons
               <br>
-              کشک ۲ قاشق غذاخوری
+              Red bell pepper as desired
             </p>
-            <p>
-              طرز تهیه:
+            <p class="text-end">
+
+              How to prepare:
               <br>
-              دوغ، آب، گشنیز و جعفری، آب گوجه فرنگی، عدس، نخود، زرشک، پیازداغ و کشک رو داخل قابلمه می‌ریزیم.
-              سپس ۲ بسته سوپ جو الیت رو با یک لیتر آب سرد مخلوط، و به سایر مواد اضافه می‌کنیم.
-              آش دوغ خوشمزه ما آماده است
+              We fry the Noodelite, to prepare the sauce, we mix chopped onions, mustard sauce, lime, nodalite
+              seasoning,
+              tuna fish and eggs (cooked for 3 minutes). Take the crispy nodalite oil using a paper towel and let it
+              cool.
+              Then add carrot, lettuce, bell pepper to the sauce and at the end mix the chilled nodalite crispy with it.
+              Our delicious crispy Noodelite salad is ready.
             </p>
-          </div>
           </div>
         </div>
-      </a>  <a target="_blank" href="/vdo/سالاد%20نودالیت%20کریسپی.mp4"
-         class="mb-5 pl-lg-2 m-lg-5 d-flex justify-content-between" style="border:1px solid  red ; border-radius: 20px;">
-
-        <div class="row">
-          <div class="col-3 col-lg-1 h-100">
-            <div class="d-grid h-100">
-              <div class="" style="color:red; font-size:100px; align-self: center; height: 200px">
-                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div class="col-9 col-lg-11 row flex-row-reverse">
-            <div class="col-lg-8 d-grid">
-              <img class="img-fluid w-100 my-5" style="border-radius:15px; align-self: center" src="/img/web 570 in 320 noodle-min.jpg"/>
-            </div>
-            <div class="col-lg-4 reS" style="">
-            <h3 class="mt-lg-5 text-end">سالاد نودالیت کریسپی</h3>
-              <p class="text-end">
-              مواد لازم:
-              <br>
-              نودالیت مرغ ۲ بسته
-              <br>
-              کنسرو‌ ماهی تن ۱ عدد
-              <br>
-              هويج رنده‌شده ۳ عدد
-              <br>
-              ماست موسير ١٥٠ گرم
-              <br>
-              تخم مرغ ۲ عدد
-              <br>
-              ليمو 1 عدد
-              <br>
-              پيازچه خردشده۳ عدد
-              <br>
-              كاهو خردشده ۱ عدد
-              <br>
-              سس خردل۲ قاشق غذاخوری
-              <br>
-              فلفل دلمه‌ای قرمز به میزان دلخواه
-            </p>
-              <p class="text-end">
-
-              طرز تهیه:
-              <br>
-              نودالیت‌ها رو سرخ می‌کنیم، برای تهیه سس، پیازچه‌های خردشده، سس خردل، لیمو ترش، چاشنی نودالیت، ماهی تن و
-              تخم مرغ (3 دقیقه پخته شده) رو مخلوط می‌کنیم.
-              روغن نودالیت کریسپی‌شده رو با استفاده از دستمال کاغذی گرفته و می‌گذاریم سرد شود.
-              سپس هویج، کاهو، فلفل دلمه‌ای رو به سس اضافه کرده و در پایان نودالیت کریسپی سردشده را با آن مخلوط می‌کنیم.
-              سالاد نودالیت کریسپی خوشمزه ما آماده‌ است.
-            </p>
-          </div>
-          </div>
-        </div>
-      </a>
+      </div>
+    </a>
 
     </div>
 
@@ -171,7 +180,7 @@ export default {
 </script>
 
 <style scoped>
-.reS p{
+.reS p {
   text-align: justify;
   font-size: 14px;
 }

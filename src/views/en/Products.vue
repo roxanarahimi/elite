@@ -67,7 +67,7 @@
   </div>
   <a id="up" class="d-flex d-none" href="#top"
      style="cursor: pointer !important; position: fixed; bottom: 20px; left: 20px; background-color: white; padding: 10px; border-radius: 20%">
-    <span>بازگشت</span>
+    <span>back</span>
     <div style="background-color: red; color: white; width: 30px; height:30px;  border-radius: 50%; text-align: center">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up"
            viewBox="0 0 16 16">

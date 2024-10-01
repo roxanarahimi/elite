@@ -1,7 +1,7 @@
 <template>
-  <div class="homeSlider">
-    <div class="d-none d-lg-block">
-      <Carousel :itemsToShow="1.9" :wrapAround="true" :transition="500">
+  <div class="homeSlider" >
+    <div class="d-none d-lg-block"  >
+      <Carousel :itemsToShow="1.9" :wrapAround="true" :transition="500" >
         <slide v-for="(slide,index) in images" :key="index">
           <img :src="slide.image" style="max-width: 970px">
           <div style=" position: absolute; top: 200px;">
@@ -49,9 +49,9 @@ export default {
   data() {
     return {
       images: [
-        {"image": "/img/R3.png", "text": "یک غذای کامل 3 دقیقه ای"},
-        {"image": "/img/R2.png", "text": "سالم و دلچسب برای همه"},
-        {"image": "/img/R1.png", "text": "سالم خوشمزه اقتصادی"},
+        {"image": "/img/R3.png", "text": "A complete three-minute meal"},
+        {"image": "/img/R2.png", "text": "Healthy and Pleasant for everyone"},
+        {"image": "/img/R1.png", "text": "Healthy, delicious, economical"},
 
       ]
     }
@@ -151,7 +151,7 @@ export default {
 
 :deep(.foodSlideTitle) {
 
-  font-family: 'BYekan';
+  font-family: 'Segoe UI Semibold';
   font-width: bolder;
   text-shadow: 2px 2px 5px white;
   font-size: 50px;
@@ -161,7 +161,7 @@ export default {
 
   color: white;
   text-shadow: 2px 2px 5px black;
-  font-family: 'BYekan';
+  font-family: 'Segoe UI Semibold';
   font-width: bolder;
   font-size: 50px;
 }

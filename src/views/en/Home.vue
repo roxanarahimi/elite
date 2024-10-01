@@ -28,25 +28,25 @@
          <!--        :to="{ path: '/products', params: {cat}, query: { cat:  1}} "-->
          <router-link  to="/en/products#noodelite">
            <img src="/img/Vector%20Smart%20Object-3.png" class="img1" alt="">
-           <p>نودالیت</p>
+           <p>Noodelite</p>
          </router-link>
          <router-link to="/en/products#bouillon">
          <img src="/img/Vector%20Smart%20Object1.png" class=" mb-1 mb-lg-0 mt-lg-4 img5" alt="">
-         <p class="mb-2">عصاره</p>
+         <p class="mb-2">Extract</p>
        </router-link>
 
          <router-link to="/en/products#soup">
            <img src="/img/Vector%20Smart%20Object-2.png" class="img2" alt="">
-           <p>سوپ</p>
+           <p>Soup</p>
          </router-link>
 
          <router-link to="/en/products#seasoning">
            <img src="/img/Vector%20Smart%20Object.png" class="img4" alt="">
-           <p>چاشنی و ادویه</p>
+           <p>Seasoning and Spices</p>
          </router-link>
          <router-link to="/en/products#pasta">
            <img src="/img/Vector%20Smart%20Object-1.png" class="img3" alt="">
-           <p>آش و پاستا</p>
+           <p>Ash and Pasta</p>
 
          </router-link>
        </div>
@@ -64,15 +64,14 @@
 
        <div class="d-flex justify-content-between">
          <img src="/img/Layer%201.png" class="food1" alt="">
-         <div class="text-light pt-5 px-3  foodtxt">
-           <h1 class="mt-5 fw-bold ">
-             محصولات الیت
+         <div class="text-light pt-5 px-3  foodtxt" dir="ltr">
+           <h1 class="mt-5 fw-bold text-end">
+             Elite products
            </h1>
-           <p class="foodp" style="">
-             محصولات الیت به شما کمک میکند یک آشپزی راحت را تجربه کنید.
-             <br>
-             همچنین به طعم و عطر غذای شما بهبود می بخشدو شما را به یک
-             آشپز حرفه ای تبدیل می کند.
+           <p class="foodp text-end" style="">
+             Elite products help you experience a comfortable cooking.<br>
+
+             It also improves the taste and aroma of your food and makes you a professional cook.
            </p>
          </div>
 
@@ -87,10 +86,10 @@
 
    <div class="py-5 text-center fw-bold" style="overflow-x: hidden !important;">
 
-     <h3 style="font-family:IranSansBold ;font-size:35px">آشپزی با الیت</h3>
+     <h3 style="font-family:IranSansBold ;font-size:35px">Cooking with Elite</h3>
 
      <p class="fw-bold txtxx" style="font-size:25px">
-       اگر به آشپزی علاقه دارید به رسپی های زیر سر بزنید
+       If you are interested in cooking, visit the recipes below
      </p>
 
 
@@ -154,7 +153,7 @@
    </div>
 
    <div class="py-5 text-center fw-bold w-100">
-     <h3 style="font-family:IranSansBold">لذت آشپزی با محصولات الیت</h3>
+     <h3 style="font-family:IranSansBold">The pleasure of cooking with elite products</h3>
 
      <div class="p-0 m-0" style="overflow-x: hidden !important;">
        <home-slider/>

@@ -25,7 +25,7 @@
                       <h4>
                         {{ item.article?.title_en }}
                         <br>
-                        با {{ item.article?.product?.title_en }} الیت
+                        with Elite {{ item.article?.product?.title_en }}
                       </h4>
 
                     </div>
@@ -67,7 +67,7 @@
                       <h4>
                         {{ item.article?.title_en }}
                         <br>
-                        با {{ item.article?.product?.title_en }} الیت
+                        with Elite {{ item.article?.product?.title_en }}
                       </h4>
 
                     </div>
