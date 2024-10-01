@@ -15,13 +15,13 @@
 
        <the-menu />
 
-       <div class="row p-0 m-0 " style="overflow: hidden !important;">
-         <div class="col-12" style="font-weight: bold; z-index: 1000">
-           <h1 class="s-1 pt-5 pt-lg-0">صـحـــیة</h1>
-           <h1 class="s-2">لـذیـــــذة</h1>
-           <h1 class="s-3">اقـتصادیة</h1>
-         </div>
-       </div>
+<!--       <div class="row p-0 m-0 " style="overflow: hidden !important;">-->
+<!--         <div class="col-12" style="font-weight: bold; z-index: 1000">-->
+<!--           <h1 class="s-1 pt-5 pt-lg-0">صـحـــیة</h1>-->
+<!--           <h1 class="s-2">لـذیـــــذة</h1>-->
+<!--           <h1 class="s-3">اقـتصادیة</h1>-->
+<!--         </div>-->
+<!--       </div>-->
      </div>
      <div class="bottomNav px-3 px-lg-5" >
        <div class="bottomNavInner d-flex justify-content-around rounded-pill pt-3 px-3 w-100 mx-auto">
