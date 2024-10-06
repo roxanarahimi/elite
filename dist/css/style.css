@@ -920,3 +920,6 @@ body {
 .text-en{
     direction: ltr !important;
 }
+.font-en{
+    font-family: 'Segoe UI Semibold' !important;
+}

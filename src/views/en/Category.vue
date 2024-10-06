@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid p-0 m-0 text-en" style="overflow-x: hidden !important">
+  <div class="container-fluid p-0 m-0 font-en" style="overflow-x: hidden !important">
 
     <div class="container-fluid p-0">
       <the-menu/>

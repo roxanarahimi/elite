@@ -29,9 +29,9 @@
 <!--             <router-link to="/en/" class="d-block">-->
 <!--               <img src="/img/gb.svg" class="languageImg" title="english" alt="english">-->
 <!--             </router-link>-->
-             <router-link to="/ar/" class="d-block">
-               <img src="/img/sa.svg" class="languageImg" title="arabic" alt="arabic">
-             </router-link>
+<!--             <router-link to="/ar/" class="d-block">-->
+<!--               <img src="/img/sa.svg" class="languageImg" title="arabic" alt="arabic">-->
+<!--             </router-link>-->
            </div>
           </li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139">
