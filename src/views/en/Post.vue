@@ -27,7 +27,7 @@
               </div>
 
               <div>
-                <p dir="ltr" style="font-size: 18px;white-space: pre-line; text-align: right !important">
+                <p dir="ltr" style="font-size: 17px;white-space: pre-line; text-align: left !important">
                   {{ data.text_en }}
                 </p>
 

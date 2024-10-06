@@ -45,18 +45,19 @@
               <div>
 
                 <table class="table table-borderless">
-                  <tbody>
+                  <tbody class="text-en">
                   <tr v-for="item in features" :key="item.id">
-                    <th class=" p-0">
-                      <div class="rounded-start bg-light  mb-1 p-1">{{ item.label }}:</div>
+
+                    <th class=" text-center p-0 ">
+                      <div class="rounded-start bg-light   mb-1 p-1">{{ item.value }}</div>
                     </th>
                     <th class="text-center  p-0 ">
                       <div class=" bg-light  mb-1 p-1 ">({{ item.unit }})</div>
                     </th>
-                    <th class=" text-center p-0 ">
-                      <div class="rounded-end bg-light   mb-1 p-1">{{ item.value }}</div>
-                    </th>
 
+                    <th class=" p-0">
+                      <div class="rounded-end bg-light  mb-1 p-1">{{ item.label }}:</div>
+                    </th>
                   </tr>
                   </tbody>
                 </table>

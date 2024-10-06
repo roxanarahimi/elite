@@ -23,7 +23,7 @@
 
               <div class="d-flex justify-content-between mb-5">
                 <p class="fw-bold mt-3" style=" text-align:  right">
-                  ویژگی
+                  الخاصیه
                 </p>
                 <img src="/img/flash.png" width="100" height="50" style="margin-left: -28px" alt="">
               </div>
@@ -45,20 +45,22 @@
               <div>
 
                 <table class="table table-borderless">
-                  <tbody>
+                  <tbody class="text-en">
                   <tr v-for="item in features" :key="item.id">
-                    <th class=" p-0">
-                      <div class="rounded-start bg-light  mb-1 p-1">{{ item.label }}:</div>
+
+                    <th class=" text-center p-0 ">
+                      <div class="rounded-start bg-light   mb-1 p-1">{{ item.value }}</div>
                     </th>
                     <th class="text-center  p-0 ">
                       <div class=" bg-light  mb-1 p-1 ">({{ item.unit }})</div>
                     </th>
-                    <th class=" text-center p-0 ">
-                      <div class="rounded-end bg-light   mb-1 p-1">{{ item.value }}</div>
-                    </th>
 
+                    <th class=" p-0">
+                      <div class="rounded-end bg-light  mb-1 p-1">{{ item.label }}:</div>
+                    </th>
                   </tr>
                   </tbody>
+
                 </table>
               </div>
             </div>
