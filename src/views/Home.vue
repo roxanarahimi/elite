@@ -5,8 +5,10 @@
       <div style="width:100% ;position: absolute; top:0; z-index: 10000;">
         <the-menu/>
       </div>
-
-         <video src="/vdo/v.mp4" id="nood"  style="width: 100%; height: 100%; margin-bottom: -8px" autoplay ></video>
+      <video autoplay>
+        <source src="/vdo/v.mp4" id="nood"  style="width: 100%; height: 100%; margin-bottom: -8px" type="video/mp4" />
+      </video>
+<!--         <video src="/vdo/v.mp4" id="nood"  style="width: 100%; height: 100%; margin-bottom: -8px" autoplay ></video>-->
     </div>
     <div class="container-fluid m-0 p-0">
       <div class="p-3 ps-4"

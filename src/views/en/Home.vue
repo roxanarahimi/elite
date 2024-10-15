@@ -5,7 +5,9 @@
      <div style="width:100% ;position: absolute; top:0; z-index: 10000;">
        <the-menu />
      </div>
-     <video src="/vdo/v.mp4" id="nood"  style="width: 100%; height: 100%; margin-bottom: -8px"></video>
+     <video autoplay>
+       <source src="/vdo/v.mp4" id="nood"  style="width: 100%; height: 100%; margin-bottom: -8px" type="video/mp4" />
+     </video>
    </div>
    <div class="container-fluid m-0 p-0" dir="rtl">
      <div class="p-3 ps-4" style="z-index:20000; box-shadow:  0.3px 0.3px white; width: 80px; height: 60px; border-radius: 0 50rem 50rem 0; background-color: red; position: fixed; top:250px; left: 0; color: white;">
