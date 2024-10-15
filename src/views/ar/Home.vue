@@ -1,6 +1,12 @@
 <template>
 
  <div class="container-fluid p-0 m-0" style="overflow-x: hidden !important">
+   <div>
+     <div style="width:100% ;position: absolute; top:0; z-index: 10000;">
+       <the-menu />
+     </div>
+     <video src="/vdo/v.mp4"  style="width: 100%; height: 100%; margin-bottom: -8px" autoplay></video>
+   </div>
    <div class="container-fluid m-0 p-0">
      <div class="p-3 ps-4" style="z-index:20000; box-shadow:  0.3px 0.3px white; width: 80px; height: 60px; border-radius: 0 50rem 50rem 0; background-color: red; position: fixed; top:250px; left: 0; color: white;">
        <a class="text-light" href="https://www.instagram.com/manoelite" target="_blank">
@@ -13,7 +19,7 @@
 
 <!--       <div class="cover" style="z-index:1; position: absolute;top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.2)"></div>-->
 
-       <the-menu />
+<!--       <the-menu />-->
 
 <!--       <div class="row p-0 m-0 " style="overflow: hidden !important;">-->
 <!--         <div class="col-12" style="font-weight: bold; z-index: 1000">-->
