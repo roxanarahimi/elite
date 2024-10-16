@@ -638,7 +638,7 @@ body {
     }
 
     .parallax1 {
-        height: calc(60vh - 100px);
+        height: calc(35vh - 100px);
         background: url("/img/header.jpg") no-repeat;
         background-position-x: center;
         background-position-y: top;

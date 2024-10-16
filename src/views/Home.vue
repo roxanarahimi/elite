@@ -5,17 +5,16 @@
       <div style="width:100% ;position: absolute; top:0; z-index: 10000;">
         <the-menu/>
       </div>
-      <video class="d-none d-md-block" autoplay preload="auto" controls style="width: 100%; height: 100%; margin-bottom: -8px">
+      <video class="d-none d-md-block"  preload="auto" controls style="width: 100%; height: 100%; margin-bottom: -8px">
         <source src="/vdo/v.mp4" type="video/mp4" />
       </video>
-      <video class="d-md-none" autoplay preload="auto" controls style="width: 100%; height: 100%; margin-bottom: -8px">
+      <video class="d-md-none"  preload="auto" controls style="width: 100%; height: 100%; margin-bottom: -8px">
         <source src="/vdo/v2.mp4" type="video/mp4" />
       </video>
 <!--         <video src="/vdo/v.mp4" id="nood"  style="width: 100%; height: 100%; margin-bottom: -8px" autoplay ></video>-->
     </div>
     <div class="container-fluid m-0 p-0">
-      <div class="p-3 ps-4"
-           style="z-index:20000; box-shadow:  0.3px 0.3px white; width: 80px; height: 60px; border-radius: 0 50rem 50rem 0; background-color: red; position: fixed; top:250px; left: 0; color: white;">
+      <div class="p-3 ps-4" style="z-index:20000; box-shadow:  0.3px 0.3px white; width: 80px; height: 60px; border-radius: 0 50rem 50rem 0; background-color: red; position: fixed; top:250px; left: 0; color: white;">
         <a class="text-light" href="https://www.instagram.com/manoelite" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
             <path
