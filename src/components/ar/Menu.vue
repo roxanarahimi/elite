@@ -18,12 +18,16 @@
           <li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103">
             <router-link to="/ar/about">حول إیلیت</router-link>
           </li>
+
+          <li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109">
+            <router-link to="/ar/blog">مدونة</router-link>
+          </li>
           <li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
             <a href="https://digikala.com/search/?brands%5B0%5D=7630&q=Elite" target="_blank">التسوق عبر الإنترنت</a>
           </li>
           <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
             <div class="d-flex">
-              <router-link to="/ar/" class="d-block">
+              <router-link to="/" class="d-block">
                 <img src="/img/ir.svg" class="languageImg" title="persian" alt="persian">
               </router-link>
               <router-link to="/en/" class="d-block">

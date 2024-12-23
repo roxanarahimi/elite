@@ -53,6 +53,18 @@ const routes = [
         params: true,
         component: () => import(/* webpackChunkName: "product" */ '../views/Product.vue')
     },
+    {
+        path: '/blog',
+        name: 'blog',
+        params: true,
+        component: () => import(/* webpackChunkName: "blog" */ '../views/Blog.vue')
+    },
+    {
+        path: '/article/:id',
+        name: 'article',
+        params: true,
+        component: () => import(/* webpackChunkName: "article" */ '../views/Article.vue')
+    },
  //   en ***************************************************************
     {
         path: '/en',
@@ -102,6 +114,18 @@ const routes = [
         params: true,
         component: () => import(/* webpackChunkName: "productEn" */ '../views/en/Product.vue')
     },
+    {
+        path: '/en/blog',
+        name: 'blogEn',
+        params: true,
+        component: () => import(/* webpackChunkName: "blogEn" */ '../views/en/Blog.vue')
+    },
+    {
+        path: '/en/article/:id',
+        name: 'articleEn',
+        params: true,
+        component: () => import(/* webpackChunkName: "articleEn" */ '../views/en/Article.vue')
+    },
     //ar *************************************************************************************
     {
         path: '/ar',
@@ -150,7 +174,20 @@ const routes = [
         name: 'productAr',
         params: true,
         component: () => import(/* webpackChunkName: "productAr" */ '../views/ar/Product.vue')
-    }
+    },
+    {
+        path: '/ar/blog',
+        name: 'blogAr',
+        params: true,
+        component: () => import(/* webpackChunkName: "blogAr" */ '../views/ar/Blog.vue')
+    },
+    {
+        path: '/ar/article/:id',
+        name: 'articlArn',
+        params: true,
+        component: () => import(/* webpackChunkName: "articleAr" */ '../views/ar/Article.vue')
+    },
+
 
 
 ]

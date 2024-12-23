@@ -8,6 +8,8 @@ const store = createStore({
         foodSlider: null,
         recipeCats: null,
         recipes: null,
+        blogs: null,
+        blog: null,
         recipe: null,
         productsCats: null,
         products: null,
@@ -15,6 +17,19 @@ const store = createStore({
         productFeatures: null,
     },
     mutations: {
+        getBlogs(state) {
+            axios.get(state.panelUrl + '/api/blog')
+                .then((response) => {
+                    state.blogs = response.data;
+                })
+                .catch();
+        },
+        getBlog(state, id) {
+            axios.get(state.panelUrl + '/api/blog/' + id)
+                .then((response) => {
+                    state.blog = response.data;
+                }).catch();
+        },
         getFoodSlider(state) {
             axios.get(state.panelUrl + '/api/food/slides')
                 .then((response) => {
@@ -69,7 +84,13 @@ const store = createStore({
 
     },
     actions: {
-        getFoodSlider(context) {
+        getBlogs(context) {
+            context.commit('getBlogs');
+        },
+        getBlog(context) {
+            context.commit('getBlog');
+        },
+         getFoodSlider(context) {
             context.commit('getFoodSlider');
         },
         getRecipeCats(context) {

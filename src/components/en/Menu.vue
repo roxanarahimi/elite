@@ -18,6 +18,10 @@
           <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103">
             <router-link to="/en/about">About Elite</router-link>
           </li>
+
+          <li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-109">
+            <router-link to="/en/blog">Blog</router-link>
+          </li>
           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138">
             <a href="https://digikala.com/search/?brands%5B0%5D=7630&q=Elite" target="_blank">Online Shopping</a>
           </li>
