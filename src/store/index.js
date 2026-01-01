@@ -5,7 +5,7 @@ window.axios = require('axios');
 const store = createStore({
     state: {
         // panelUrl: 'https://panel.elit.webagent.ir',
-        panelUrl: 'https://dev-amadeh.ir:8087',
+        panelUrl: 'https://elitefood.dev-amadeh.ir',
         foodSlider: null,
         recipeCats: null,
         recipes: null,
